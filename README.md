@@ -19,7 +19,7 @@
 
 ## 📌Objetivo do Projeto
 > O objetivo principal deste produto é promover o amplo entendimento dol metodologia ágil Scrum, com o propósito de orientar de maneira cuidadosa e especializada os membros uma corporação em direção ao aprimoramento do conhecimento e da excelência.
-> **Status do Projeto: Em andamento**
+> **Status do Projeto: Em andamento✏️**
 
 <br> 
   
@@ -40,7 +40,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 ## 🏆**MVP**
 
 <p align="center">
-      <img src="/documents/img/MVP.png" alt="MVP do Projeto">
+      
 <br>
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
@@ -49,7 +49,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 📅Sprints 
 
-### Sprint - 1️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint1)):  Concluído✏️
+### Sprint - 1️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint1)):  Em adamento✏️
 
 <br>
 
