@@ -21,7 +21,7 @@
 
 ## 📌Objetivo do Projeto
 > O objetivo principal deste produto é promover o amplo entendimento dol metodologia ágil Scrum, com o propósito de orientar de maneira cuidadosa e especializada os membros uma corporação em direção ao aprimoramento do conhecimento e da excelência.
-> **Status do Projeto: Em andamento**
+> **Status do Projeto: Em andamento a**
 
 <br> 
   
