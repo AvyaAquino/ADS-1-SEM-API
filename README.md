@@ -49,7 +49,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 📅Sprints 
 
-### Sprint - 1️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint1)):  Em adamento✏️
+### Sprint - 1️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint1)):  Em andamento✏️
 
 <br>
 
