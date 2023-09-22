@@ -31,9 +31,8 @@ Para empregados de uma empresa que desejam adentrar no mundo da metodologia ági
 
 ## 📚Metodologia
 
-O framework de Metodologia Ágil utilizado no produto foi o Scrum, um método ágil adaptativo, interativo, flexível e eficaz. Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em **Sprints**. Para selecionar quais seriam as entregas das nossas Sprints, primeiro definimos nosso **MVP**, priorizando as tarefas que trariam maior entrega de valor para o cliente. Então, a partir das Tarefas foi construído o **Backlog do Produto**,  o qual foi aprovado pelo cliente e dividido em 4 Backlog de Sprint.
-
-Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo necessário para cada Tarefa, sendo dividido, de maneira mais otimizada, entre os Desenvolvedores do time.
+O produto foi realizado utilizando-se da metodologia ágil Scrum. Por ser um método que conta com a divisão de papéis (Scrum Master, Product Owner e Time de Desenvolvimento), o desenvolvimento das tarefas foi realizado em iterações menores, chamadas de **Sprints**, que se incrementam progressivamente. Para definição das entregas, deu-se prioridade à definição do **MVP**, verificando com o cliente os objetivos que trariam maior entrega de valor. Assim, foi-se definido o **Backlog do Produto**.
+Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrantes do time, utilizando como critério a disponibilidade de tempo e conhecimento dos membros.
 <br>
 </br>
 
