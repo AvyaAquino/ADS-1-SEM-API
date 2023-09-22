@@ -18,7 +18,7 @@
 </br>
 
 ## 📌Objetivo do Projeto
-> O objetivo principal deste produto é promover o amplo entendimento dol metodologia ágil Scrum, com o propósito de orientar de maneira cuidadosa e especializada os membros uma corporação em direção ao aprimoramento do conhecimento e da excelência.
+> O objetivo principal deste produto é promover o amplo entendimento do l metodologia ágil Scrum, com o propósito de orientar de maneira cuidadosa e especializada os membros uma corporação em direção ao aprimoramento do conhecimento e da excelência.
 > **Status do Projeto: Em andamento✏️**
 
 <br> 
@@ -62,8 +62,8 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 |      Nome      |    Função       |                            Github                             |                           Linkedin                           |
 | :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  João Victor Menezes Oliveira     | Scrum Master  | <a href="https://github.com/jvictoroliv"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/joão-victor-menezes-88a6b9264/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-|  Pedro Henrique Machado Martins    | Product Owner | <a href="https://github.com/b4hia"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/gabriel-de-oliveira-silva-reis-798447266/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Lucas Kendi Azuma | Desenvolvedor | <a href="https://github.com/LucsKendi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/diegoboasorte"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+|  Pedro Henrique Machado Martins    | Product Owner | <a href="https://github.com/PedrooMachado23"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/pedro-henrique-machado-martins-42786227a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| Lucas Kendi Azuma | Desenvolvedor | <a href="https://github.com/LucsKendi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/lucas-kendi-azuma-70388b10a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | Avya Alex Candido da Cunha  | Desenvolvedor | <a href="https://github.com/Avyniee"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | 
 | Gabriel Santino Dias Cosentino  | Desenvolvedor | <a href="https://github.com/gabrielsdcosentino"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/gabriel-cosentino-83907728a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 
