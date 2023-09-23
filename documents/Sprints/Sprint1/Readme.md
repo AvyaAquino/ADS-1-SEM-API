@@ -1,13 +1,13 @@
 <h1 align="center">Sprint 1️⃣ 🏃 - 04/09/2023 a 24/09/2023</h1>
 <p align="center">
-    <a href="#objetivos">Backlog da Sprint</a> &nbsp |&nbsp &nbsp
-    <a href="#entregas">User Story's</a> &nbsp |&nbsp &nbsp
+    <a href="#backlog">Backlog da Sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#userstory">User Story's</a> &nbsp |&nbsp &nbsp
     <a href="#metricas">Métricas do time</a> &nbsp |&nbsp &nbsp
 </p>
 <br>
 Nessa sprint, foram criados e validados os requisitos do produto, bem como a divisão das atividades mais importantes e de maior valor ao cliente numa primeira entrega. Para isso, o Backlog do Produto e o Wireframe foram o foco.
 <br>
-<span id="objetivos">
+<span id="backlog">
 
 ## 📨 Backlog da Sprint
 <hr>
@@ -16,6 +16,8 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 |:-------:|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Wireframe  | Alta      | #01 | Prévia da estrutura e disposição de conteúdo web do produto
 | Backlog    | Alta      | #02 | Calendário de trabalho, dividido em tarefas em determinado espaço de tempo
+
+<span id="userstory">
 
 ## 👥 User Story's 
 <hr>
@@ -33,8 +35,15 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 | US08  | 1      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto registrada no GitHub." |  #08                  |
 | US09  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #03                  |
 
+<span id="metricas">
+
 ## 📉 Métricas do time 
 
 Pensando no melhor aproveitamento das habilidades individuais de cada integrante, as tarefas se dividiram de acordo com a disposição de tempo e conhecimento de cada um, com objetivos bem definidos e margem de tempo para cada uma das atividades a serem realizadas.
 
 - O acompanhamento de atividades, presente na responsabilidade do Scrum Master, está representado na imagem do gráfico Burndown a seguir, onde é possível identificar o trabalho restante a ser concluído, o tempo ideal de conclusão e o tempo real de trabalho, podendo identificar se as tarefas estão dentro do prazo ou atrasadas.
+
+<div align="center">
+    
+![Burndown Chart](./images/burndownChart.PNG)
+</div>
