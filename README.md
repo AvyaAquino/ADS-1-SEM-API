@@ -32,7 +32,6 @@ Para isso, contamos com uma estrutura que permite ao usuário uma navegação fl
 **Status do Projeto: Em andamento✏️**
 
 → [Voltar ao topo](#topo)
-
 <br> 
   
   <span id="visaoproduto">
@@ -73,9 +72,9 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 ## 📅Sprints 
 
 ### Sprint - 1️⃣ 🏃 ([Clique aqui](/documents/Sprints/Sprint1)):  Em andamento✏️
+<br>
 
 → [Voltar ao topo](#topo)
-<br>
 
 <span id="backlog-do-produto">
 
