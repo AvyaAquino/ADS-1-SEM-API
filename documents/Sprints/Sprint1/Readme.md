@@ -18,6 +18,8 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 |:-------:|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Wireframe  | Alta      | #01 | Prévia da estrutura e disposição de conteúdo web do produto
 | Backlog    | Alta      | #02 | Calendário de trabalho, dividido em tarefas em determinado espaço de tempo
+| Pesquisar o conteúdo  | Média      | #03 | Identificar o conteúdo a ser estudado para a sua produção na forma indireta
+| Documentação  | Média      | #08 | Registro de todo o processo de desenvolvimento do produto
 
 → [Voltar ao topo](#topo)
 
@@ -35,9 +37,8 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 | US04  | 1      | "Eu, como cliente, quero que a aplicação contenha página para dispor o conteúdo."                                          |  #01                  |
 | US05  | 1      | "Eu, como cliente, quero que a aplicação contenha formulários contendo avaliação parciais e totais sobre o processo."                                                        |  #01                  |
 | US06  | 1      | "Eu, como cliente, quero validar os requisitos totais do produto por meio do Backlog."                                            |  #02                  |
-| US07  | 1      | -                         |  #08                  |
-| US08  | 1      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto registrada no GitHub." |  #08                  |
-| US09  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #03                  |
+| US07  | 1      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto registrada no GitHub." |  #08                  |
+| US08  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #03                  |
 
 → [Voltar ao topo](#topo)
 
