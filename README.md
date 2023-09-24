@@ -61,9 +61,21 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
       
 <br>
 
-1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
+1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/RxxHy2w3NgI91YmsICoP2y/Untitled?type=design&node-id=0-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3) ✅
 
 <br> 
+
+2. Website: Aplicação inicial (Em andamento) ⏳
+
+<br>
+
+3. Website: Aplicação com conteúdo e formulários de avaliação (Em andamento) ⏳
+
+<br>
+
+4. Website: Aplicação completa (Em andamento) ⏳
+
+<br>
 
 → [Voltar ao topo](#topo)
 
