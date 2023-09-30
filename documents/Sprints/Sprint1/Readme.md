@@ -41,18 +41,3 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 | US08  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #03                  |
 
 → [Voltar ao topo](#topo)
-
-<span id="metricas">
-
-## 📉 Métricas do time 
-
-Pensando no melhor aproveitamento das habilidades individuais de cada integrante, as tarefas se dividiram de acordo com a disposição de tempo e conhecimento de cada um, com objetivos bem definidos e margem de tempo para cada uma das atividades a serem realizadas.
-
-- O acompanhamento de atividades, presente na responsabilidade do Scrum Master, está representado na imagem do gráfico Burndown a seguir, onde é possível identificar o trabalho restante a ser concluído, o tempo ideal de conclusão e o tempo real de trabalho, podendo identificar se as tarefas estão dentro do prazo ou atrasadas.
-
-<div align="center">
-    
-![Burndown Chart](./images/burndownChart.PNG)
-</div>
-
-→ [Voltar ao topo](#topo)
