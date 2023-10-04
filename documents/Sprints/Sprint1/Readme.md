@@ -7,7 +7,8 @@
     <a href="#metricas">Métricas do time</a> &nbsp |&nbsp &nbsp
 </p>
 <br>
-Nessa sprint, foram criados e validados os requisitos do produto, bem como a divisão das atividades mais importantes e de maior valor ao cliente numa primeira entrega. Para isso, o Backlog do Produto e o Wireframe foram o foco. Você pode assistir o vídeo de apresentação da Sprint 1 [clicando aqui](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint1/video/wireframevideo.md)
+Nessa sprint, foram criados e validados os requisitos do produto, bem como a divisão das atividades mais importantes e de maior valor ao cliente numa primeira entrega. Para isso, o Backlog do Produto e o Wireframe foram o foco. Você pode assistir o vídeo de apresentação da Sprint 1 
+[clicando aqui](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint1/video/wireframevideo.md)
 <br>
 
 <span id="backlog">
