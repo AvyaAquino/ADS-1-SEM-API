@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" type="text/css" href="./static/Stylesheet.css">
+</head>
+
+<body>
+    <!-- Parte do topo da página -->
+
+    <span class="topPage">
+
+        <!-- Barra de cima do indice -->
+        <div class="topBar" style="width: 285px; height: 124px; flex-shrink: 0; background-color: #C3E3E8;">
+            <img src="/static/logo-esquerda.png" alt="Logo Scrum">
+        </div>
+
+        <!-- Barra de navegação -->
+        <div class="header" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
+            <!-- Setas -->
+            <a href="/{{previous}}">
+                <img id="setaEsquerda" src="./static/seta-esquerda.png" alt="Seta esquerda">
+            </a>
+            <img src="./static/logo-central.png" alt="Logo Scrum">
+            <a href="/{{next}}">
+                <img id="setaDireita" src="./static/seta-direita.png" alt="seta-direita">
+            </a>
+        </div>
+    </span>
+
+    <span>
+
+    </span>
+
+
+
+    <!-- Indice -->
+    <span class="indice-footer">
+        <div class="indice"
+            style="width: 285px; height: 100%; min-height: 100vh; flex-shrink: 0; background-color: #78BCC6;">
+            <h2 id="tituloIndice">Scrum: Scrum Team</h2>
+            <div class="subTopicos">
+                <!-- Scrum Team -->
+                <div class="scrumTeam">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                        <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
+                    </svg>
+                    <a href="">
+                        <h3>Scrum Team</h3>
+                    </a>
+                </div>
+                <ul>
+                    <a href="/productOwner">
+                        <li>Product Owner</li>
+                    </a>
+                    <a href="scrumMaster">
+                        <li>Scrum Master</li>
+                    </a>
+                    <a href="devTeam">
+                        <li>Dev Team</li>
+                    </a>
+                </ul>
+
+                <!-- Processos -->
+                <a href="Processos">
+                    <div class="processos">
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                    <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
+                </svg>
+                <h3>Processos</h3>
+            </div>
+            <ul>
+                <a href="/scrumDaily">
+                    <li>Scrum Daily</li>
+                </a>
+                <a href="/sprintPlanning">
+                    <li>Sprint Planning</li>
+                </a>
+                <a href="">
+                    <li>Sprint Review</li>
+                </a>
+            </ul>
+
+            <!-- Artefatos -->
+            <a href="Artefatos">
+                <div class="artefatos">
+            </a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
+            </svg>
+            <h3>Artefatos</h3>
+        </div>
+        <ul>
+            <a href="/productBacklog">
+                <li>Product Backlog</li>
+            </a>
+            <a href="sprintBacklog">
+                <li>Sprit Backlog</li>
+            </a>
+            <a href="DOR">
+                <li>DOR</li>
+            </a>
+        </ul>
+        </div>
+
+        </div>
+
+        <!-- Rodapé & Conteudo -->
+        <div>
+            <div class="footer" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
+                <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Scrum Logo">
+            </div>
+            <div class="content">
+                <h1 id="titulo">{{titulo}}</h1>
+                <p>[texto]</p>
+            </div>
+        </div>
+    </span>
+
+
+</body>
+
+</html>

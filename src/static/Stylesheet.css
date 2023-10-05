@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+.topPage {
+    display: flex;
+}
+
+.topBar {
+    display: flex;
+    align-items: flex-start;
+}
+
+.topBar>img {
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#setaEsquerda {
+    margin-left: 57px;
+}
+
+#setaDireita {
+    margin-right: 72.88px;
+}
+
+.footer-content {
+    position: relative;
+}
+
+.content {
+    display: inline-block;
+    justify-content: center;
+    height: 100vh;
+    width: 80vw;
+}
+
+.text{
+    margin-left: 80px;
+    margin-right: 120px;
+}
+
+#titulo {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#tituloIndice {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter Bold';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.subTopicos {
+    color: #000;
+    font-family: 'Inter Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 65px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.subTopicos>ul{
+    margin: 0;
+}
+
+ul li{
+    margin-bottom: 3px;
+}
+
+.scrumTeam{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -8px;
+}
+
+.processos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -8px;
+}
+
+.artefatos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -8px;
+}
+
+
+.indice-footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 124px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    top: 85px;
+    margin-top: auto;
+    position: absolute;
+    width: 100%;
+}
+
+.footer>img {
+    margin-right: 315px;
+}
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Inter Medium';
+    src: url('/Fonts/Inter-Medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url('/Fonts/Inter-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('/Fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

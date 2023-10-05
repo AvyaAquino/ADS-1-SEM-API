@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Stylesheet.css') }}">
+</head>
+
+<body>
+    <!-- Parte do topo da página -->
+
+    <span class="topPage">
+
+        <!-- Barra de cima do indice -->
+        <div class="topBar" style="width: 285px; height: 124px; flex-shrink: 0; background-color: #C3E3E8;">
+            <img src="{{ url_for('static', filename='logo-esquerda.png') }}" alt="Logo Scrum">
+        </div>
+
+        <!-- Barra de navegação -->
+        <div class="header" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
+            <!-- Setas -->
+            <a href="/{{previous}}">
+                <img id="setaEsquerda" src="{{ url_for('static', filename='seta-esquerda.png') }}" alt="Seta esquerda">
+            </a>
+            <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Logo Scrum">
+            <a href="/{{next}}">
+                <img id="setaDireita" src="{{ url_for('static', filename='seta-direita.png') }}" alt="seta-direita">
+            </a>
+        </div>
+    </span>
+
+    <span>
+
+    </span>
+
+
+
+    <!-- Indice -->
+    <span class="indice-footer">
+        <div class="indice" style="width: 285px; height: 100vh; flex-shrink: 0; background-color: #78BCC6;">
+
+        </div>
+
+        <!-- Rodapé & Conteudo -->
+        <div>
+            <div class="footer" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
+                <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Scrum Logo">
+            </div>
+            <div class="content">
+                <h1 id="titulo">{{titulo}}</h1>
+            </div>
+        </div>
+    </span>
+
+
+</body>
+
+</html>
