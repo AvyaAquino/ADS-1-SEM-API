@@ -48,6 +48,75 @@ body {
     margin-right: 120px;
 }
 
+.textoHome > p{
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 45px;
+}
+
+#iniciar{
+    position: absolute;
+    right: 0;
+
+    display: inline-flex;
+    width: 186.129px;
+    margin: 0px 28.02px 0px 0px;
+    padding: 4px 34px;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #78BCC6;
+
+    color: #000;
+    font-family: Noto Sans Hebrew Droid;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+     
+}
+
+#tituloHome{
+    align-self: center;
+    width: 101.07px;
+    color: #000;
+    font-family: Poor Richard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#tituloHome2{
+    align-self: center;
+    color: #143260;
+    font-family: Poor Richard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.88px;
+    text-transform: uppercase;
+    margin: 26px 0 0 28px;
+    padding-bottom: 10px;
+}
+
+#tituloFooter{
+    display: inline-flex;
+    color: #000;
+    font-family: Poor Richard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    align-self: center;
+    margin-left: 20px;    
+}
+
 #titulo {
     color: #000;
     text-align: center;
@@ -164,3 +233,16 @@ ul li{
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Poor Richard';
+    src: url('/Fonts/POORICH.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Hebrew Droid';
+    src: url('/Fonts/NotoSansHebrewDroid-VF.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
