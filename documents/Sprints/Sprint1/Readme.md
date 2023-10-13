@@ -18,10 +18,10 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 
 | Item | Prioridade|ID                                                                                                                                                                                                                               | Descrição | 
 |:-------:|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-| Wireframe  | Alta      | #01 | Prévia da estrutura e disposição de conteúdo web do produto
-| Backlog    | Alta      | #02 | Calendário de trabalho, dividido em tarefas em determinado espaço de tempo
-| Pesquisar o conteúdo  | Média      | #03 | Identificar o conteúdo a ser estudado para a sua produção na forma indireta
-| Documentação  | Média      | #08 | Registro de todo o processo de desenvolvimento do produto
+| Wireframe  | 100      | #01 | Prévia da estrutura e disposição de conteúdo web do produto
+| Backlog    | 95      | #02 | Calendário de trabalho, dividido em tarefas em determinado espaço de tempo
+| Pesquisar o conteúdo  | 90      | #04 | Identificar o conteúdo a ser estudado para a sua produção na forma indireta
+| Documentação  | 85      | #08 | Registro de todo o processo de desenvolvimento do produto
 
 → [Voltar ao topo](#topo)
 
@@ -40,6 +40,6 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 | US05  | 1      | "Eu, como cliente, quero que a aplicação contenha formulários contendo avaliação parciais e totais sobre o processo."                                                        |  #01                  |
 | US06  | 1      | "Eu, como cliente, quero validar os requisitos totais do produto por meio do Backlog."                                            |  #02                  |
 | US07  | 1      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto registrada no GitHub." |  #08                  |
-| US08  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #03                  |
+| US08  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #04                  |
 
 → [Voltar ao topo](#topo)
