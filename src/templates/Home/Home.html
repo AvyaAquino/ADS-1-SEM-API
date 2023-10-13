@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/CSS/Stylesheet.css">
+</head>
+<body>
+    <div style="display: inline-flex; width: 100vw; height: 113px; flex-shrink: 0;
+    background-color: #FFF;">
+        <a href="/"> <img src="{{url_for('static', filename='imgs/logo-home.png')}}" alt="scrum_logo" style="width: 112.078px; height: 112px; flex-shrink: 0;"> </a>
+
+        <div style="display: inline-flex; width: 100%; margin-right: 10px;">
+            <span id="tituloHome">scrum</span>
+
+            <a href="{{next}}" id="iniciar">iniciar</a>
+        </div>
+
+
+    </div>
+
+    <div style="width: 100%; height: 52px; flex-shrink: 0; background: #78bcc6;"></div>
+    <a href="{{next}}">
+        <img src="{{url_for('static', filename='imgs/scrum-home.png')}}" alt="scrum_home" style="width: 100vw; height: 409px; flex-shrink: 0; background: no-repeat;">
+    </a>
+    
+
+    <div style="width: 100vw; height: 77px; flex-shrink: 0; background: #535252; margin-top: -4px;"></div>
+
+    <div style="display: flex;">
+        <svg style="margin: 27px 0 0 40vw; " xmlns="http://www.w3.org/2000/svg" width="22" height="44" viewBox="0 0 22 44" fill="none">
+            <path d="M22 22L0 0V44L22 22Z" fill="#57C6D6"/>
+            </svg>
+
+            <span id="tituloHome2">sobre o site</span>
+
+    </div>
+    <div class="textoHome" style="margin: auto 10vw;">
+        <p>
+            Bem-vindo ao nosso site dedicado a desvendar o mundo do Método Ágil Scrum de uma forma didática e simples! Aqui, mergulharemos nas profundezas deste framework de gerenciamento de projetos amplamente adotado, transformando o aprendizado em uma jornada intuitiva e acessível.
+        </p>
+
+        <p>
+            O Scrum, uma abordagem ágil que revolucionou a maneira como equipes colaboram e entregam produtos, pode parecer complexo à primeira vista. No entanto, estamos aqui para desmistificar esse processo e torná-lo acessível a todos, desde iniciantes até profissionais experientes.
+        </p>
+
+        <p>
+            Navegue pelo nosso conteúdo abrangente, repleto de explicações claras, exemplos práticos e dicas valiosas. Você descobrirá como o Scrum funciona, seus princípios fundamentais, papéis-chave e cerimônias cruciais. Além disso, forneceremos insights sobre como implementar o Scrum em sua organização ou projeto, bem como estratégias para maximizar a eficiência e a estratégia e a entrega de valor.
+        </p>
+
+        <p>
+            Junte-se a nós nesta jornada para dominar o Scrum de maneira simples, eficaz e, acima de tudo, divertida. Vamos mergulhar no mundo da agilidade e aprender a entregar resultados exepcionais por meio do Scrum
+        </p>
+    </div>
+
+    <div style="height: 132px; flex-shrink: 0; background: rgba(217, 217, 217, 0.30); display: flex;">
+        <img src="/static/imgs/logo-home-baixo.png" alt="logo_baixo" style="width: 112px; height: 114px; margin-left: 45vw;">
+        <p id="tituloFooter">scrum</p>
+    </div>
+
+</body>
+</html>
