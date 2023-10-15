@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{titulo}}</title>
-    <link rel="stylesheet" type="text/css" href="../static/CSS/Stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./static/Stylesheet.css">
 </head>
 
 <body>
@@ -15,18 +15,18 @@
 
         <!-- Barra de cima do indice -->
         <div class="topBar" style="width: 285px; height: 124px; flex-shrink: 0; background-color: #C3E3E8;">
-            <img src="{{ url_for('static', filename='imgs/logo-esquerda.png') }}" alt="Logo Scrum">
+            <img src="{{ url_for('static', filename='logo-esquerda.png') }}" alt="Logo Scrum">
         </div>
 
         <!-- Barra de navegação -->
         <div class="header" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
             <!-- Setas -->
             <a href="/{{previous}}">
-                <img id="setaEsquerda" src="{{ url_for('static', filename='imgs/seta-esquerda.png') }}" alt="Seta esquerda">
+                <img id="setaEsquerda" src="{{ url_for('static', filename='seta-esquerda.png') }}" alt="Seta esquerda">
             </a>
-            <img src="{{ url_for('static', filename='imgs/logo-central.png') }}" alt="Logo Scrum">
+            <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Logo Scrum">
             <a href="/{{next}}">
-                <img id="setaDireita" src="{{ url_for('static', filename='imgs/seta-direita.png') }}" alt="seta-direita">
+                <img id="setaDireita" src="{{ url_for('static', filename='seta-direita.png') }}" alt="seta-direita">
             </a>
         </div>
     </span>
@@ -50,7 +50,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                         <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
                     </svg>
-                    <a href="/">
+                    <a href="/ScrumTeam">
                         <h3>Scrum Team</h3>
                     </a>
                 </div>
@@ -118,7 +118,7 @@
         <!-- Rodapé & Conteudo -->
         <div>
             <div class="footer" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
-                <img src="{{ url_for('static', filename='imgs/logo-central.png') }}" alt="Scrum Logo">
+                <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Scrum Logo">
             </div>
             <div class="content">
                 <h1 id="titulo">{{titulo}}</h1>
