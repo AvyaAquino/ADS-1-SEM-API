@@ -1,0 +1,50 @@
+Processos
+
+O processo Scrum é um framework utilizado no gerenciamento ágil de projetos, que foca na colaboração e na entrega de valor de forma iterativa e incremental. Envolve um conjunto de etapas e atividades estruturadas para orientar as equipes no desenvolvimento de produtos de forma eficiente. Os principais componentes do processo Scrum incluem planejamento do Sprint, reuniões diárias, revisão do Sprint e retrospectiva do Sprint. Ele fornece uma abordagem flexível e transparente para o gerenciamento de projetos, permitindo que as equipes se adaptem às mudanças e melhorem continuamente seu trabalho.
+
+A seguir será explicado sobre scrum daily, sprint planning e sprint review
+
+
+Scrum daily
+
+A Reunião Diária do Scrum é uma reunião curta, projetada para que a Equipe de Desenvolvimento sincronize suas atividades e planeje as próximas 24 horas de trabalho. Serve para rever o que foi realizado desde a última Reunião Diária e prever o que precisa ser feito antes da próxima. Para manter a simplicidade, a Reunião Diária ocorre no mesmo horário e local todos os dias.
+
+
+A Reunião Diária ajuda a Equipe de Desenvolvimento a monitorar seu progresso em direção à meta do Sprint e garante que eles permaneçam no caminho certo para concluir o Backlog do Sprint.
+
+A cada dia, a Equipe de Desenvolvimento discute sua abordagem colaborativa como uma equipe auto-organizada para atingir o objetivo da Sprint e criar o incremento esperado até a conclusão. Muitas vezes, há discussões mais detalhadas ou ajustes são feitos imediatamente após a Reunião Diária para tratar de qualquer trabalho restante.
+
+O Scrum Master garante a realização da Reunião Diária, mas o Time de Desenvolvimento é responsável por conduzi-la. O Scrum Master instrui a equipe a manter a reunião curta e impõe a regra de que apenas os membros da Equipe de Desenvolvimento participem.
+
+As Reuniões Diárias melhoram a comunicação, eliminam a necessidade de reuniões adicionais, identificam e removem obstáculos ao desenvolvimento, facilitam a rápida tomada de decisões e melhoram o conhecimento coletivo da Equipe de Desenvolvimento. Esta reunião é fundamental para a fiscalização e adaptação de todos.
+
+ sprint planning
+
+O trabalho a ser realizado na Sprint é planejado em uma reunião. Este plano é feito com o trabalho em conjunto de todo o Time Scrum. Reunião de planejamento da Sprint possui um tempo estipulado com no máximo oito horas para uma Sprint de um mês de duração. Para Sprints menores, este evento é usualmente menor. O Scrum Master garante que o evento ocorra e que os participantes entendam seu propósito. O Scrum Master ensina o Time Scrum a manter-se dentro dos limites de tal tempo estipulado.
+
+Algumas perguntas podem ser respondidas durante este planejamento, tais como: O que pode ser entregue como resultado do incremento da próxima Sprint? Como o trabalho necessário para entregar o incremento será realizado?
+
+Esse planejamento garante benefícios para toda a sprint:
+
+Foco e Alinhamento: Ajuda a equipe a se concentrar nas prioridades e no objetivo da Sprint. Isso assegura que todos estejam alinhados com o que precisa ser entregue no curto prazo.
+Compreensão Compartilhada: Facilita a compreensão comum dos itens do Backlog da Sprint e dos critérios de aceitação. Isso reduz a ambiguidade e assegura que todos tenham a mesma visão do que será construído.
+Engajamento da Equipe: Envolve a equipe na definição das metas da Sprint, permitindo que eles participem ativamente do processo de planejamento e estimativas.
+Estimativas Realistas: Ajuda a equipe a estimar o esforço necessário para concluir as tarefas da Sprint, contribuindo para a previsibilidade e o controle do trabalho.
+Melhor Comunicação: Promove a comunicação dentro da equipe e entre os membros do time Scrum. Isso é essencial para garantir que todos estejam na mesma página e evita surpresas durante a Sprint.
+Transparência: Torna transparente o que a equipe está comprometida em realizar durante a Sprint, o que ajuda na prestação de contas e na avaliação do progresso.
+Adaptação Contínua: Oferece à equipe a oportunidade de refinar o planejamento à medida que novas informações ou obstáculos surgem durante a Sprint.
+Economia de Tempo: Embora a Sprint Planning seja uma reunião em si, ela economiza tempo ao longo da Sprint, uma vez que evita interrupções e alterações frequentes nos planos.
+Feedback Antecipado: Ajuda a identificar qualquer problema, dependência ou risco antes de a Sprint começar, permitindo que a equipe tome medidas proativas.
+Produtividade Aumentada: Ao planejar cuidadosamente as tarefas e priorizar o trabalho, a equipe pode ser mais produtiva e focada durante a Sprint.
+
+Sprint review
+
+"A Retrospectiva do Sprint ou Sprint Review é uma oportunidade para o Time Scrum se autoinspecionar e criar um plano de melhorias a serem aplicadas na próxima Sprint. A Sprint Review ocorre após a Revisão da Sprint e antes da reunião de planejamento da próxima Sprint. O Scrum Master garante que o evento ocorra e que os participantes entendam seu propósito. Ele ensina todos a mantê-lo dentro do prazo, participando da reunião como membro de apoio da equipe devido à sua responsabilidade pelo processo Scrum.
+
+O objetivo da Retrospectiva Sprint é:
+- Identificar e priorizar as principais coisas que deram certo e possíveis melhorias.
+- Criar um plano para implementar melhorias na forma como o Time Scrum realiza seu trabalho.
+
+O Scrum Master incentiva o Time Scrum a melhorar, dentro da metodologia Scrum, o processo e as práticas de desenvolvimento para torná-lo mais eficaz e agradável para a próxima Sprint. Durante cada Retrospectiva da Sprint, o Time Scrum planeja maneiras de aumentar a qualidade do produto, adaptando a definição do que é ‘entregue’ quando apropriado.
+
+Ao final da Retrospectiva da Sprint, o Time Scrum deverá ter identificado melhorias a serem implementadas na próxima Sprint. Fazendo isso é a forma de se adaptar à autoinspeção que o Time Scrum realiza. A Sprint Review oferece um evento dedicado e focado para inspeção e adaptação; no entanto, melhorias podem ser adotadas a qualquer momento.
