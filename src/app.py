@@ -3,13 +3,17 @@ from flask import Flask, render_template
 app = Flask('__name__', static_folder='static')
 
 @app.route('/')
+def Home():
+    return render_template('/Home/Home.html', titulo='Treinamento Scrum', previous='', next='Scrum')
+
+
+@app.route('/Scrum')
 def Scrum():
     return render_template('/Scrum/Scrum.html', titulo='Scrum: O método Ágil', previous='', next='ScrumTeam')
 
-
 @app.route('/ScrumTeam')
 def ScrumTeam():
-    return render_template('/Scrum Team/ScrumTeam.html', titulo='Scrum Team', previous='', next='Processos')
+    return render_template('/Scrum Team/ScrumTeam.html', titulo='Scrum Team', previous='Scrum', next='Processos')
 @app.route('/Processos')
 def Processos():
     return render_template('/Processos/Processos.html', titulo='Processos', previous='ScrumTeam', next='Artefatos')
