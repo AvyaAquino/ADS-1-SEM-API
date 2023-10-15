@@ -153,3 +153,42 @@ Ao final da Sprint, essas funcionalidades foram desenvolvidas, testadas e atende
 O Product Owner pode revisar o Incremento para garantir que atenda às expectativas e pode optar por implantá-lo imediatamente ou em um momento posterior, dependendo das necessidades do cliente.
 
 O Incremento é uma parte central do Scrum, pois representa o resultado tangível do trabalho da equipe em cada Sprint. Ele enfatiza a entrega contínua de valor, a transparência e a inspeção regulares, permitindo que as equipes de desenvolvimento entreguem um produto de alta qualidade de forma iterativa e incremental.
+
+### 4. Definição de Concluído (Definition of Done):
+
+**O que é:** A Definição de Concluído é um conjunto de critérios que uma tarefa deve atender para ser considerada completa.
+
+ **Função:** Ela ajuda a manter a qualidade do trabalho e a consistência em todo o projeto, garantindo que as tarefas cumpram padrões aceitáveis antes de serem consideradas prontas.
+
+ **Responsável:** A equipe de desenvolvimento estabelece e mantém a Definição de Concluído, adaptando-a conforme necessário.
+#### Explicação
+A Definição de Concluído (Definition of Done, em inglês) é um conceito fundamental na metodologia Scrum. Ela representa um conjunto de critérios específicos que uma tarefa, uma funcionalidade ou qualquer outro elemento de trabalho deve atender para ser considerado completo e pronto para entrega. A Definição de Concluído é uma parte crucial do Scrum, pois garante a qualidade, consistência e transparência do trabalho realizado. Aqui estão os principais aspectos da Definição de Concluído:
+
+**Características da Definição de Concluído:**
+
+- Personalização: A Definição de Concluído é geralmente definida pela equipe de desenvolvimento de acordo com as necessidades e padrões específicos do projeto.
+
+- Critérios Claros: Ela contém critérios de qualidade específicos e mensuráveis que precisam ser atendidos. Isso ajuda a evitar ambiguidades sobre o que é considerado "concluído".
+
+- Evolutiva: A Definição de Concluído pode ser atualizada ou adaptada ao longo do tempo, à medida que a equipe ganha experiência e o projeto evolui.
+
+**Funções da Definição de Concluído:**
+
+- Garantia de Qualidade: A principal função da Definição de Concluído é garantir que o trabalho atenda a padrões de qualidade aceitáveis antes de ser entregue. Isso inclui critérios como testes de unidade, testes de aceitação, revisões de código e outros aspectos relacionados à qualidade.
+
+- Transparência: Ela promove a transparência ao deixar claro o que é esperado de uma tarefa para ser considerada completa. Isso ajuda a equipe e as partes interessadas a entenderem o que está sendo entregue.
+
+- Consistência: A Definição de Concluído ajuda a manter um padrão consistente em todo o projeto, garantindo que todas as tarefas ou funcionalidades sigam os mesmos critérios de conclusão.
+
+**Exemplo Prático:**
+
+Suponha que a equipe de desenvolvimento de um projeto de desenvolvimento de software tenha definido a seguinte Definição de Concluído para suas tarefas:
+
+Todos os testes unitários devem passar.
+O código-fonte deve ser revisado por pelo menos um colega de equipe.
+A documentação de usuário deve ser atualizada.
+Todas as dependências externas devem ser resolvidas.
+A funcionalidade deve ser testada em diferentes navegadores e dispositivos.
+Neste exemplo, cada vez que um membro da equipe conclui uma tarefa, ele verifica se todos esses critérios são atendidos. Somente quando todos os critérios são atendidos, a tarefa é considerada "concluída" de acordo com a Definição de Concluído da equipe. Isso ajuda a garantir que o trabalho realizado seja de alta qualidade e pronto para entrega ao cliente.
+
+A Definição de Concluído é uma prática fundamental para manter a integridade e a qualidade do trabalho em um projeto Scrum. Ela ajuda a equipe a manter altos padrões de qualidade, promove a transparência e ajuda a evitar retrabalho.
