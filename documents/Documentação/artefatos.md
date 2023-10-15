@@ -229,3 +229,38 @@ Suponha que a equipe de desenvolvimento está no terceiro dia de uma Sprint de d
 Se a linha de progresso estiver acompanhando a linha ideal, a equipe está no caminho certo. Se estiver acima da linha ideal, a equipe pode precisar aumentar o ritmo de trabalho. Se estiver abaixo, estão adiantados, o que pode indicar que podem adicionar mais tarefas ou alocar recursos em outras atividades.
 
 A Burndown Chart é uma ferramenta de controle crucial que ajuda a equipe de desenvolvimento a tomar decisões informadas durante a Sprint, a manter o trabalho sob controle e a garantir que todas as tarefas sejam concluídas até o final do período planejado.
+
+### 6. Incremento Potencial (Potentially Shippable Product Increment):
+
+**O que é:** O Incremento Potencial é uma versão do produto que está pronta para ser entregue ao cliente, embora não seja necessariamente implantada imediatamente.
+
+ **Função:** Ele fornece a flexibilidade de entregar valor ao cliente a qualquer momento, pois atende aos critérios de qualidade e funcionalidade.
+
+ **Responsável:** A equipe de desenvolvimento é responsável por criar o Incremento Potencial e garantir que ele esteja pronto para entrega.
+
+#### Explicação 
+O Incremento Potencial (Potentially Shippable Product Increment) é um conceito fundamental na metodologia Scrum. Ele representa uma parte do produto que, embora não seja necessariamente implantada imediatamente, está pronta para ser entregue ao cliente se necessário. O Incremento Potencial é uma parte essencial do Scrum, pois permite entregas frequentes e possibilita que o cliente receba valor mesmo antes do término do projeto. Aqui estão os principais aspectos do Incremento Potencial:
+
+**Características do Incremento Potencial:**
+
+- Funcional e Testado: O Incremento Potencial é uma versão do produto que contém funcionalidades concluídas e testadas. Isso significa que é funcional e atende aos critérios de qualidade estabelecidos pela equipe.
+
+- Pronto para Entrega: Embora não seja implantado imediatamente, o Incremento Potencial está pronto para ser entregue ao cliente, caso seja necessário. Isso significa que ele atende aos requisitos do cliente e às expectativas de qualidade.
+
+- Valor Mensurável: O Incremento Potencial deve representar um valor mensurável para o cliente. Ele pode ser uma parte do produto que pode ser usada ou avaliada de maneira significativa.
+
+**Funções do Incremento Potencial:**
+
+- Entregas Frequentes: O Incremento Potencial permite entregas frequentes ao cliente, garantindo que o cliente receba valor em intervalos regulares ao longo do projeto.
+
+- Feedback Rápido: A entrega de Incrementos Potenciais possibilita que o cliente forneça feedback rapidamente, permitindo ajustes e melhorias contínuas no produto.
+
+- Minimização de Riscos: Ao entregar Incrementos Potenciais, a equipe pode mitigar riscos à medida que surgem e garantir que o produto esteja alinhado com as necessidades do cliente.
+
+**Exemplo Prático:**
+
+Suponha que uma equipe esteja desenvolvendo um sistema de gerenciamento de estoque para uma loja de varejo. Durante uma Sprint de duas semanas, eles implementam e testam uma funcionalidade que permite ao cliente rastrear o estoque de produtos em tempo real. Ao final da Sprint, essa funcionalidade é considerada um Incremento Potencial.
+
+Embora essa funcionalidade não seja implantada imediatamente, ela está pronta para entrega. Se o cliente desejar usar essa funcionalidade antes que a equipe termine o desenvolvimento do sistema completo, eles podem recebê-la imediatamente, adicionando valor ao seu negócio.
+
+O Incremento Potencial permite que a equipe forneça valor incremental ao cliente ao longo do projeto, em vez de esperar até que todo o projeto esteja concluído. Isso promove a flexibilidade, a entrega contínua de valor e a adaptação às mudanças nas necessidades do cliente.
