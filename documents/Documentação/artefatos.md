@@ -108,3 +108,48 @@ mais detalhadas, como:
 Essas tarefas representam o Sprint Backlog para a Sprint atual. Durante a Sprint, a equipe trabalha nessas tarefas, atualiza o progresso e enfrenta possíveis obstáculos. O Sprint Backlog ajuda a equipe a manter o foco no trabalho planejado e a se adaptar a mudanças à medida que surgem.
 
 O Sprint Backlog é uma ferramenta fundamental para a execução eficaz do Scrum, pois fornece um roteiro claro para o trabalho a ser realizado em uma Sprint, mantém a equipe focada e promove a colaboração dentro da equipe de desenvolvimento.
+
+### 3. Incremento:
+
+**O que é:** O Incremento é o resultado potencialmente entregável ao final de uma Sprint. É uma versão funcional do produto que inclui todas as funcionalidades concluídas durante a Sprint, já definidas anteriormente.
+
+ **Função:** O incremento é uma parte do produto que pode ser testada e, se necessário, implantada imediatamente. Ele permite entregas iterativas e frequentes de valor ao cliente.
+
+ **Responsável:** A equipe de desenvolvimento é responsável por criar o Incremento, garantindo que ele atenda aos critérios de conclusão estabelecidos na Definição de Concluído que será explicada a seguir.
+
+#### Explicação
+O Incremento é um conceito fundamental na metodologia Scrum. Ele é um dos artefatos principais deste framework ágil e representa o resultado potencialmente entregável ao final de uma Sprint. Aqui está uma explicação detalhada sobre o Incremento na metodologia Scrum:
+
+**Características do Incremento:**
+
+- Resultante da Sprint: O Incremento é a soma de todo o trabalho realizado durante a Sprint atual. Isso inclui todas as funcionalidades, correções e melhorias concluídas durante esse período.
+
+- Funcional: O Incremento é funcional, o que significa que é uma versão do produto que contém funcionalidades que podem ser testadas e, se necessário, implantadas. É um incremento real de valor.
+
+- Testado: Idealmente, o Incremento é testado e passa em todos os critérios de qualidade estabelecidos pela equipe, garantindo que esteja pronto para entrega.
+
+- Pronto para Revisão: No final da Sprint, o Incremento está pronto para ser revisado pelo Product Owner e outras partes interessadas. Isso permite uma avaliação imediata do progresso.
+
+**Funções do Incremento:**
+
+- Avaliação de Progresso: O Incremento permite à equipe de desenvolvimento e às partes interessadas avaliarem o que foi concluído durante a Sprint. Ele atua como um indicador claro de progresso.
+
+- Transparência e Inspeção: O Incremento promove a transparência ao tornar o trabalho visível e disponível para revisão. Isso incentiva a inspeção regular para garantir que o trabalho esteja de acordo com as expectativas.
+
+- Entrega Contínua de Valor: O Incremento potencialmente entregável possibilita entregas frequentes de valor ao cliente. Mesmo que não seja implantado imediatamente, está pronto para entrega a qualquer momento.
+
+**Exemplo Prático:**
+
+Vamos continuar com o exemplo do aplicativo de gerenciamento de tarefas. Suponha que a equipe de desenvolvimento tenha trabalhado durante uma Sprint de duas semanas e que o Incremento potencialmente entregável consista nas seguintes funcionalidades:
+
+- Implementação da funcionalidade de notificações push;
+
+- Melhorias na interface de usuário, incluindo uma barra de pesquisa aprimorada;
+
+- Autenticação de usuário integrada com sistemas externos;
+
+Ao final da Sprint, essas funcionalidades foram desenvolvidas, testadas e atendem aos critérios de qualidade estabelecidos pela equipe (Definição de Concluído). O Incremento resultante inclui todas essas funcionalidades, tornando-o uma versão funcional do produto.
+
+O Product Owner pode revisar o Incremento para garantir que atenda às expectativas e pode optar por implantá-lo imediatamente ou em um momento posterior, dependendo das necessidades do cliente.
+
+O Incremento é uma parte central do Scrum, pois representa o resultado tangível do trabalho da equipe em cada Sprint. Ele enfatiza a entrega contínua de valor, a transparência e a inspeção regulares, permitindo que as equipes de desenvolvimento entreguem um produto de alta qualidade de forma iterativa e incremental.
