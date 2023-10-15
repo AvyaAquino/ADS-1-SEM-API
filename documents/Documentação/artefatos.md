@@ -192,3 +192,40 @@ A funcionalidade deve ser testada em diferentes navegadores e dispositivos.
 Neste exemplo, cada vez que um membro da equipe conclui uma tarefa, ele verifica se todos esses critérios são atendidos. Somente quando todos os critérios são atendidos, a tarefa é considerada "concluída" de acordo com a Definição de Concluído da equipe. Isso ajuda a garantir que o trabalho realizado seja de alta qualidade e pronto para entrega ao cliente.
 
 A Definição de Concluído é uma prática fundamental para manter a integridade e a qualidade do trabalho em um projeto Scrum. Ela ajuda a equipe a manter altos padrões de qualidade, promove a transparência e ajuda a evitar retrabalho.
+
+### 5. Burndown Chart:
+
+**O que é:** O Burndown Chart é um gráfico que mostra o progresso da equipe durante uma Sprint, exibindo o trabalho restante ao longo do tempo.
+
+ **Função:** Ele ajuda a equipe a monitorar o ritmo de trabalho, identificar desvios em relação ao plano e garantir que todas as tarefas sejam concluídas até o final da Sprint.
+
+ **Responsável:** A equipe de desenvolvimento usa o Burndown Chart para acompanhar seu próprio progresso e fazer ajustes, se necessário.
+
+#### Explicação
+A Burndown Chart é uma ferramenta gráfica usada na metodologia Scrum para visualizar o progresso do trabalho durante uma Sprint. Ela ajuda a equipe de desenvolvimento a acompanhar o ritmo do trabalho, identificar desvios em relação ao plano e garantir que todas as tarefas sejam concluídas até o final da Sprint. Aqui estão os principais aspectos da Burndown Chart:
+
+**Características da Burndown Chart:**
+
+- Eixo X (horizontal): O eixo horizontal representa o tempo, geralmente em dias, com o início da Sprint à esquerda e o final da Sprint à direita.
+
+- Eixo Y (vertical): O eixo vertical representa a quantidade de trabalho restante, geralmente em horas, pontos de história ou qualquer outra unidade de medida usada pela equipe.
+
+- Linha de Progresso: A Burndown Chart inclui uma linha de progresso que conecta os pontos que representam a quantidade de trabalho restante a cada dia.
+
+- Linha de Referência Ideal: Muitas Burndown Charts também incluem uma linha de referência ideal que representa o ritmo ideal de trabalho necessário para concluir todas as tarefas até o final da Sprint.
+
+**Funções da Burndown Chart:**
+
+- Acompanhamento de Progresso: A principal função da Burndown Chart é permitir que a equipe de desenvolvimento acompanhe o progresso diariamente. Ela fornece uma representação visual clara do trabalho restante ao longo do tempo.
+
+- Identificação de Desvios: A equipe pode identificar desvios em relação à linha de referência ideal. Se a linha de progresso estiver acima da linha ideal, isso pode indicar que a equipe está atrasada. Se estiver abaixo, pode indicar que estão à frente do planejado.
+
+- Tomada de Decisões: Com base nas informações da Burndown Chart, a equipe pode tomar decisões sobre como ajustar o trabalho restante para garantir que tudo seja concluído até o final da Sprint.
+
+**Exemplo Prático:**
+
+Suponha que a equipe de desenvolvimento está no terceiro dia de uma Sprint de duas semanas. No primeiro dia, o total de trabalho restante era de 80 horas. No segundo dia, diminuiu para 60 horas e, no terceiro dia, para 40 horas. A linha de progresso no gráfico conecta esses pontos. Além disso, a linha de referência ideal mostra que, para concluir todas as tarefas até o final da Sprint, a equipe deve ter uma redução linear de 80 horas para 0 horas.
+
+Se a linha de progresso estiver acompanhando a linha ideal, a equipe está no caminho certo. Se estiver acima da linha ideal, a equipe pode precisar aumentar o ritmo de trabalho. Se estiver abaixo, estão adiantados, o que pode indicar que podem adicionar mais tarefas ou alocar recursos em outras atividades.
+
+A Burndown Chart é uma ferramenta de controle crucial que ajuda a equipe de desenvolvimento a tomar decisões informadas durante a Sprint, a manter o trabalho sob controle e a garantir que todas as tarefas sejam concluídas até o final do período planejado.
