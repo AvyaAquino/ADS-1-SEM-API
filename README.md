@@ -83,7 +83,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 ## 📅Sprints 
 
-### Sprint - 1️⃣ 🏃 ([Clique aqui](/documents/Sprints/Sprint1)):  Em andamento✏️
+### Sprint - 1️⃣ 🏃 ([Clique aqui](/documents/Sprints/Sprint1)):  Completa ✅
 <br>
 
 → [Voltar ao topo](#topo)
@@ -96,8 +96,8 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 |:-------------------------------------------:|:-----------:|:--------:|:-------------:|:----:|:-----:|:---:|:-----:|
 | Wireframe   | "Eu, como cliente, quero um protópito funcional do site para visualizar o produto final." | 1      | 100                | #01 | 10h | ✅  |  24/09/2023            |
 | Backlog   | -  | 1      | 95                | #02 | 02h | ✅  |  24/09/2023            |    
-| Aplicação web   | "Eu, como cliente, quero que meu sistema seja feito como uma aplicação web".   | 2      | 90                | #03 | 20h | ⏳  |  15/10/2023            |    
-| Pesquisa e produção do conteúdo   | "Eu, como cliente, quero que todo o conteúdo seja repassado de forma indireta".         | 2      | 85                | #04 | 40h | ⏳  |  15/10/2023            |    
+| Aplicação web   | "Eu, como cliente, quero que meu sistema seja feito como uma aplicação web".   | 2      | 90                | #03 | 20h | ✅  |  15/10/2023            |    
+| Pesquisa e produção do conteúdo   | "Eu, como cliente, quero que todo o conteúdo seja repassado de forma indireta".         | 2      | 85                | #04 | 40h | ✅  |  15/10/2023            |    
 | Introduzir o conteúdo   | "Eu, como cliente, quero que a aplicação contenha conceitos e fundamentos da metodologia ágil, bem como seus processos e artefatos."                 | 3      | 80                | #05 | 03h | ⏳  |  05/11/2023            |    
 | Formulários de avaliação de processos   | "Eu, como cliente, quero que a aplicação contenha formulários de avaliação parciais e com totalização para que o usuário possa interagir."     | 3      | 75                | #06 | 15h | ⏳  |  05/11/2023            |    
 | Formulários de avaliação do conteúdo   | "Eu, como cliente, quero que a aplicação contenha formulários de avaliação sobre o conteúdo apresentado."      | 4      | 60                | #07 | 10h | ⏳  |  26/11/2023            |    
