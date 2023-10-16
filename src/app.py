@@ -51,7 +51,7 @@ def productBacklog():
     return render_template('/Artefatos/productBacklog.html', titulo='Product Backlog', previous='productBacklog', next='sprintBacklog')
 @app.route('/sprintBacklog')
 def sprintBacklog():
-    return render_template('/Artefatos/sprintBacklog.html', titulo='sprintBacklog', previous='productBacklog', next='sprintReview')
+    return render_template('/Artefatos/sprintBacklog.html', titulo='sprintBacklog', previous='productBacklog', next='DOR')
 @app.route('/DOR')
 def DOR():
     return render_template('/Artefatos/DOR.html', titulo='DOR', previous='sprintBacklog', next='DOR')
