@@ -65,7 +65,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 <br> 
 
-2. Website: Aplicação inicial (Em andamento) ⏳
+2. Website: [Aplicação inicial](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%202/video/website.md) ✅
 
 <br>
 
