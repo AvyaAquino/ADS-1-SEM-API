@@ -3,20 +3,21 @@
 https://github.com/jvictoroliv/adsapi1/assets/144742430/1676b7d0-214a-4c5d-8c19-53b8f555c01c
 
 Páginas do Site:
- 1. Home (Sobre o site)
- 2. Scrum: O método ágil
- 3. Scrum Team
-   - Product Owner
-   - Scrum Master
-   - Dev Team
- 4. Processos
-   - Scrum Daily
-   - Sprint Planning
-   - Sprint Review
- 5. Artefato
-   - Product Backlog
-   - Sprint Backlog
-   - DOR
+>  - 1.Home (Sobre o site)
+>  - 2.Scrum: O método ágil
+>  - 3.Scrum Team
+>  - Product Owner
+>  - Scrum Master
+>  - Dev Team
+>  - 4.Processos
+>  - Scrum Daily
+>  - Sprint Planning
+>  - Sprint Review
+>  - 5.Artefato
+>  - Product Backlog
+>  - Sprint Backlog
+>  - DOR
+
 
 ### Sobre as páginas
 
