@@ -111,34 +111,34 @@ O Sprint Backlog é uma ferramenta fundamental para a execução eficaz do Scrum
 
 ### 3. Incremento:
 
-**O que é:** O Incremento é o resultado potencialmente entregável ao final de uma Sprint. É uma versão funcional do produto que inclui todas as funcionalidades concluídas durante a Sprint, já definidas anteriormente.
+O que é: O Incremento é o resultado potencialmente entregável ao final de uma Sprint. É uma versão funcional do produto que inclui todas as funcionalidades concluídas durante a Sprint, já definidas anteriormente.
 
- **Função:** O incremento é uma parte do produto que pode ser testada e, se necessário, implantada imediatamente. Ele permite entregas iterativas e frequentes de valor ao cliente.
+Função: O incremento é uma parte do produto que pode ser testada e, se necessário, implantada imediatamente. Ele permite entregas iterativas e frequentes de valor ao cliente.
 
- **Responsável:** A equipe de desenvolvimento é responsável por criar o Incremento, garantindo que ele atenda aos critérios de conclusão estabelecidos na Definição de Concluído que será explicada a seguir.
+Responsável: A equipe de desenvolvimento é responsável por criar o Incremento, garantindo que ele atenda aos critérios de conclusão estabelecidos na Definição de Concluído que será explicada a seguir.
 
-#### Explicação
-O Incremento é um conceito fundamental na metodologia Scrum. Ele é um dos artefatos principais deste framework ágil e representa o resultado potencialmente entregável ao final de uma Sprint. Aqui está uma explicação detalhada sobre o Incremento na metodologia Scrum:
+Explicação
+O Incremento é um conceito fundamental na metodologia Scrum. Ele é um dos artefatos principais deste framework ágil e representa o resultado potencialmente entregável ao final de uma Sprint, embora não seja necessariamente implantada imediatamente. Sendo uma parte essencial do Scrum, ele permite entregas frequentes e possibilita que o cliente receba valor mesmo antes do término do projeto. A seguir está uma explicação detalhada sobre o Incremento na metodologia Scrum:
 
-**Características do Incremento:**
+Características do Incremento:
 
-- Resultante da Sprint: O Incremento é a soma de todo o trabalho realizado durante a Sprint atual. Isso inclui todas as funcionalidades, correções e melhorias concluídas durante esse período.
+Resultante da Sprint: O Incremento é a soma de todo o trabalho realizado durante a Sprint atual. Isso inclui todas as funcionalidades, correções e melhorias concluídas durante esse período.
 
-- Funcional: O Incremento é funcional, o que significa que é uma versão do produto que contém funcionalidades que podem ser testadas e, se necessário, implantadas. É um incremento real de valor.
+Funcional: O Incremento é funcional, o que significa que é uma versão do produto que contém funcionalidades que podem ser testadas e, se necessário, implantadas. É um incremento real de valor.
 
-- Testado: Idealmente, o Incremento é testado e passa em todos os critérios de qualidade estabelecidos pela equipe, garantindo que esteja pronto para entrega.
+Testado: Idealmente, o Incremento é testado e passa em todos os critérios de qualidade estabelecidos pela equipe, garantindo que esteja pronto para entrega e com suas funcionalidades concluídas e testadas.
 
-- Pronto para Revisão: No final da Sprint, o Incremento está pronto para ser revisado pelo Product Owner e outras partes interessadas. Isso permite uma avaliação imediata do progresso.
+Pronto para Revisão: No final da Sprint, o Incremento está pronto para ser revisado pelo Product Owner e outras partes interessadas. Isso permite uma avaliação imediata do progresso.
 
-**Funções do Incremento:**
+Funções do Incremento:
 
-- Avaliação de Progresso: O Incremento permite à equipe de desenvolvimento e às partes interessadas avaliarem o que foi concluído durante a Sprint. Ele atua como um indicador claro de progresso.
+Avaliação de Progresso: O Incremento permite à equipe de desenvolvimento e às partes interessadas avaliarem o que foi concluído durante a Sprint. Ele atua como um indicador claro de progresso, permitindo ajustes e melhorias contínuas de maneira facilitada.
 
-- Transparência e Inspeção: O Incremento promove a transparência ao tornar o trabalho visível e disponível para revisão. Isso incentiva a inspeção regular para garantir que o trabalho esteja de acordo com as expectativas.
+Transparência e Inspeção: O Incremento promove a transparência ao tornar o trabalho visível e disponível para revisão. Isso incentiva a inspeção regular para garantir que o trabalho esteja de acordo com as expectativas e necessidades do cliente, minimizando riscos.
 
-- Entrega Contínua de Valor: O Incremento potencialmente entregável possibilita entregas frequentes de valor ao cliente. Mesmo que não seja implantado imediatamente, está pronto para entrega a qualquer momento.
+Entrega Contínua de Valor: O Incremento potencialmente entregável possibilita entregas frequentes de valor ao cliente. Mesmo que não seja implantado imediatamente, está pronto para entrega a qualquer momento.
 
-**Exemplo Prático:**
+Exemplo Prático:
 
 Vamos continuar com o exemplo do aplicativo de gerenciamento de tarefas. Suponha que a equipe de desenvolvimento tenha trabalhado durante uma Sprint de duas semanas e que o Incremento potencialmente entregável consista nas seguintes funcionalidades:
 
@@ -153,7 +153,6 @@ Ao final da Sprint, essas funcionalidades foram desenvolvidas, testadas e atende
 O Product Owner pode revisar o Incremento para garantir que atenda às expectativas e pode optar por implantá-lo imediatamente ou em um momento posterior, dependendo das necessidades do cliente.
 
 O Incremento é uma parte central do Scrum, pois representa o resultado tangível do trabalho da equipe em cada Sprint. Ele enfatiza a entrega contínua de valor, a transparência e a inspeção regulares, permitindo que as equipes de desenvolvimento entreguem um produto de alta qualidade de forma iterativa e incremental.
-
 ### 4. Definição de Concluído (Definition of Done):
 
 **O que é:** A Definição de Concluído é um conjunto de critérios que uma tarefa deve atender para ser considerada completa.
@@ -230,37 +229,3 @@ Se a linha de progresso estiver acompanhando a linha ideal, a equipe está no ca
 
 A Burndown Chart é uma ferramenta de controle crucial que ajuda a equipe de desenvolvimento a tomar decisões informadas durante a Sprint, a manter o trabalho sob controle e a garantir que todas as tarefas sejam concluídas até o final do período planejado.
 
-### 6. Incremento Potencial (Potentially Shippable Product Increment):
-
-**O que é:** O Incremento Potencial é uma versão do produto que está pronta para ser entregue ao cliente, embora não seja necessariamente implantada imediatamente.
-
- **Função:** Ele fornece a flexibilidade de entregar valor ao cliente a qualquer momento, pois atende aos critérios de qualidade e funcionalidade.
-
- **Responsável:** A equipe de desenvolvimento é responsável por criar o Incremento Potencial e garantir que ele esteja pronto para entrega.
-
-#### Explicação 
-O Incremento Potencial (Potentially Shippable Product Increment) é um conceito fundamental na metodologia Scrum. Ele representa uma parte do produto que, embora não seja necessariamente implantada imediatamente, está pronta para ser entregue ao cliente se necessário. O Incremento Potencial é uma parte essencial do Scrum, pois permite entregas frequentes e possibilita que o cliente receba valor mesmo antes do término do projeto. Aqui estão os principais aspectos do Incremento Potencial:
-
-**Características do Incremento Potencial:**
-
-- Funcional e Testado: O Incremento Potencial é uma versão do produto que contém funcionalidades concluídas e testadas. Isso significa que é funcional e atende aos critérios de qualidade estabelecidos pela equipe.
-
-- Pronto para Entrega: Embora não seja implantado imediatamente, o Incremento Potencial está pronto para ser entregue ao cliente, caso seja necessário. Isso significa que ele atende aos requisitos do cliente e às expectativas de qualidade.
-
-- Valor Mensurável: O Incremento Potencial deve representar um valor mensurável para o cliente. Ele pode ser uma parte do produto que pode ser usada ou avaliada de maneira significativa.
-
-**Funções do Incremento Potencial:**
-
-- Entregas Frequentes: O Incremento Potencial permite entregas frequentes ao cliente, garantindo que o cliente receba valor em intervalos regulares ao longo do projeto.
-
-- Feedback Rápido: A entrega de Incrementos Potenciais possibilita que o cliente forneça feedback rapidamente, permitindo ajustes e melhorias contínuas no produto.
-
-- Minimização de Riscos: Ao entregar Incrementos Potenciais, a equipe pode mitigar riscos à medida que surgem e garantir que o produto esteja alinhado com as necessidades do cliente.
-
-**Exemplo Prático:**
-
-Suponha que uma equipe esteja desenvolvendo um sistema de gerenciamento de estoque para uma loja de varejo. Durante uma Sprint de duas semanas, eles implementam e testam uma funcionalidade que permite ao cliente rastrear o estoque de produtos em tempo real. Ao final da Sprint, essa funcionalidade é considerada um Incremento Potencial.
-
-Embora essa funcionalidade não seja implantada imediatamente, ela está pronta para entrega. Se o cliente desejar usar essa funcionalidade antes que a equipe termine o desenvolvimento do sistema completo, eles podem recebê-la imediatamente, adicionando valor ao seu negócio.
-
-O Incremento Potencial permite que a equipe forneça valor incremental ao cliente ao longo do projeto, em vez de esperar até que todo o projeto esteja concluído. Isso promove a flexibilidade, a entrega contínua de valor e a adaptação às mudanças nas necessidades do cliente.
