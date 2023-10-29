@@ -92,6 +92,10 @@ ul li {
     margin-bottom: 3px;
 }
 
+.form-check-inline {
+    display: inline-block;
+  }
+
 .scrumTeam {
     display: flex;
     align-items: center;
@@ -107,6 +111,13 @@ ul li {
 }
 
 .artefatos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -8px;
+}
+
+.pacer {
     display: flex;
     align-items: center;
     gap: 10px;

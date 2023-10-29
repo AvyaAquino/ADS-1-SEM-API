@@ -19,7 +19,10 @@ def Processos():
     return render_template('/Processos/Processos.html', titulo='Processos', previous='ScrumTeam', next='Artefatos')
 @app.route('/Artefatos')
 def Artefatos():
-    return render_template('/Artefatos/Artefatos.html', titulo='Artefatos', previous='Processos', next='Artefatos')
+    return render_template('/Artefatos/Artefatos.html', titulo='Artefatos', previous='Processos', next='Pacer')
+@app.route('/Pacer')
+def Pacer():
+    return render_template('/Pacer/pacer.html', titulo='Pacer', previous='Artefatos', next='Pacer')
 
 # Sub Topicos
 @app.route('/productOwner')
