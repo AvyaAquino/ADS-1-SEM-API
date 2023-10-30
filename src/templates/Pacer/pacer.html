@@ -1,478 +1,686 @@
 {% extends "Template.html" %}
 
 {% block content %}
-<body style="height: 1300px;">
+<body style="min-height: 1300px;">
     
 </body>
 <link rel="bootstrap" href="./static/bootstrap/css/bootstrap.css">
 <script rel="bootstrap" href="./static/bootstrap/js/bootstrap.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/font/bootstrap-icons.css" rel="stylesheet">
 
 
-<div class="container" style="background-color: #EDEDED; width: 60%; margin: auto; border-radius: 30px; padding-left: 10px; padding-right: 10px; padding-top: 20px;">
-    <div style="background-color: #78BCC6; border-radius: 30px 30px 0 0; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -40px;">
-        <h2 style="padding-top: 3%; padding-left: 3%;">Product Owner</h2>
+
+<div id="pacerinterncontent" style="margin-left: 80px; margin-right: 120px;">
+    <div class="container" id="conteudo" style="background-color: #EDEDED; width: 70%; margin: auto; border-radius: 30px; padding-left: 10px; padding-right: 10px; padding-top: 20px;">
+        <div style="background-color: #78BCC6; border-radius: 30px 30px 0 0; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -40px;">
+            <h2 style="padding-top: 3%; padding-left: 3%;">Product Owner</h2>
+        </div>
+        <div style="display: flex; justify-content: end; width: 100%; align-items: center;">
+            <div style="display: flex; justify-content: space-between; width: 50%;">
+                <tr>
+                    <th><label class="form-check-label" for="inlineRadio1">0</label></th>
+                    <th><label class="form-check-label" for="inlineRadio1">1</label></th>
+                    <th><label class="form-check-label" for="inlineRadio2">2</label></th>
+                    <th><label class="form-check-label" for="inlineRadio3">3</label></th>
+                </tr>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Proatividade :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Produtividade1PO" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Produtividade1PO" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Produtividade1PO" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Produtividade1PO" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+    
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Autonomia :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1PO" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1PO" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1PO" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1PO" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Colaboração :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1PO" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1PO" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1PO" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1PO" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Entrega De Resultados :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1PO" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1PO" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1PO" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1PO" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #78BCC6; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -20px;">
+            <h2 style="padding-top: 3%; padding-left: 3%;">Scrum Master</h2>
+        </div>
+        <div style="display: flex; justify-content: end; width: 100%; align-items: center;">
+            <div style="display: flex; justify-content: space-between; width: 50%;">
+                <tr>
+                    <th><label class="form-check-label" for="inlineRadio1">0</label></th>
+                    <th><label class="form-check-label" for="inlineRadio1">1</label></th>
+                    <th><label class="form-check-label" for="inlineRadio2">2</label></th>
+                    <th><label class="form-check-label" for="inlineRadio3">3</label></th>
+                </tr>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Proatividade :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Proatividade1SM" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Proatividade1SM" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Proatividade1SM" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Proatividade1SM" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+    
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Autonomia :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1SM" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1SM" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1SM" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Autonomia1SM" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Colaboração :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1SM" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1SM" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1SM" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Colaboracao1SM" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Entrega De Resultados :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1SM" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1SM" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1SM" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Resultados1SM" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #78BCC6; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -20px;">
+            <h2 style="padding-top: 3%; padding-left: 3%;">Dev Team 1</h2>
+        </div>
+        <div style="display: flex; justify-content: end; width: 100%; align-items: center;">
+            <div style="display: flex; justify-content: space-between; width: 50%;">
+                <tr>
+                    <th><label class="form-check-label" for="inlineRadio1">0</label></th>
+                    <th><label class="form-check-label" for="inlineRadio1">1</label></th>
+                    <th><label class="form-check-label" for="inlineRadio2">2</label></th>
+                    <th><label class="form-check-label" for="inlineRadio3">3</label></th>
+                </tr>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Proatividade :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ProatividadeDT1" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ProatividadeDT1" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ProatividadeDT1" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ProatividadeDT1" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+    
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Autonomia :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="AutonomiaDT1" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="AutonomiaDT1" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="AutonomiaDT1" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="AutonomiaDT1" id="inlineRadio2"
+                                    value="option4">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Colaboração :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ColaboracaoDT1" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ColaboracaoDT1" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ColaboracaoDT1" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ColaboracaoDT1" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; width: 100%;">
+            <div style="width: 50%;">
+                <h3>Entrega De Resultados :</h3>
+            </div>
+            <div style="justify-content: end; width: 50%; display: flex;">
+                <div style="width: 100%; display: flex; justify-content: space-between;">
+                    <tr>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ResultadosDT1" id="inlineRadio1"
+                                    value="option0">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ResultadosDT1" id="inlineRadio2"
+                                    value="option1">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ResultadosDT1" id="inlineRadio2"
+                                    value="option2">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="ResultadosDT1" id="inlineRadio2"
+                                    value="option3">
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
     </div>
-    <div style="display: flex; justify-content: end; width: 100%; align-items: center;">
-        <div style="display: flex; justify-content: space-between; width: 50%;">
+
+    <div style="display: flex; justify-content: center; width: 100%; padding-top: 20px;">
+        <button type="button" id="removerUltimoCodigo" class="btn btn-primary"
+            style="background-color: transparent; border: none; cursor: pointer;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z" />
+            </svg>
+        </button>
+        <button type="button" id="adicionarCodigo" class="btn btn-danger"
+            style="background-color: transparent; border: none; cursor: pointer;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+            </svg>
+    </div>
+
+
+    <script>
+        var numero = 1;
+        var pixelsAdicionar = 400;
+        var alturaPagina = document.body.offsetHeight; // Mantém o controle da altura da página
+
+        function adicionarCodigo() {
+            numero++;
+            var novoCodigo = gerarCodigoHTML(numero);
+            var conteudo = document.getElementById('conteudo');
+            conteudo.insertAdjacentHTML('beforeend', novoCodigo);
+            alturaPagina += pixelsAdicionar; // Aumenta a altura da página
+            document.body.style.minHeight = alturaPagina + 'px'; // Define a nova altura da página
+        }
+
+        function removerUltimoCodigo() {
+            var conteudo = document.getElementById('conteudo');
+            var elementos = conteudo.getElementsByClassName('codigo');
+            if (elementos.length > 0) {
+                conteudo.removeChild(elementos[elementos.length - 1]);
+                numero--;
+                alturaPagina -= pixelsAdicionar; // Reduz a altura da página
+                document.body.style.minHeight = alturaPagina + 'px'; // Define a nova altura da página
+            }
+        }
+
+        function gerarCodigoHTML(numero) {
+            return `
+            <div class="codigo">
+                <div style="background-color: #78BCC6; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -20px;">
+    <h2 style="padding-top: 3%; padding-left: 3%;">Dev Team ${numero}</h2>
+</div>
+<div style="display: flex; justify-content: end; width: 100%; align-items: center;">
+    <div style="display: flex; justify-content: space-between; width: 50%;">
+        <tr>
+            <th><label class="form-check-label" for="inlineRadio1">0</label></th>
+            <th><label class="form-check-label" for="inlineRadio1">1</label></th>
+            <th><label class="form-check-label" for="inlineRadio2">2</label></th>
+            <th><label class="form-check-label" for="inlineRadio3">3</label></th>
+        </tr>
+    </div>
+</div>
+<div style="display: flex; align-items: center; width: 100%;">
+    <div style="width: 50%;">
+        <h3>Proatividade :</h3>
+    </div>
+    <div style="justify-content: end; width: 50%; display: flex;">
+        <div style="width: 100%; display: flex; justify-content: space-between;">
             <tr>
-                <th><label class="form-check-label" for="inlineRadio1">0</label></th>
-                <th><label class="form-check-label" for="inlineRadio1">1</label></th>
-                <th><label class="form-check-label" for="inlineRadio2">2</label></th>
-                <th><label class="form-check-label" for="inlineRadio3">3</label></th>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ProatividadeDT${numero}" id="inlineRadio1"
+                            value="option0">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ProatividadeDT${numero}" id="inlineRadio2"
+                            value="option1">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ProatividadeDT${numero}" id="inlineRadio2"
+                            value="option2">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ProatividadeDT${numero}" id="inlineRadio2"
+                            value="option3">
+                    </div>
+                </td>
             </tr>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Proatividade :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Autonomia :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Colaboração :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Entrega De Resultados :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="background-color: #78BCC6; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -20px;">
-        <h2 style="padding-top: 3%; padding-left: 3%;">Scrum Master</h2>
-    </div>
-    <div style="display: flex; justify-content: end; width: 100%; align-items: center;">
-        <div style="display: flex; justify-content: space-between; width: 50%;">
-            <tr>
-                <th><label class="form-check-label" for="inlineRadio1">0</label></th>
-                <th><label class="form-check-label" for="inlineRadio1">1</label></th>
-                <th><label class="form-check-label" for="inlineRadio2">2</label></th>
-                <th><label class="form-check-label" for="inlineRadio3">3</label></th>
-            </tr>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Proatividade :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Autonomia :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Colaboração :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Entrega De Resultados :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="background-color: #78BCC6; height: 50px; margin-left: -10px; margin-right: -10px; margin-top: -20px;">
-        <h2 style="padding-top: 3%; padding-left: 3%;">Dev Team</h2>
-    </div>
-    <div style="display: flex; justify-content: end; width: 100%; align-items: center;">
-        <div style="display: flex; justify-content: space-between; width: 50%;">
-            <tr>
-                <th><label class="form-check-label" for="inlineRadio1">0</label></th>
-                <th><label class="form-check-label" for="inlineRadio1">1</label></th>
-                <th><label class="form-check-label" for="inlineRadio2">2</label></th>
-                <th><label class="form-check-label" for="inlineRadio3">3</label></th>
-            </tr>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Proatividade :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Autonomia :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Colaboração :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
-        </div>
-    </div>
-    <div style="display: flex; align-items: center; width: 100%;">
-        <div style="width: 50%;">
-            <h3>Entrega De Resultados :</h3>
-        </div>
-        <div style="justify-content: end; width: 50%; display: flex;">
-            <div style="width: 100%; display: flex; justify-content: space-between;">
-                <tr>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                        </div>
-                    </td>
-                </tr>
-            </div>
         </div>
     </div>
 </div>
 
+<div style="display: flex; align-items: center; width: 100%;">
+    <div style="width: 50%;">
+        <h3>Autonomia :</h3>
+    </div>
+    <div style="justify-content: end; width: 50%; display: flex;">
+        <div style="width: 100%; display: flex; justify-content: space-between;">
+            <tr>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="AutonomiaDT${numero}" id="inlineRadio1"
+                            value="option1">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="AutonomiaDT${numero}" id="inlineRadio2"
+                            value="option2">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="AutonomiaDT${numero}" id="inlineRadio2"
+                            value="option3">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="AutonomiaDT${numero}" id="inlineRadio2"
+                            value="option4">
+                    </div>
+                </td>
+            </tr>
+        </div>
+    </div>
+</div>
+<div style="display: flex; align-items: center; width: 100%;">
+    <div style="width: 50%;">
+        <h3>Colaboração :</h3>
+    </div>
+    <div style="justify-content: end; width: 50%; display: flex;">
+        <div style="width: 100%; display: flex; justify-content: space-between;">
+            <tr>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ColaboracaoDT${numero}" id="inlineRadio1"
+                            value="option0">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ColaboracaoDT${numero}" id="inlineRadio2"
+                            value="option1">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ColaboracaoDT${numero}" id="inlineRadio2"
+                            value="option2">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ColaboracaoDT${numero}" id="inlineRadio2"
+                            value="option3">
+                    </div>
+                </td>
+            </tr>
+        </div>
+    </div>
+</div>
+<div style="display: flex; align-items: center; width: 100%;">
+    <div style="width: 50%;">
+        <h3>Entrega De Resultados :</h3>
+    </div>
+    <div style="justify-content: end; width: 50%; display: flex;">
+        <div style="width: 100%; display: flex; justify-content: space-between;">
+            <tr>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ResultadosDT${numero}" id="inlineRadio1"
+                            value="option0">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ResultadosDT${numero}" id="inlineRadio2"
+                            value="option1">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ResultadosDT${numero}" id="inlineRadio2"
+                            value="option2">
+                    </div>
+                </td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="ResultadosDT${numero}" id="inlineRadio2"
+                            value="option3">
+                    </div>
+                </td>
+            </tr>
+        </div>
+    </div>
+</div>
+                </div>
+            `;
+        }
 
-
+document.getElementById('adicionarCodigo').addEventListener('click', adicionarCodigo);
+document.getElementById('removerUltimoCodigo').addEventListener('click', removerUltimoCodigo);
+</script>
 {% endblock %}

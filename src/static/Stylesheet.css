@@ -124,6 +124,10 @@ ul li {
     margin-bottom: -8px;
 }
 
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
 
 .indice-footer {
     display: flex;
