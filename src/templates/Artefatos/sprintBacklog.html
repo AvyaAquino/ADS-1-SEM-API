@@ -1,50 +1,68 @@
 {% extends "Template.html" %}
 {% block content %}
 
-<body style="height: 1100px;">
+<body style="height: 2100px">
 
 </body>
-<p>Sprint Backlog no Scrum: O Plano de Ação para o Sprint
-    O Sprint Backlog é um componente fundamental do método Scrum, servindo como um plano de ação detalhado para uma
-    Sprint específica. Este resumo destacará a importância do Sprint Backlog e suas principais características.</p>
 
-<p> Características Principais do Sprint Backlog:</p>
-<ol>
-    <li> Seleção de Tarefas: Durante o Sprint Planning, a equipe de desenvolvimento seleciona itens do Product Backlog
-        para
-        serem incluídos no Sprint Backlog. Essas tarefas são aquelas que a equipe se compromete a concluir durante a
-        Sprint.</li>
-    <li>Detalhamento das Tarefas: O Sprint Backlog descreve cada tarefa em detalhes. Isso inclui a definição clara do
-        que
-        deve ser feito, os critérios de aceitação e quaisquer informações relevantes para a conclusão da tarefa.</li>
-    <li>Estimativas de Esforço: Cada tarefa no Sprint Backlog é estimada em termos de esforço necessário para
-        concluí-la.</li>
-    Isso ajuda a equipe a planejar seu trabalho de forma eficaz.</li>
-    <li>Compromisso da Equipe: Ao final do Sprint Planning, a equipe faz um compromisso com as tarefas do Sprint
-        Backlog,
-        concordando em concluir o trabalho dentro da Sprint</li>
-</ol>
+<p> <span style="font-weight: bold;"> O que é:</span> O Sprint Backlog é uma seleção dos itens do Product Backlog que a equipe se compromete a concluir durante uma Sprint específica.</p>
+<p> <span style="font-weight: bold;">Função:</span> Ele é literalmente um plano de trabalho passo a passo para a Sprint atual, contendo tarefas específicas que a equipe deseja realizar durante o período definido de trabalho naquela determinada sprint.</p>
+<p> <span style="font-weight: bold;">Responsável:</span>A equipe de desenvolvimento vai criar o Sprint Backlog durante a reunião de planejamento da Sprint, com base na priorização do Product Backlog.
+<p>
+    O Sprint Backlog (Lista de Itens da Sprint) é um dos principais artefatos do Scrum e desempenha um papel essencial na gestão do trabalho durante uma Sprint. Ele é uma seleção dos itens mais importantes do Product Backlog que a equipe de desenvolvimento se compromete a concluir durante a Sprint atual. Vamos aprofundar a compreensão do Sprint Backlog:
+</p>
+<h3>Características do Sprint Backlog:</h3>
+
+<p> <span style="font-weight: bold;">Seleção Limitada:</span> O Sprint Backlog contém apenas um subconjunto dos itens do Product Backlog que a equipe planeja realizar durante a Sprint. Essa seleção é feita durante a reunião de planejamento da Sprint.</p>
+
+<p> <span style="font-weight: bold;"> Tarefas e Detalhes:</span> Os itens do Sprint Backlog são desdobrados em tarefas detalhadas. Cada membro da equipe sabe quais tarefas precisa realizar para concluir os itens atribuídos.</p>
+
+<p> <span style="font-weight: bold;">Propriedade da Equipe:</span> A equipe de desenvolvimento é responsável por criar e gerenciar o Sprint Backlog. Ela tem autonomia para determinar como as tarefas serão realizadas.</p>
+
+<h3>Funções do Sprint Backlog:</h3>
+
+<p> <span style="font-weight: bold;">Foco da Sprint:</span> O Sprint Backlog define o trabalho que será realizado durante a Sprint, concentrando-se nos itens mais importantes do Product Backlog.</p>
+
+<p> <span style="font-weight: bold;">Planejamento Detalhado:</span> Ele serve como base para o planejamento detalhado da Sprint. A equipe identifica as tarefas necessárias para implementar os itens do Sprint Backlog.</p>
+
+<p> <span style="font-weight: bold;">Acompanhamento e Transparência:</span> O Product Backlog é a fonte de trabalho para o Sprint Backlog,
+    que é criado durante o planejamento da Sprint. Ele serve como base para a seleção de itens a serem trabalhados na
+    Sprint atual.</p>
+
+<p> <span style="font-weight: bold;">Adaptação</span>A transparência é um dos princípios-chave do Scrum. O Product
+    Backlog fornece visibilidade sobre o que está por vir no projeto, ajudando a eliminar surpresas e incertezas.</p>
+
+<h3>Exemplo Prático</h3>
+
+<p>
+    Imagine um projeto de desenvolvimento de um aplicativo de gerenciamento de tarefas. O Product Backlog para esse
+    projeto pode incluir os seguintes itens:
+<ul>
+    <li>Adicionar funcionalidade de notificações push</li>
+    <li>Melhorar a interface de usuário</li>
+    <li>Implementar autenticação de usuário</li>
+    <li>Corrigir erros de sincronização</li>
+    <li>Criar uma função de busca aprimorada</li>
+    <li>Integrar com calendários externos</li>
+</ul>
+<p>
+O Product Owner trabalharia com a equipe de desenvolvimento para priorizar esses itens com base nas necessidades do
+cliente e no valor de negócio. Os itens mais cruciais, como a funcionalidade de notificações push, seriam colocados no
+topo do Product Backlog, enquanto os menos críticos ficariam na parte inferior.
+</p>
+<p>
+À medida que o projeto avança e novos requisitos ou feedback do cliente surgem, o Product Owner atualiza o Product
+Backlog para garantir que ele continue refletindo a visão em constante evolução do produto. Durante o planejamento da
+Sprint, a equipe de desenvolvimento seleciona os itens do Product Backlog para serem trabalhados na Sprint Backlog, com
+base na priorização do Product Owner.
+</p>
+<p>
+O Product Backlog é um componente vital no Scrum, pois ajuda a manter o foco no valor do cliente, a tomar decisões
+informadas sobre o que deve ser desenvolvido em seguida e a garantir que o projeto permaneça adaptável às mudanças. Na figura a seguir notam-se algumas caracteristicas do backlog e como, na prática, ele pode auxiliar o time Scrum.
+</p>
 
 <div class="img">
-    <img src="{{ url_for('static', filename='sprintBacklog.png') }}"" alt="Sprint Backlog">
+    <img src="{{ url_for('static', filename='productBacklog.png') }}"" alt=" Product Backlog">
 </div>
-<p>Benefícios do Sprint Backlog:</p>
-<ul>
-    <li> Foco: Mantém a equipe focada nas tarefas prioritárias para a Sprint, evitando distrações e mudanças de última
-        hora.
-    <li> Visibilidade: Torna o trabalho planejado visível para todos os membros da equipe, promovendo a transparência.
-    </li>
-    <li> Coordenação: Ajuda a equipe a coordenar suas atividades diárias durante a Sprint, mantendo todos alinhados com
-        os
-        objetivos.</li>
-    <li> Responsabilidade Compartilhada: Reforça o compromisso da equipe com o trabalho planejado, criando uma
-        responsabilidade compartilhada pelo sucesso da Sprint.</li>
-    <li> Acompanhamento do Progresso: Facilita o rastreamento do progresso das tarefas durante a Sprint, permitindo
-        ajustes
-        conforme necessário.</li>
-</ul>
-<p> Em resumo, o Sprint Backlog é uma ferramenta essencial no Scrum que transforma o plano de alto nível do Sprint em
-    ações detalhadas. Ele auxilia na execução eficaz do trabalho planejado, mantendo a equipe alinhada com as metas e
-    prioridades da Sprint e contribuindo para o sucesso do projeto ágil.</p>
 
 {% endblock %}
