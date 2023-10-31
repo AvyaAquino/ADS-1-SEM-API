@@ -57,7 +57,13 @@ def sprintBacklog():
     return render_template('/Artefatos/sprintBacklog.html', titulo='sprintBacklog', previous='productBacklog', next='DOR')
 @app.route('/DOR')
 def DOR():
-    return render_template('/Artefatos/DOR.html', titulo='DOR', previous='sprintBacklog', next='DOR')
+    return render_template('/Artefatos/DOR.html', titulo='DOR', previous='sprintBacklog', next='Incremento')
+@app.route('/Incremento')
+def Incremento():
+    return render_template('/Artefatos/Incremento.html', titulo='Incremento', previous='DOR', next='burnDownChart')
+@app.route('/burnDownChart')
+def burnDownChart():
+    return render_template('/Artefatos/burnDownChart.html', titulo='Burndown Chart', previous='Incremento', next='burnDownChart')
 
 
 if __name__ == '__main__':
