@@ -1,56 +1,74 @@
 {% extends "Template.html" %}
 {% block content %}
 
-<body style="height: 1100px;">
+<body style="height: 1400px">
 
 </body>
-<div class="img">
-    <img src="{{ url_for('static', filename='DOR.png') }}"" alt=" DOR">
-</div>
-<p>Definition of Ready (DOR) no Método Scrum: Preparando Tarefas para o Sucesso
-    A "Definition of Ready" (DOR) é um conjunto de critérios e requisitos que uma tarefa, funcionalidade ou item do
-    Backlog do Produto deve atender antes de ser selecionado para inclusão no Sprint Backlog e, posteriormente, ser
-    trabalhado pela equipe de desenvolvimento. A DOR é uma ferramenta importante no método Scrum para garantir que o
-    trabalho seja bem definido e adequado para ser executado com sucesso.
-    Principais Aspectos da Definition of Ready (DOR):
-</p>
-<ol>
-    <li>Descrição Completa: A tarefa ou item do Backlog do Produto deve ter uma descrição clara e detalhada que explica
-        o
-        que precisa ser feito.</li>
-    <li>Critérios de Aceitação: Deve incluir critérios de aceitação bem definidos que estabelecem os padrões para quando
-        a
-        tarefa for considerada concluída.</li>
-    <li>Priorização: A tarefa deve ser priorizada e alinhada com os objetivos e necessidades do cliente.</li>
-    <li> Estimativas de Esforço: Deve haver uma estimativa de esforço razoável associada à tarefa para ajudar na
-        alocação
-        adequada de recursos.</li>
-    <li>Recursos Disponíveis: A equipe deve ter os recursos e conhecimentos necessários para executar a tarefa de forma
-        eficaz.</li>
-    <li>Independência: A tarefa não deve depender de outras tarefas não concluídas ou de recursos externos que não
-        estejam
-        prontamente disponíveis.</li>
-    <li>Desenvolvimento Paralelo: Deve ser possível que a tarefa seja trabalhada em paralelo com outras, quando
-        apropriado.</li>
-</ol>
-<p>Benefícios da Definition of Ready (DOR):</p>
 
+<p> <span style="font-weight: bold;"> O que é:</span> A Definição de Concluído é um conjunto de critérios que uma tarefa
+    deve atender para ser considerada completa.</p>
+<p> <span style="font-weight: bold;">Função:</span> Ela ajuda a manter a qualidade do trabalho e a consistência em todo
+    o projeto, garantindo que as tarefas cumpram padrões aceitáveis antes de serem consideradas prontas.</p>
+<p> <span style="font-weight: bold;">Responsável:</span>A equipe de desenvolvimento estabelece e mantém a Definição de
+    Concluído, adaptando-a conforme necessário.</p>
+
+<p>
+    A Definição de Concluído (Definition of Done, em inglês) é um conceito fundamental na metodologia Scrum. Ela
+    representa um conjunto de critérios específicos que uma tarefa, uma funcionalidade ou qualquer outro elemento de
+    trabalho deve atender para ser considerado completo e pronto para entrega. A Definição de Concluído é uma parte
+    crucial do Scrum, pois garante a qualidade, consistência e transparência do trabalho realizado. Aqui estão os
+    principais aspectos da Definição de Concluído:
+</p>
+<h3>Características da Definição de Concluído:</h3>
+
+<p> <span style="font-weight: bold;">Personalização: </span> A Definição de Concluído é geralmente definida pela equipe
+    de desenvolvimento de acordo com as necessidades e padrões específicos do projeto.</p>
+
+<p> <span style="font-weight: bold;"> Critérios Claros</span> Ela contém critérios de qualidade específicos e
+    mensuráveis que precisam ser atendidos. Isso ajuda a evitar ambiguidades sobre o que é considerado "concluído".</p>
+
+<p> <span style="font-weight: bold;">Evolutiva:</span> A Definição de Concluído pode ser atualizada ou adaptada ao longo
+    do tempo, à medida que a equipe ganha experiência e o projeto evolui.</p>
+
+<h3>Funções da Definição de Concluído</h3>
+
+<p> <span style="font-weight: bold;">Garantia de Qualidade:</span> A principal função da Definição de Concluído é
+    garantir que o trabalho atenda a padrões de qualidade aceitáveis antes de ser entregue. Isso inclui critérios como
+    testes de unidade, testes de aceitação, revisões de código e outros aspectos relacionados à qualidade.</p>
+
+<p> <span style="font-weight: bold;">Transparência:</span> Ela promove a transparência ao deixar claro o que é esperado
+    de uma tarefa para ser considerada completa. Isso ajuda a equipe e as partes interessadas a entenderem o que está
+    sendo entregue.
+</p>
+
+<p> <span style="font-weight: bold;">Consistência:</span> A Definição de Concluído ajuda a manter um padrão consistente
+    em todo o projeto, garantindo que todas as tarefas ou funcionalidades sigam os mesmos critérios de conclusão.</p>
+
+<h3>Exemplo Prático</h3>
+
+<p>
+    Suponha que a equipe de desenvolvimento de um projeto de desenvolvimento de software tenha definido a seguinte
+    Definição de Concluído para suas tarefas:
 <ul>
-    <li> Redução de Ambiguidade: Garante que as tarefas sejam bem definidas, evitando mal-entendidos e ambiguidade.</li>
-    <li> Maior Eficiência: Permite que a equipe comece a trabalhar em uma tarefa imediatamente, sem a necessidade de
-        revisões
-        adicionais.</li>
-    <li>Qualidade Garantida: Ajuda a manter um alto padrão de qualidade, pois as expectativas são claras desde o início.
-    </li>
-    <li> Previsibilidade: Contribui para estimativas mais precisas de prazos e esforço, melhorando a previsibilidade do
-        projeto.</li>
-    <li>Colaboração Aprimorada: Promove a comunicação e a colaboração entre o Product Owner e a equipe de
-        desenvolvimento
-        para garantir que o trabalho esteja alinhado com as metas do projeto.</li>
+    <li>Todos os testes unitários devem passar.</li>
+    <li>O código-fonte deve ser revisado por pelo menos um colega de equipe.</li>
+    <li>A documentação de usuário deve ser atualizada. </li>
+    <li>Todas as dependências externas devem ser resolvidas.</li>
+    <li>A funcionalidade deve ser testada em diferentes navegadores e dispositivos.</li>
+    <li>Neste exemplo, cada vez que um membro da equipe conclui uma tarefa, ele verifica se todos esses critérios são
+        atendidos.</li>
+    <li>Somente quando todos os critérios são atendidos, a tarefa é considerada "concluída" de acordo com a Definição de
+        Concluído da equipe.</li>
+    <li> Isso ajuda a garantir que o trabalho realizado seja de alta qualidade e pronto para entrega ao cliente.</li>
 </ul>
-<p>Em resumo, a Definition of Ready (DOR) no método Scrum é uma ferramenta valiosa para garantir que as tarefas
-    selecionadas para uma Sprint atendam a critérios específicos, o que resulta em um processo de desenvolvimento mais
-    eficaz e na entrega de produtos de alta qualidade. Ela ajuda a equipe a se preparar adequadamente para o sucesso
-    durante a execução do trabalho.</p>
+<p>
+    A Definição de Concluído é uma prática fundamental quando o assunto é manter a qualidade e a integridade dos trabalhos realizados em um projeto
+    Scrum, ajudando a equipe a manter padrões de qualidade altos e aceitáveis, enquanto promove a transparência e ajuda a evitar retrabalho.
+    Não há um padrão para realização da Definição de Pronto e nem nada oficial que deva ser usada por todas as equipes e isto se dá pois é preciso considerar a complexidade
+    do projeto. Assim, cada equipe é única e estará resolvendo um problema dentro de um contexto único. Por
+    isso, cada equipe deverá descobrir o que deve fazer parte de sua Definição de Pronto de acordo com seu contexto e realidade, ou
+    seja, levando em consideração a natureza do produto, a tecnologia que está sendo utilizada e as necessidades dos
+    usuários.
+</p>
 
 {% endblock %}
