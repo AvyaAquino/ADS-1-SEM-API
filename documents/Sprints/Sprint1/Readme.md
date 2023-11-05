@@ -40,7 +40,7 @@ Nessa sprint, foram criados e validados os requisitos do produto, bem como a div
 | US05  | 1      | "Eu, como cliente, quero que a aplicação contenha formulários contendo avaliação parciais e totais sobre o processo."                                                        |  #01                  |
 | US06  | 1      | "Eu, como cliente, quero validar os requisitos totais do produto por meio do Backlog."                                            |  #04                  |
 | US07  | 1      | "Eu, como cliente, quero que todo o conteúdo contido na aplicação seja repassado na forma indireta."                        |  #04                  |
-| US08  | 1     | "Eu, como cliente, toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
+| US08  | 1     | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
 
 
 → [Voltar ao topo](#topo)

@@ -48,6 +48,6 @@ Nesta Sprint, como acordado, o maior valor possível do produto foi a estrutura�
 | US07  | 2      | "Eu, como cliente, quero quer a aplicação contenha conteúdo sobre a Equipe SCRUM repassado de forma indireta." |  #04                  |
 | US08  | 2      | "Eu, como cliente, quero quer a aplicação contenha conteúdo sobre os processos da metodoliga SCRUM repassado de forma indireta."                        |  #04                  |
 | US09  | 2      | "Eu, como cliente, quero que a aplicação tenha conteúdo sobre o artefatos presentes na metodologia SCRUM."                        |  #04                  |
-| US10  | 2      | "Eu, como cliente, toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
+| US10  | 2      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
 
 → [Voltar ao topo](#topo)

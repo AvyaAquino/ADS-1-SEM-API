@@ -39,8 +39,7 @@
 
     <!-- Indice -->
     <span class="indice-footer">
-        <div class="indice"
-            style="width: 285px; height: 100%; min-height: 100vh; flex-shrink: 0; background-color: #78BCC6;">
+        <div class="indice">
             <a href="/">
                 <h2 id="tituloIndice">Scrum: Scrum Team</h2>
             </a>
@@ -132,20 +131,36 @@
         </div>
 
         <!-- Rodapé & Conteudo -->
-        <div>
-            <div class="footer" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
-                <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Scrum Logo">
-            </div>
+        <div class="conteudo">
+
             <div class="content">
                 <h1 id="titulo">{{titulo}}</h1>
                 <div class="text">
                     {% block content %}{% endblock %}
                 </div>
             </div>
+            <footer>
+                <div class="footer" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
+                    <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Scrum Logo">
+                </div>
+            </footer>
         </div>
     </span>
+    <script>
+        function ajustarAlturaBarraVertical() {
+            const barraVertical = document.querySelector(".indice");
+            const conteudo = document.querySelector(".conteudo");
 
+            if (barraVertical && conteudo) {
+                const alturaConteudo = conteudo.scrollHeight;
+                barraVertical.style.height = alturaConteudo + "px";
+            }
+        }
 
+        // Chame a função quando a página for carregada e sempre que houver redimensionamento da janela.
+        window.addEventListener("load", ajustarAlturaBarraVertical);
+        window.addEventListener("resize", ajustarAlturaBarraVertical);
+    </script>
 </body>
 
 </html>
