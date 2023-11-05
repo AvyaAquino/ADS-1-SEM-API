@@ -83,7 +83,16 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 ## 📅Sprints 
 
-### Sprint - 1️⃣ 🏃 ([Clique aqui](/documents/Sprints/Sprint1)):  Completa ✅
+### Sprint - 1️⃣ 🏃 [(Clique aqui)](https://github.com/jvictoroliv/adsapi1/tree/main/documents/Sprints/Sprint1):  Completa ✅
+<br>
+
+### Sprint - 2️⃣ 🏃 [(Clique aqui)](https://github.com/jvictoroliv/adsapi1/tree/main/documents/Sprints/Sprint%202):  Completa ✅
+<br>
+
+### Sprint - 3️⃣ 🏃 [(Clique aqui)](https://github.com/jvictoroliv/adsapi1/tree/main/documents/Sprints/Sprint%203):  Completa ✅
+<br>
+
+### Sprint - 4️⃣ 🏃 : <strong>Em andamento</strong> ⏳
 <br>
 
 → [Voltar ao topo](#topo)
