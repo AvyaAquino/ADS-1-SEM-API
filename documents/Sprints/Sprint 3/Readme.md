@@ -43,8 +43,8 @@ Nesta Sprint, como acordado, o maior valor possível do produto foi a estrutura�
 | US02  | 3      | "Eu, como cliente, quero que a aplicação contenha conteúdo sobre a Equipe SCRUM e seus integrantes."                                                                    |  #05                  |
 | US03  | 3      | "Eu, como cliente, quero que a aplicação contenha conteúdo sobre os processos inerentes à metodoliga SCRUM."                                                                           |  #05                 |
 | US04  | 3      | "Eu, como cliente, quero que a aplicação contenha conteúdo sobre os Artefatos utilizados no SCRUM."                                          |  #05                  |
-| US05  | 3      | "Eu, como cliente, quero que os formuçários da aplicação sejam interativos."                                                        |  #06                  |
+| US05  | 3      | "Eu, como cliente, quero que os formulários da aplicação sejam interativos."                                                        |  #06                  |
 | US06  | 3      | "Eu, como cliente, quero que a aplicação contenha o formulário de avaliação de processos PACER."                                            |  #06                  |
-| US07  | 3      | "Eu, como cliente, toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
+| US07  | 3      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
 
 → [Voltar ao topo](#topo)
