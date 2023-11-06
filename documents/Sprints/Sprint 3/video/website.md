@@ -18,6 +18,8 @@ Páginas do Site:
 >  - Sprint Backlog
 >  - DOR
 >  - Pacer
+>  - Burndown Chart
+>  - Incremento
 
 
 ### Sobre as páginas
