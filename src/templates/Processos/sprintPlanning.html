@@ -1,40 +1,42 @@
 {% extends "Template.html" %}
 {% block content %}
 
-Sprint Planning no Scrum: Definindo o Caminho para o Sucesso
-<p>O Sprint Planning é uma reunião crucial no método Scrum, realizada no início de cada Sprint (um ciclo de
-    desenvolvimento de curto prazo). Nesta reunião, a equipe de desenvolvimento colabora com o Product Owner para
-    estabelecer as metas do Sprint e determinar quais tarefas serão concluídas durante esse período.</p>
+<h4>Sprint Planning: O Alicerce de Projetos Ágeis no Scrum</h4>
 
-<p> Principais Aspectos do Sprint Planning:</p>
+<p>O Sprint Planning, ou Planejamento da Sprint, é um evento fundamental no framework Scrum, que desempenha um papel central na organização e execução de projetos ágeis. Neste texto, exploraremos as características, funções e exemplos práticos do Sprint Planning, destacando sua importância na gestão ágil de projetos.</p>
+
+<h4>Características do Sprint Planning:</h4>
+
 <ol>
-    <li>Definição de Objetivos: O Product Owner apresenta os objetivos do Sprint, detalhando o que deve ser alcançado e
-        por
-        que isso é importante. Isso cria uma visão clara do que a equipe está buscando.</li>
-    <li> Revisão do Backlog do Produto: A equipe analisa o Backlog do Produto, uma lista priorizada de funcionalidades e
-        requisitos do produto. Eles discutem os itens no topo do Backlog, que são considerados para o Sprint.</li>
-    <li>Seleção de Tarefas: Com base nos objetivos do Sprint e na capacidade da equipe, são selecionadas as tarefas a
-        serem
-        realizadas durante o Sprint. Isso é conhecido como o Sprint Backlog.</li>
-    <li>Estimativas de Esforço: A equipe discute o esforço necessário para completar cada tarefa, usando técnicas como o
-    <li>Planning Poker para estimar o tempo ou complexidade.</li>
-    <li>Compromisso da Equipe: Ao final da reunião, a equipe faz um compromisso (commitment) para concluir as tarefas
-        selecionadas durante o Sprint. Isso cria uma responsabilidade compartilhada.</li>
+    <li>Frequência Recorrente: O Sprint Planning ocorre no início de cada sprint, o que é um período de tempo definido, geralmente de 2 a 4 semanas, durante o qual a equipe de desenvolvimento trabalha em um conjunto específico de tarefas;</li>
+
+    <li>Duração Limitada: A reunião de Sprint Planning é limitada a um período de tempo predeterminado, geralmente variando de duas a quatro horas, para garantir que seja eficaz e que todos os tópicos sejam abordados de maneira concisa;</li>
+
+    <li>Envolvimento da Equipe: Todos os membros da equipe de desenvolvimento participam do Sprint Planning, bem como o Product Owner e o Scrum Master. Isso promove a colaboração e o entendimento compartilhado dos objetivos da sprint;</li>
 </ol>
-<div class="img">
-    <img src="{{ url_for('static', filename='sprintPlanning.png') }}"" alt=" Sprint Planning">
-</div>
-<p>Benefícios do Sprint Planning:</p>
-<ul>
-    <li>Alinhamento: Garante que todos na equipe tenham uma compreensão clara dos objetivos e das tarefas do Sprint.
-    </li>
-    <li>Transparência: Torna o planejamento e as prioridades visíveis, promovendo a transparência no processo.</li>
-    <li> Foco: Ajuda a manter a equipe concentrada em metas específicas e evita a dispersão.</li>
-    <li> Estimativas Precisas: Permite que a equipe faça estimativas de esforço mais precisas para planejar o trabalho.
-    </li>
-</ul>
-<p> Em resumo, o Sprint Planning é uma reunião fundamental no Scrum que estabelece o cenário para o Sprint. Ele cria um
-    plano claro, alinhado com os objetivos do projeto, permitindo que a equipe trabalhe de forma eficaz e concentre-se
-    na entrega de valor ao cliente.
-</p>
+
+<h4>Funções no Sprint Planning:</h4>
+
+<ol>
+    <li>Product Owner: O Product Owner desempenha um papel fundamental no Sprint Planning, pois ele é responsável por priorizar o backlog do produto (uma lista de funcionalidades e tarefas) e definir o que será incluído na próxima sprint;</li>
+
+    <li>Scrum Master: O Scrum Master atua como um facilitador durante a reunião de Sprint Planning, garantindo que o evento siga o formato adequado, que o tempo seja bem gerenciado e ajudando a equipe a focar nos objetivos da sprint;</li>
+
+    <li>Equipe de Desenvolvimento: Os membros da equipe de desenvolvimento são essenciais para o Sprint Planning, pois eles discutem os detalhes técnicos e a alocação de tarefas para a sprint com base nas prioridades definidas pelo Product Owner;</li>
+</ol>
+
+<h4>Exemplos Práticos do Sprint Planning:</h4>
+
+<ol>
+    <li>Desenvolvimento de Software: Em uma equipe de desenvolvimento de software, o Sprint Planning pode envolver discussões sobre as histórias de usuário a serem abordadas na sprint, as estimativas de esforço necessário para cada tarefa e a alocação de tarefas específicas para os desenvolvedores;</li>
+
+    <li>Marketing Digital: Em uma equipe de marketing digital, o Sprint Planning pode incluir a definição de campanhas a serem executadas durante a sprint, a distribuição de responsabilidades para a criação de conteúdo, o planejamento de anúncios e a seleção de métricas-chave para avaliação de desempenho;</li>
+
+    <li>Projeto de Engenharia: Em um projeto de engenharia, o Sprint Planning pode abordar as etapas de design, prototipagem, testes e fabricação a serem concluídas na sprint. Os membros da equipe podem discutir as prioridades de projeto e alocar recursos de acordo;</li>
+</ol>
+
+<p>O Sprint Planning é fundamental para o sucesso das metodologias ágeis, pois ajuda a equipe a definir metas claras e a priorizar o trabalho de acordo com as necessidades do projeto e do cliente. Essa prática proporciona um ponto de partida sólido para cada sprint, promovendo a entrega contínua de valor e a adaptação eficaz às mudanças à medida que o projeto evolui.</p>
+
+<img src="{{ url_for('static', filename='sprintPlanning.png') }}" alt=" Sprint Planning" style="display: flex; margin: -5px auto auto auto; width: 500px;">
+
 {% endblock %}
