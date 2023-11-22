@@ -9,6 +9,7 @@ body {
     display: flex;
 }
 
+
 .topBar {
     display: flex;
     align-items: flex-start;
@@ -77,6 +78,8 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-left: 65px;
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -117,12 +120,9 @@ ul li {
     margin-bottom: -8px;
 }
 
-.pacer {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: -8px;
-}
+
+
+
 
 input[type=radio] {
     width: 20px;
@@ -139,7 +139,7 @@ input[type=radio] {
     margin-top: 124px;
 }
 
-.indice {
+.menu {
     width: 285px;
     min-height: 100vh;
     height: 100%;

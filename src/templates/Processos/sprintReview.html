@@ -1,48 +1,180 @@
 {% extends "Template.html" %}
 {% block content %}
 
-<img src="{{ url_for('static', filename='sprintReview.png') }}"" alt=" Sprint Review" style="margin: auto auto auto auto; border: 5px #96dbe6 solid; border-radius: 4px; display: flex;">
 
-<p>A retrospectiva da sprint é uma prática essencial no framework Scrum, que é amplamente utilizado para o gerenciamento de projetos ágeis. Essa reunião ocorre ao final de cada sprint, que geralmente tem uma duração de 2 a 4 semanas, e tem como objetivo refletir sobre o que funcionou bem, o que precisa ser melhorado e como a equipe pode fazer ajustes para alcançar um desempenho superior nas próximas iterações do projeto. Aqui estão as principais características, funções e exemplos práticos de uma retrospectiva da sprint:
-</p>
+<div class="indice" style="background-color: white; display: flex; justify-content: center;">
+    <div style="width: 60%; height: fit-content;">
+        <a href="/Scrum">
+            <div style="display: flex;width: 100%; justify-content: center; height: 100px; align-items: center;">
+                <div
+                    style=" border-radius: 6px; padding-left: 10px; padding-right: 10px; height: 50px;display: flex; align-items: center;">
+                    <h2 class="title" style="margin: 0; color: #505050;">Scrum</h2>
+                </div>
+            </div>
+        </a>
+        <div class="allTopics">
+            <a href="/ScrumTeam">
+                <div class="topicContainer" style="display: flex; align-items: baseline;">
+                    <div>
+                        <h3 class="topic" style="margin: 0; white-space: nowrap; color: #505050;">Scrum Team</h3>
+                    </div>
+                    <div style="display: flex; justify-content: end; width: 100%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                            <path
+                                d="M0.682229 12.9799C0.580734 13.0475 0.501388 13.1271 0.44872 13.214C0.396053 13.301 0.371095 13.3936 0.375274 13.4866C0.379452 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160098 2.09552 0.104295 1.96016 0.0650355C1.82479 0.0257765 1.67838 0.00384452 1.52944 0.000512656C1.38049 -0.00281921 1.23198 0.0125166 1.09253 0.0456279C0.953079 0.0787393 0.825467 0.128966 0.717106 0.193392C0.608746 0.257819 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368003 0.599161 0.364758 0.692977C0.361513 0.786793 0.387907 0.880081 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z"
+                                fill="#505050" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="allTopics" style="background-color: #DDD; border-radius: 6px;">
+            <a href="Processos">
+                <div class="topicContainer" style="display: flex; align-items: baseline; background-color: #CCC;">
+                    <div>
+                        <h3 class="topic" style="margin: 0; white-space: nowrap">Processos</h3>
+                    </div>
+                    <div style="display: flex; justify-content: end; width: 100%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12" fill="none">
+                            <path
+                                d="M1.3841 0.493508C1.31647 0.392013 1.23692 0.312667 1.14999 0.26C1.06306 0.207332 0.970446 0.182375 0.87744 0.186553C0.784435 0.190732 0.692858 0.223964 0.607939 0.284353C0.523019 0.344742 0.446421 0.431103 0.382516 0.538508C0.318612 0.645913 0.268653 0.772258 0.235492 0.910328C0.202331 1.0484 0.186617 1.19549 0.189248 1.3432C0.191879 1.49092 0.212803 1.63636 0.250826 1.77124C0.288848 1.90611 0.343224 2.02776 0.41085 2.12926L6.78585 11.6918C6.91737 11.8892 7.09149 11.9993 7.27248 11.9993C7.45346 11.9993 7.62759 11.8892 7.7591 11.6918L14.1348 2.12926C14.2039 2.02843 14.2597 1.9068 14.299 1.77144C14.3382 1.63607 14.3602 1.48966 14.3635 1.34072C14.3668 1.19177 14.3515 1.04326 14.3184 0.903811C14.2853 0.76436 14.235 0.636748 14.1706 0.528387C14.1062 0.420026 14.0289 0.333077 13.9431 0.27259C13.8573 0.212103 13.7649 0.179284 13.671 0.176039C13.5772 0.172794 13.4839 0.199187 13.3966 0.253687C13.3093 0.308186 13.2296 0.389705 13.1623 0.493509L7.27248 9.32701L1.3841 0.493508Z"
+                                fill="#505050" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+            <div class="mainTopic">
+                <div class="selected">
+                    <a href="/Processos">
+                        <p class="mainTopic">Processos</p>
+                    </a>
+                </div>
+                <div class="selected">
+                    <a href="/scrumDaily">
+                        <p class="mainTopic">Scrum Daily</p>
+                    </a>
+                </div>
+                <div class="selected">
+                    <a href="/sprintPlanning">
+                        <p class="mainTopic">Sprint Planning</p>
+                    </a>
+                </div>
+                <div class="selected" style="background-color: #4071F4;">
+                    <a href="/sprintReview">
+                        <p class="mainTopic" style="color: white; font-weight: 600;">Sprint Reviwe</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="allTopics" style=" border-radius: 6px;">
+            <a href="/Artefatos">
+                <div class="topicContainer" style="display: flex; align-items: baseline">
+                    <div>
+                        <h3 class="topic" style="margin: 0; white-space: nowrap; color: #505050;">Artefatos</h3>
+                    </div>
+                    <div style="display: flex; justify-content: end; width: 100%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                            <path
+                                d="M0.682229 12.9799C0.580734 13.0475 0.501388 13.1271 0.44872 13.214C0.396053 13.301 0.371095 13.3936 0.375274 13.4866C0.379452 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160098 2.09552 0.104295 1.96016 0.0650355C1.82479 0.0257765 1.67838 0.00384452 1.52944 0.000512656C1.38049 -0.00281921 1.23198 0.0125166 1.09253 0.0456279C0.953079 0.0787393 0.825467 0.128966 0.717106 0.193392C0.608746 0.257819 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368003 0.599161 0.364758 0.692977C0.361513 0.786793 0.387907 0.880081 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z"
+                                fill="#505050" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="allTopics">
+            <a href="/Pacer">
+                <div class="topicContainer" style="display: flex; align-items: baseline; background-color: white;">
+                    <div>
+                        <h3 class="topic" style="margin: 0; white-space: nowrap">Pacer</h3>
+                    </div>
+                    <div style="display: flex; justify-content: end; width: 100%;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
+                            <path
+                                d="M0.682229 12.9799C0.580734 13.0475 0.501388 13.1271 0.44872 13.214C0.396053 13.301 0.371095 13.3936 0.375274 13.4866C0.379452 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160098 2.09552 0.104295 1.96016 0.0650355C1.82479 0.0257765 1.67838 0.00384452 1.52944 0.000512656C1.38049 -0.00281921 1.23198 0.0125166 1.09253 0.0456279C0.953079 0.0787393 0.825467 0.128966 0.717106 0.193392C0.608746 0.257819 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368003 0.599161 0.364758 0.692977C0.361513 0.786793 0.387907 0.880081 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z"
+                                fill="#505050" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div>
+
+    <div class="content">
+        <h1 id="titulo">{{titulo}}</h1>
+        <div class="text">
+            <img src="{{ url_for('static', filename='sprintReview.png') }}"" alt=" Sprint Review"
+                style="margin: auto auto auto auto; border: 5px #96dbe6 solid; border-radius: 4px; display: flex;">
+
+            <p>A retrospectiva da sprint é uma prática essencial no framework Scrum, que é amplamente utilizado para o
+                gerenciamento de projetos ágeis. Essa reunião ocorre ao final de cada sprint, que geralmente tem uma
+                duração de 2 a 4 semanas, e tem como objetivo refletir sobre o que funcionou bem, o que precisa ser
+                melhorado e como a equipe pode fazer ajustes para alcançar um desempenho superior nas próximas iterações
+                do projeto. Aqui estão as principais características, funções e exemplos práticos de uma retrospectiva
+                da sprint:
+            </p>
 
 
-<h4>Características da Sprint Review:</h4>
+            <h4>Características da Sprint Review:</h4>
 
-<ol>
-    <li>Realizada no final de cada sprint: A retrospectiva acontece regularmente após a conclusão de uma sprint, proporcionando à equipe a oportunidade de analisar seu trabalho recente.</li>
+            <ol>
+                <li>Realizada no final de cada sprint: A retrospectiva acontece regularmente após a conclusão de uma
+                    sprint, proporcionando à equipe a oportunidade de analisar seu trabalho recente.</li>
 
-    <li>Duração fixa: Geralmente, a retrospectiva tem uma duração de 1 a 3 horas, dependendo da duração da sprint e do tamanho da equipe.</li>
+                <li>Duração fixa: Geralmente, a retrospectiva tem uma duração de 1 a 3 horas, dependendo da duração da
+                    sprint e do tamanho da equipe.</li>
 
-    <li>Foco na melhoria contínua: A principal finalidade da retrospectiva é identificar maneiras de melhorar o processo de trabalho da equipe e, consequentemente, a entrega de valor ao cliente.</li>
+                <li>Foco na melhoria contínua: A principal finalidade da retrospectiva é identificar maneiras de
+                    melhorar o processo de trabalho da equipe e, consequentemente, a entrega de valor ao cliente.</li>
 
-    <li>Participação de toda a equipe: Todos os membros da equipe Scrum, incluindo o Scrum Master e o Product Owner, são incentivados a participar e compartilhar suas perspectivas.</li>
-</ol>
+                <li>Participação de toda a equipe: Todos os membros da equipe Scrum, incluindo o Scrum Master e o
+                    Product Owner, são incentivados a participar e compartilhar suas perspectivas.</li>
+            </ol>
 
-<h4>Funções da Sprint Review:</h4>
+            <h4>Funções da Sprint Review:</h4>
 
-<ol>
-    <li>Identificar pontos fortes e fracos: A equipe discute o que funcionou bem durante a sprint (pontos fortes) e o que não funcionou tão bem (pontos fracos).</li>
+            <ol>
+                <li>Identificar pontos fortes e fracos: A equipe discute o que funcionou bem durante a sprint (pontos
+                    fortes) e o que não funcionou tão bem (pontos fracos).</li>
 
-    <li>Priorizar melhorias: Com base nas discussões, a equipe seleciona as áreas de melhoria mais importantes para se concentrar.</li>
+                <li>Priorizar melhorias: Com base nas discussões, a equipe seleciona as áreas de melhoria mais
+                    importantes para se concentrar.</li>
 
-    <li>Definir ações corretivas: A equipe cria um plano de ação para abordar as áreas de melhoria identificadas. Essas ações podem ser atribuídas a membros da equipe e têm prazos específicos.</li>
+                <li>Definir ações corretivas: A equipe cria um plano de ação para abordar as áreas de melhoria
+                    identificadas. Essas ações podem ser atribuídas a membros da equipe e têm prazos específicos.</li>
 
-    <li>Celebrar conquistas: A retrospectiva também é um momento para celebrar os sucessos e conquistas da equipe durante a sprint.</li>
-</ol>
+                <li>Celebrar conquistas: A retrospectiva também é um momento para celebrar os sucessos e conquistas da
+                    equipe durante a sprint.</li>
+            </ol>
 
-<h4>Exemplos práticos na Sprint Review:</h4>
+            <h4>Exemplos práticos na Sprint Review:</h4>
 
-<ol>
-    <li>Pergunta das Três Perguntas: Uma abordagem comum na retrospectiva é fazer três perguntas simples: O que deu certo nesta sprint? O que não deu certo? O que podemos fazer de maneira diferente na próxima sprint? Cada membro da equipe compartilha suas respostas a essas perguntas, e as discussões fluem a partir disso.</li>
+            <ol>
+                <li>Pergunta das Três Perguntas: Uma abordagem comum na retrospectiva é fazer três perguntas simples: O
+                    que deu certo nesta sprint? O que não deu certo? O que podemos fazer de maneira diferente na próxima
+                    sprint? Cada membro da equipe compartilha suas respostas a essas perguntas, e as discussões fluem a
+                    partir disso.</li>
 
-    <li>Técnica de "Mais do Mesmo, Menos do Mesmo, Diferente": Os participantes categorizam suas observações em três categorias: o que eles desejam fazer mais na próxima sprint, o que desejam fazer menos e o que desejam fazer de maneira diferente.</li>
+                <li>Técnica de "Mais do Mesmo, Menos do Mesmo, Diferente": Os participantes categorizam suas observações
+                    em três categorias: o que eles desejam fazer mais na próxima sprint, o que desejam fazer menos e o
+                    que desejam fazer de maneira diferente.</li>
 
-    <li>"Barco a Vela" ou "Barco a Remo": Nesses exercícios, a equipe desenha um barco representando o trabalho feito durante a sprint. Os membros da equipe representam o vento (fatores positivos) e as âncoras (obstáculos) que afetaram o progresso. Isso ajuda a visualizar as forças e fraquezas da sprint.</li>
+                <li>"Barco a Vela" ou "Barco a Remo": Nesses exercícios, a equipe desenha um barco representando o
+                    trabalho feito durante a sprint. Os membros da equipe representam o vento (fatores positivos) e as
+                    âncoras (obstáculos) que afetaram o progresso. Isso ajuda a visualizar as forças e fraquezas da
+                    sprint.</li>
 
-    <li>"Grau de Satisfação" ou "Termômetro de Felicidade": A equipe atribui uma nota para a sprint e compartilha o motivo da avaliação. Isso ajuda a medir o nível de satisfação da equipe e a identificar áreas que precisam de atenção.</li>
-</ol>
+                <li>"Grau de Satisfação" ou "Termômetro de Felicidade": A equipe atribui uma nota para a sprint e
+                    compartilha o motivo da avaliação. Isso ajuda a medir o nível de satisfação da equipe e a
+                    identificar áreas que precisam de atenção.</li>
+            </ol>
 
-<p>Em resumo, a retrospectiva da sprint é uma parte crucial do processo Scrum que promove a aprendizagem contínua e a melhoria do trabalho em equipe. Ela permite que a equipe se adapte e ajuste seu processo para entregar melhor valor ao cliente em cada iteração do projeto.</p>
+            <p>Em resumo, a retrospectiva da sprint é uma parte crucial do processo Scrum que promove a aprendizagem
+                contínua e a melhoria do trabalho em equipe. Ela permite que a equipe se adapte e ajuste seu processo
+                para entregar melhor valor ao cliente em cada iteração do projeto.</p>
+        </div>
+    </div>
 
-{% endblock %}
+    {% endblock %}

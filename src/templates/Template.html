@@ -1,165 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{titulo}}</title>
-    <link rel="stylesheet" type="text/css" href="./static/Stylesheet.css">
+    <link rel="stylesheet" href="./static/CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap-utilities.rtl.css">
+    <script rel="bootstrap" href="./static/bootstrap/js/bootstrap.js"></script>
 </head>
 
-<body>
-    <!-- Parte do topo da página -->
-
-    <span class="topPage">
-
-        <!-- Barra de cima do indice -->
-        <div class="topBar" style="width: 285px; height: 124px; flex-shrink: 0; background-color: #C3E3E8;">
-            <img src="{{ url_for('static', filename='logo-esquerda.png') }}" alt="Logo Scrum">
-        </div>
-
-        <!-- Barra de navegação -->
-        <div class="header" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
-            <!-- Setas -->
-            <a href="/{{previous}}">
-                <img id="setaEsquerda" src="{{ url_for('static', filename='seta-esquerda.png') }}" alt="Seta esquerda">
-            </a>
-            <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Logo Scrum">
-            <a href="/{{next}}">
-                <img id="setaDireita" src="{{ url_for('static', filename='seta-direita.png') }}" alt="seta-direita">
-            </a>
-        </div>
-    </span>
-
-    <span>
-
-    </span>
-
-
-
-    <!-- Indice -->
-    <span class="indice-footer">
-        <div class="indice">
-            <a href="/">
-                <h2 id="tituloIndice">Scrum</h2>
-            </a>
-            <div class="subTopicos">
-                <!-- Scrum Team -->
-                <div class="scrumTeam">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                        <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
-                    </svg>
-                    <a href="/ScrumTeam">
-                        <h3>Scrum Team</h3>
+<body style="background: #E8F2FC; margin: 0; ">
+    <div class="headerContent">
+        <div style="width: 90%; display: flex; justify-content: center;">
+            <div style="display: flex; justify-content: start; width: 30%;">
+                <a href="/">
+                    <img class="imageLogoContent" src="./static/Logo-Preta.png" alt="Logo">
+                </a>
+            </div>
+            <div
+                style="display: flex; justify-content: space-between; width: 100%; margin: 0; align-items: center;">
+                <div>
+                    <a href="/{{previous}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="59" height="63" viewBox="0 0 59 63" fill="none">
+                            <ellipse cx="29.0602" cy="31.1" rx="29.0602" ry="31.1"
+                                transform="matrix(-1 0 0 1 58.1206 0)" fill="#5940F4" />
+                            <path d="M36.5327 18.6599V43.5399L16.6057 31.0999L36.5327 18.6599Z" fill="#E8F2FC" />
+                        </svg>
                     </a>
                 </div>
-                <ul>
-                    <a href="{{ url_for('productOwner') }}">
-                        <li>Product Owner</li>
-                    </a>
-                    <a href="/scrumMaster">
-                        <li>Scrum Master</li>
-                    </a>
-                    <a href="/devTeam">
-                        <li>Dev Team</li>
-                    </a>
-                </ul>
-
-                <!-- Processos -->
-
-                <div class="processos">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                        <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
-                    </svg>
-                    <a href="{{ url_for('Processos') }}">
-                        <h3>Processos</h3>
-                    </a>
-                </div>
-                <ul>
-                    <a href="/scrumDaily">
-                        <li>Scrum Daily</li>
-                    </a>
-                    <a href="/sprintPlanning">
-                        <li>Sprint Planning</li>
-                    </a>
-                    <a href="/sprintReview">
-                        <li>Sprint Review</li>
-                    </a>
-                </ul>
-
-                <!-- Artefatos -->
-
-                <div class="artefatos">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                        <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
-                    </svg>
-                    <a href="/Artefatos">
-                        <h3>Artefatos</h3>
-                    </a>
-                </div>
-                <ul>
-                    <a href="/productBacklog">
-                        <li>Product Backlog</li>
-                    </a>
-                    <a href="/sprintBacklog">
-                        <li>Sprint Backlog</li>
-                    </a>
-                    <a href="/DOR">
-                        <li>DOR</li>
-                    </a>
-                    <a href="/Incremento">
-                        <li>Incremento</li>
-                    </a>
-                    <a href="/burnDownChart">
-                        <li>Burndown Chart</li>
-                    </a>
-                </ul>
-                <!-- Pacer -->
-                <div class="pacer">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                        <path d="M8 14.0104L15.7942 0.502466L0.205771 0.502466L8 14.0104Z" fill="black" />
-                    </svg>
-                    <a href="/Pacer">
-                        <h3>Pacer</h3>
+                <div>
+                    <a href="/{{next}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="59" height="64" viewBox="0 0 59 64" fill="none">
+                            <ellipse cx="29.9411" cy="31.9887" rx="29.0602" ry="31.1" fill="#5940F4" />
+                            <path d="M22.4688 19.5486V44.4286L42.3958 31.9886L22.4688 19.5486Z" fill="#E8F2FC" />
+                        </svg>
                     </a>
                 </div>
             </div>
-
         </div>
-
-        <!-- Rodapé & Conteudo -->
-        <div class="conteudo">
-
-            <div class="content">
-                <h1 id="titulo">{{titulo}}</h1>
-                <div class="text">
-                    {% block content %}{% endblock %}
-                </div>
-            </div>
-            <footer>
-                <div class="footer" style="width: 100vw; height: 119px; background-color: rgba(217, 217, 217, 0.30);">
-                    <img src="{{ url_for('static', filename='logo-central.png') }}" alt="Scrum Logo">
-                </div>
-            </footer>
-        </div>
+    </div>
+    <span style="display: flex;">
+        {% block content %}{% endblock %}
     </span>
+
+
     <script>
-        function ajustarAlturaBarraVertical() {
-            const barraVertical = document.querySelector(".indice");
-            const conteudo = document.querySelector(".conteudo");
+        function ajustarAlturaIndice() {
+            const indice = document.querySelector(".indice");
+            const content = document.querySelector(".content");
 
-            if (barraVertical && conteudo) {
-                const alturaConteudo = conteudo.scrollHeight;
-                barraVertical.style.height = alturaConteudo + "px";
+            if (indice && content) {
+                const alturaContent = content.scrollHeight;
+                indice.style.height = alturaContent + "px";
             }
         }
 
         // Chame a função quando a página for carregada e sempre que houver redimensionamento da janela.
-        window.addEventListener("load", ajustarAlturaBarraVertical);
-        window.addEventListener("resize", ajustarAlturaBarraVertical);
+        window.addEventListener("load", ajustarAlturaIndice);
+        window.addEventListener("resize", ajustarAlturaIndice);
     </script>
 </body>
 
