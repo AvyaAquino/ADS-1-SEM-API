@@ -452,6 +452,102 @@ ul li {
     margin-right: 315px;
 }
 
+/* perguntas */
+.boxPerguntas{
+    margin: auto;
+    width: 965px;
+    height: 550px;
+    flex-shrink: 0;
+    background: #fff;
+    border-radius: 26px;
+}
+
+.perguntasHeader{
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    border-top-right-radius: 26px;
+    border-top-left-radius: 26px;
+    background: #5228F5;
+}
+
+.checkBox{
+    display: flex;
+    margin: 34px 0 10px 33px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 5px solid #55AFB6;
+}
+
+.perguntasHeader > p{
+    margin: 40px 0 10px 45px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.checkBox > svg{
+    margin: auto;
+}
+
+.perguntasTexto{
+    margin: 15px 52px 0 52px;
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 861px;
+    height: 154px;
+}
+
+.alternativas{
+    border: 1px black solid;
+    border-radius: 26px;
+    margin: 15px 52px 10px 52px;
+    padding: 0 0 0 10px;
+}
+
+.alternativas > input{
+    margin: auto 0 auto 5px;
+}
+
+.alternativas > label{
+    margin: auto 0 auto 5px;
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.enviar{
+    display: flex;
+    margin: 20px 0 0 734px;
+    width: 160px;
+    height: 45px;
+    border-radius: 4px;
+    background: #55AFB6;
+    border: 1px black solid
+}
+
+.enviar > p{
+    margin: auto;
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 
 /* Fonts */

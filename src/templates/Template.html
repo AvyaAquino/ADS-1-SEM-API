@@ -59,6 +59,20 @@
         // Chame a função quando a página for carregada e sempre que houver redimensionamento da janela.
         window.addEventListener("load", ajustarAlturaIndice);
         window.addEventListener("resize", ajustarAlturaIndice);
+
+        // função botao send
+        var send = document.getElementById('send')
+        var altC = document.getElementById('certa')
+        var altE = document.querySelectorAll('.errada')
+
+        send.addEventListener('click', resposta)
+
+        function resposta(){
+            altE.forEach(function(div) {
+                div.style.backgroundColor = 'red'
+            })
+            altC.style.backgroundColor = 'green'
+        }
     </script>
 </body>
 
