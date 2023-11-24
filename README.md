@@ -69,7 +69,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 <br>
 
-3. Website: Aplicação com conteúdo e formulários de avaliação [Aplicação com conteudo final e Pacer](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%203/video/website.md) ✅
+3. Website: Aplicação com conteúdo e formulários de avaliação [Aplicação com conteúdo final e Pacer](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%203/video/website.md) ✅
 
 <br>
 
