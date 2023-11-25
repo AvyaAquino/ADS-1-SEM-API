@@ -27,7 +27,7 @@ Nesta Sprint, como acordado, o maior valor possível do produto foi a estrutura�
 |:-------:|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
 | Inserir o conteúdo  | 80      | #05 | Inserir todo o conteúdo, produzido de forma indireta, na aplicação
 | Formulário PACER    | 75      | #06 | Fazer o formulário de avaliação de processos PACER
-| Documentação  | 50      | #08 | Registro de todo o processo de desenvolvimento do produto
+| Documentação  | 45      | #09 | Registro de todo o processo de desenvolvimento do produto
 
 → [Voltar ao topo](#topo)
 
@@ -45,6 +45,6 @@ Nesta Sprint, como acordado, o maior valor possível do produto foi a estrutura�
 | US04  | 3      | "Eu, como cliente, quero que a aplicação contenha conteúdo sobre os Artefatos utilizados no SCRUM."                                          |  #05                  |
 | US05  | 3      | "Eu, como cliente, quero que os formulários da aplicação sejam interativos."                                                        |  #06                  |
 | US06  | 3      | "Eu, como cliente, quero que a aplicação contenha o formulário de avaliação de processos PACER."                                            |  #06                  |
-| US07  | 3      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #08                  |
+| US07  | 3      | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub."                        |  #09                  |
 
 → [Voltar ao topo](#topo)
