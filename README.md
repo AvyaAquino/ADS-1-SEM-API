@@ -69,7 +69,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 <br>
 
-3. Website: Aplicação com conteúdo e formulários de avaliação [Aplicação com conteúdo final e Pacer](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%203/video/website.md) ✅
+3. Website: Aplicação com conteúdo e formulários PACER: [Aplicação com conteúdo final e Pacer](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%203/video/website.md) ✅
 
 <br>
 
@@ -92,7 +92,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 ### Sprint - 3️⃣ 🏃 [(Clique aqui)](https://github.com/jvictoroliv/adsapi1/tree/main/documents/Sprints/Sprint%203):  Completa ✅
 <br>
 
-### Sprint - 4️⃣ 🏃 : <strong>Em andamento</strong> ⏳
+### Sprint - 4️⃣ 🏃 : [(Clique aqui)](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%204/Sprint%204.md) Completa ✅
 <br>
 
 → [Voltar ao topo](#topo)
@@ -109,8 +109,9 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 | Pesquisa e produção do conteúdo   | "Eu, como cliente, quero que todo o conteúdo seja repassado de forma indireta".         | 2      | 85                | #04 | 40h | ✅  |  15/10/2023            |    
 | Introduzir o conteúdo   | "Eu, como cliente, quero que a aplicação contenha conceitos e fundamentos da metodologia ágil, bem como seus processos e artefatos."                 | 3      | 80                | #05 | 03h | ✅  |  05/11/2023            |    
 | Formulário PACER   | "Eu, como cliente, quero que a aplicação contenha formulários de avaliação parciais e com totalização para que o usuário possa interagir."     | 3      | 75                | #06 | 15h | ✅  |  05/11/2023            |    
-| Formulários de avaliação do conteúdo   | "Eu, como cliente, quero que a aplicação contenha formulários de avaliação sobre o conteúdo apresentado."      | 4      | 60                | #07 | 10h | ⏳  |  26/11/2023            |    
-| Documentação   | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub | 4      | 50                | #08 | 05h | ⏳  |  26/11/2023            |    
+| Formulários de avaliação do conteúdo   | "Eu, como cliente, quero que a aplicação contenha formulários de avaliação sobre o conteúdo apresentado."      | 4      | 60                | #07 | 10h | ✅  |  26/11/2023            |    
+| Novo design de página   | "Eu, como cliente, quero que a aplicação seja atrativa para qualquer usário que for lê-la." | 4      | 50                | #08 | 10h | ✅  |  26/11/2023            |    
+| Documentação   | "Eu, como cliente, quero toda a documentação de desenvolvimento do produto lastreada no GitHub | 4      | 45                | #09 | 05h | ✅  |  26/11/2023            |    
 
 <br>
 <br>
