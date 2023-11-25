@@ -549,6 +549,13 @@ ul li {
     text-transform: uppercase;
 }
 
+h3 {
+    font-family: Inter;
+    font-weight: 400;
+}
+h2 {
+    font-family: Inter;
+}
 
 /* Fonts */
 
