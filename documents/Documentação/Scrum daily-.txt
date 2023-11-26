@@ -1,0 +1,67 @@
+Scrum daily: 
+
+Qual é o propósito principal da reunião diária no framework Scrum?
+
+a) Revisar e ajustar o plano do projeto.
+
+b) Tomar decisões estratégicas para o próximo sprint.
+
+c) Compartilhar o progresso diário, identificar obstáculos e planejar as próximas 24 horas.
+
+d) Realizar uma retrospectiva do sprint anterior.
+
+e) Revisar o backlog do produto.
+
+Resposta Certa:
+
+c) Compartilhar o progresso diário, identificar obstáculos e planejar as próximas 24 horas.
+
+Explicação:
+
+A reunião diária do Scrum, conhecida como Daily Scrum ou Daily Standup, tem como objetivo principal proporcionar uma sincronização rápida e eficaz entre os membros da equipe. Durante essa reunião, os membros compartilham o que fizeram desde a última reunião, o que planejam fazer até a próxima e quaisquer obstáculos que possam estar enfrentando. A ideia é manter todos atualizados e identificar problemas rapidamente, promovendo a colaboração e a resolução eficiente de impedimentos.
+
+Sprint Planning
+
+Pergunta:
+
+O que é discutido durante a reunião de Sprint Planning no Scrum?
+
+a) Progresso diário e identificação de obstáculos.
+
+b) Tomada de decisões estratégicas para o projeto.
+
+c) Detalhes técnicos específicos do cliente.
+
+d) A retrospectiva do sprint anterior.
+
+e) Estimativas de esforço para as tarefas a serem realizadas durante o sprint.
+
+Resposta Certa:
+
+c) Detalhes técnicos específicos do cliente.
+
+Explicação:
+
+Durante a reunião de Sprint Planning, os membros da equipe discutem detalhes técnicos específicos relacionados ao pedido do cliente para o sprint. Isso inclui a compreensão completa dos requisitos, possíveis abordagens técnicas, e a colaboração para garantir que todos na equipe tenham uma compreensão clara do trabalho a ser realizado durante o sprint. Essa discussão técnica ajuda a alinhar a compreensão da equipe e a evitar mal-entendidos durante a execução das tarefas.
+
+Retrospectiva da Sprint:
+
+Durante a reunião de Sprint Review no Scrum, qual atividade é primariamente realizada?
+
+a) Estimativas de esforço para o próximo sprint.
+
+b) Definição dos objetivos do próximo sprint.
+
+c) Discussão de obstáculos enfrentados pela equipe.
+
+d) Revisão do andamento do projeto.
+
+e) Demonstração do trabalho concluído durante o sprint.
+
+Resposta Certa:
+
+e) Demonstração do trabalho concluído durante o sprint.
+
+Explicação:
+
+A atividade principal durante a reunião de Sprint Review é a demonstração do trabalho concluído pela equipe durante o sprint. Isso envolve mostrar as funcionalidades desenvolvidas e permitir que os participantes observem o progresso realizado. Essa demonstração é crucial para obter feedback e garantir a transparência no processo de desenvolvimento do produto.
