@@ -452,12 +452,17 @@ ul li {
     margin-right: 315px;
 }
 
+
+
+
 /* perguntas */
+
+
+
 .boxPerguntas{
     margin: auto;
     width: 965px;
     height: 550px;
-    flex-shrink: 0;
     background: #fff;
     border-radius: 26px;
 }
@@ -522,7 +527,7 @@ ul li {
     margin: auto 0 auto 5px;
     color: #000;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
