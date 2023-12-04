@@ -73,7 +73,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 <br>
 
-4. Website: [Aplicação completa](https://github.com/jvictoroliv/adsapi1/tree/main/src)  ✅
+4. Website: [Aplicação completa](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%204/video/website.md)  ✅
 
 <br>
 
