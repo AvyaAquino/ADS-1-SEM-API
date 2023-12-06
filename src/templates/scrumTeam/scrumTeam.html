@@ -1,0 +1,43 @@
+{% extends 'template.html' %}
+
+{% block content %}
+<div class="content">
+    <h1 id="titulo">{{titulo}}</h1>
+    <div class="text">
+        <p> O Scrum Team é o núcleo do Scrum, uma metodologia ágil adotada para o desenvolvimento de projetos. É
+            composto por três papéis cruciais, sendo esses, Product Owner, Scrum Master e o Development Team - o
+            Scrum Team desempenha um papel fundamental na entrega eficaz de projetos. Este time é o pilar do Scrum e
+            desempenha um papel crucial na realização das metas do projeto.</p>
+
+        <p>O Product Owner é responsável por representar os interesses do cliente e garantir que o backlog do
+            produto esteja bem definido, priorizado e alinhado com a visão do projeto. Sua colaboração contínua com
+            o Development Team é fundamental para garantir que as demandas mais importantes sejam entregues
+            primeiro, de acordo com as necessidades do cliente. </p>
+        <div class="img">
+            <img src="{{ url_for('static', filename='/imgs/scrumTeam.png') }}" alt=" Scrum Team">
+        </div>
+
+        <p>O Scrum Master é outro pilar do Scrum Team, atuando como um facilitador. Ele assegura que o time siga as
+            regras do Scrum, remove os obstáculos que atrapalham o progresso e ajuda a equipe a melhorar
+            continuamente. O Scrum Master também é crucial para promover a transparência, inspeção e adaptação,
+            princípios centrais do Scrum.</p>
+
+        <p> O ultimo elemento do Scrum Team é o Development Team. Este grupo de profissionais é encarregado de
+            transformar os itens do backlog do produto em incrementos prontos para entrega. Eles trabalham juntos de
+            forma colaborativa e são autogerenciados, o que significa que tem liberdade de decidir como realizar o
+            trabalho da maneira eficaz e rápida. A comunicação e cooperação contínuas dentro do time são essenciais
+            para alcançar a produtividade desejada.</p>
+
+        <p> A característica principal do Scrum Team é a sua capacidade de adaptação. Através de processos e
+            artefatos regulares, como a reunião de planejamento da sprint e a revisão da sprint, o Scrum Team pode
+            avaliar e ajustar seu processo de trabalho, garantindo uma melhoria consideravel. Isso torna o Scrum
+            Team um time altamente eficiente, capaz de se adaptar às mudanças nos requisitos do projeto e nas
+            necessidades do cliente.</p>
+
+        <p> Em resumo, o Scrum Team é o coração do Scrum. Com a colaboração do Product Owner, o apoio do Scrum
+            Master e o compromisso do Development Team, o Scrum Team é uma unidade de alta performance que fornece
+            valor constante ao cliente, promovendo a agilidade e a adaptação no ambiente de desenvolvimento de
+            projetos.</p>
+    </div>
+</div>
+{% endblock %}

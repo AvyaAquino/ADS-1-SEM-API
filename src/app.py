@@ -2,68 +2,84 @@ from flask import Flask, render_template
 
 app = Flask('__name__', static_folder='static')
 
+#home
+
 @app.route('/')
-def Home():
-    return render_template('/Home/Home.html', titulo='Treinamento Scrum', previous='', next='Scrum')
+def home():
+    return render_template('/home/home.html', titulo='Treinamento Scrum', previous='', next='scrum')
 
+#Tópicos
 
-@app.route('/Scrum')
-def Scrum():
-    return render_template('/Scrum/Scrum.html', titulo='Scrum: O método Ágil', previous='', next='Scrum')
+@app.route('/scrum')
+def scrum():
+    return render_template('/scrum/scrum.html', titulo='Scrum: O método Ágil', previous='', next='scrumTeam')
 
-@app.route('/ScrumTeam')
-def ScrumTeam():
-    return render_template('/Scrum Team/ScrumTeam.html', titulo='Scrum Team', previous='ScrumTeam', next='productOwner')
-@app.route('/Processos')
-def Processos():
-    return render_template('/Processos/Processos.html', titulo='Processos', previous='Processos', next='scrumDaily')
-@app.route('/Artefatos')
-def Artefatos():
-    return render_template('/Artefatos/Artefatos.html', titulo='Artefatos', previous='Artefatos', next='productBacklog')
-@app.route('/Pacer')
-def Pacer():
-    return render_template('/Pacer/pacer.html', titulo='Pacer', previous='Artefatos', next='Pacer')
+@app.route('/scrumTeam')
+def scrumTeam():
+    return render_template('/scrumTeam/scrumTeam.html', titulo='Scrum Team', previous='scrum', next='productOwner')
 
-# Sub Topicos
+@app.route('/processos')
+def processos():
+    return render_template('/processos/processos.html', titulo='Processos', previous='scrumTeam', next='scrumDaily')
+
+@app.route('/artefatos')
+def artefatos():
+    return render_template('/artefatos/artefatos.html', titulo='Artefatos', previous='processos', next='productBacklog')
+
+@app.route('/pacer')
+def pacer():
+    return render_template('/pacer/pacer.html', titulo='Avaliação Pacer', previous='artefatos', next='pacer')
+
+#sub Tópicos
+
+    #Scrum Team
 @app.route('/productOwner')
 def productOwner():
-    return render_template('/Scrum Team/productOwner.html', titulo='Product Owner', previous='ScrumTeam', next='scrumMaster')
+    return render_template('/scrumTeam/productOwner.html', titulo='Product Owner', previous='scrumTeam', next='scrumMaster')
+
 @app.route('/scrumMaster')
 def scrumMaster():
-    return render_template('/Scrum Team/scrumMaster.html', titulo='Scrum Master', previous='productOwner', next='devTeam')
+    return render_template('/scrumTeam/scrumMaster.html', titulo='Scrum Master', previous='productOwner', next='devTeam')
+
 @app.route('/devTeam')
 def devTeam():
-    return render_template('/Scrum Team/devTeam.html', titulo='Dev Team', previous='scrumMaster', next='devTeam')
+    return render_template('/scrumTeam/devTeam.html', titulo='Dev Team', previous='scrumMaster', next='devTeam')
 
-
+    #Processos
 
 @app.route('/scrumDaily')
 def scrumDaily():
-    return render_template('/Processos/scrumDaily.html', titulo='Scrum Daily', previous='Processos', next='sprintPlanning')
+    return render_template('/processos/scrumDaily.html', titulo='Scrum Daily', previous='processos', next='sprintPlanning')
+
 @app.route('/sprintPlanning')
 def sprintPlanning():
-    return render_template('/Processos/sprintPlanning.html', titulo='Sprint Planning', previous='scrumDaily', next='sprintReview')
+    return render_template('/processos/sprintPlanning.html', titulo='Sprint Planning', previous='scrumDaily', next='sprintReview')
+
 @app.route('/sprintReview')
 def sprintReview():
-    return render_template('/Processos/sprintReview.html', titulo='Sprint Review', previous='sprintPlanning', next='sprintReview')
+    return render_template('/processos/sprintReview.html', titulo='Sprint Review', previous='sprintPlanning', next='sprintReview')
 
-
+    #Artefatos
 
 @app.route('/productBacklog')
 def productBacklog():
-    return render_template('/Artefatos/productBacklog.html', titulo='Product Backlog', previous='Artefatos', next='sprintBacklog')
+    return render_template('/artefatos/productBacklog.html', titulo='Product Backlog', previous='artefatos', next='sprintBacklog')
+
 @app.route('/sprintBacklog')
 def sprintBacklog():
-    return render_template('/Artefatos/sprintBacklog.html', titulo='sprintBacklog', previous='productBacklog', next='DOR')
-@app.route('/DOR')
-def DOR():
-    return render_template('/Artefatos/DOR.html', titulo='DOR', previous='sprintBacklog', next='Incremento')
-@app.route('/Incremento')
-def Incremento():
-    return render_template('/Artefatos/Incremento.html', titulo='Incremento', previous='DOR', next='burnDownChart')
-@app.route('/burnDownChart')
-def burnDownChart():
-    return render_template('/Artefatos/burnDownChart.html', titulo='Burndown Chart', previous='Incremento', next='burnDownChart')
+    return render_template('/artefatos/sprintBacklog.html', titulo='sprintBacklog', previous='productBacklog', next='dor')
+
+@app.route('/dor')
+def dor():
+    return render_template('/artefatos/dor.html', titulo='Definition of Ready', previous='sprintBacklog', next='incremento')
+
+@app.route('/incremento')
+def incremento():
+    return render_template('/artefatos/incremento.html', titulo='Incremento', previous='dor', next='burndownChart')
+
+@app.route('/burndownChart')
+def burndownChart():
+    return render_template('/artefatos/burndownChart.html', titulo='Burndown Chart', previous='incremento', next='burndownChart')
 
 
 if __name__ == '__main__':

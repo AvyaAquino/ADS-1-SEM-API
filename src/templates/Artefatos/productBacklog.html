@@ -1,271 +1,159 @@
-{% extends "Template.html" %}
+{% extends "template.html" %}
 {% block content %}
 
-<div class="indice" style="background-color: white; display: flex; justify-content: center;">
-    <div style="width: 60%; height: fit-content;">
-        <a href="/Scrum">
-            <div style="display: flex;width: 100%; justify-content: center; height: 100px; align-items: center;">
-                <div
-                    style=" border-radius: 6px; padding-left: 10px; padding-right: 10px; height: 50px;display: flex; align-items: center;">
-                    <h2 class="title" style="margin: 0; color: #505050;">Scrum</h2>
-                </div>
-            </div>
-        </a>
-        <div class="allTopics">
-            <a href="/ScrumTeam">
-                <div class="topicContainer" style="display: flex; align-items: baseline; background-color: white; ">
-                    <div>
-                        <h3 class="topic" style="margin: 0; white-space: nowrap; color: #505050;">Scrum Team</h3>
-                    </div>
-                    <div style="display: flex; justify-content: end; width: 100%;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
-                            <path
-                                d="M0.682229 12.9799C0.580733 13.0475 0.501388 13.1271 0.44872 13.214C0.396052 13.301 0.371096 13.3936 0.375274 13.4866C0.379453 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160099 2.09552 0.104295 1.96016 0.0650358C1.82479 0.0257768 1.67838 0.00384423 1.52944 0.000513055C1.38049 -0.00281907 1.23198 0.012517 1.09253 0.0456276C0.953079 0.0787392 0.825467 0.128966 0.717107 0.193393C0.608745 0.257818 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368004 0.59916 0.364758 0.692977C0.361514 0.786793 0.387907 0.88008 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z"
-                                fill="#505050" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="allTopics">
-            <a href="/Processos">
-                <div class="topicContainer" style="display: flex; align-items: baseline; background-color: white;">
-                    <div>
-                        <h3 class="topic" style="margin: 0; white-space: nowrap">Processos</h3>
-                    </div>
-                    <div style="display: flex; justify-content: end; width: 100%;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
-                            <path
-                                d="M0.682229 12.9799C0.580734 13.0475 0.501388 13.1271 0.44872 13.214C0.396053 13.301 0.371095 13.3936 0.375274 13.4866C0.379452 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160098 2.09552 0.104295 1.96016 0.0650355C1.82479 0.0257765 1.67838 0.00384452 1.52944 0.000512656C1.38049 -0.00281921 1.23198 0.0125166 1.09253 0.0456279C0.953079 0.0787393 0.825467 0.128966 0.717106 0.193392C0.608746 0.257819 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368003 0.599161 0.364758 0.692977C0.361513 0.786793 0.387907 0.880081 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z"
-                                fill="#505050" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="allTopics" style="background-color: #DDD; border-radius: 6px;">
-            <a href="/Artefatos">
-                <div class="topicContainer" style="display: flex; align-items: baseline;background-color: #CCC;">
-                    <div>
-                        <h3 class="topic" style="margin: 0; white-space: nowrap; color: #505050;">Artefatos</h3>
-                    </div>
-                    <div style="display: flex; justify-content: end; width: 100%;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12" fill="none">
-                            <path
-                                d="M1.3841 0.493508C1.31647 0.392013 1.23692 0.312667 1.14999 0.26C1.06306 0.207332 0.970446 0.182375 0.87744 0.186553C0.784435 0.190732 0.692858 0.223964 0.607939 0.284353C0.523019 0.344742 0.446421 0.431103 0.382516 0.538508C0.318612 0.645913 0.268653 0.772258 0.235492 0.910328C0.202331 1.0484 0.186617 1.19549 0.189248 1.3432C0.191879 1.49092 0.212803 1.63636 0.250826 1.77124C0.288848 1.90611 0.343224 2.02776 0.41085 2.12926L6.78585 11.6918C6.91737 11.8892 7.09149 11.9993 7.27248 11.9993C7.45346 11.9993 7.62759 11.8892 7.7591 11.6918L14.1348 2.12926C14.2039 2.02843 14.2597 1.9068 14.299 1.77144C14.3382 1.63607 14.3602 1.48966 14.3635 1.34072C14.3668 1.19177 14.3515 1.04326 14.3184 0.903811C14.2853 0.76436 14.235 0.636748 14.1706 0.528387C14.1062 0.420026 14.0289 0.333077 13.9431 0.27259C13.8573 0.212103 13.7649 0.179284 13.671 0.176039C13.5772 0.172794 13.4839 0.199187 13.3966 0.253687C13.3093 0.308186 13.2296 0.389705 13.1623 0.493509L7.27248 9.32701L1.3841 0.493508Z"
-                                fill="#505050" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
-            <div class="mainTopic">
-                <div class="selected">
-                    <a href="/Artefatos">
-                        <p class="mainTopic">Artefatos</p>
-                    </a>
-                </div>
-                <div class="selected" style="background-color: #4071F4;">
-                    <a href="/productBacklog">
-                        <p class="mainTopic" style="color: white; font-weight: 600;">Product Backlog</p>
-                    </a>
-                </div>
-                <div class="selected">
-                    <a href="/sprintBacklog">
-                        <p class="mainTopic">Sprint Backlog</p>
-                    </a>
-                </div>
-                <div class="selected">
-                    <a href="/DOR">
-                        <p class="mainTopic">DOR</p>
-                    </a>
-                </div>
-                <div class="selected">
-                    <a href="/Incremento">
-                        <p class="mainTopic">Incremento</p>
-                    </a>
-                </div>
-                <div class="selected">
-                    <a href="/burnDownChart">
-                        <p class="mainTopic">Burndown Chart</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="allTopics">
-            <a href="/Pacer">
-                <div class="topicContainer" style="display: flex; align-items: baseline; background-color: white;">
-                    <div>
-                        <h3 class="topic" style="margin: 0; white-space: nowrap">Pacer</h3>
-                    </div>
-                    <div style="display: flex; justify-content: end; width: 100%;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
-                            <path
-                                d="M0.682229 12.9799C0.580734 13.0475 0.501388 13.1271 0.44872 13.214C0.396053 13.301 0.371095 13.3936 0.375274 13.4866C0.379452 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160098 2.09552 0.104295 1.96016 0.0650355C1.82479 0.0257765 1.67838 0.00384452 1.52944 0.000512656C1.38049 -0.00281921 1.23198 0.0125166 1.09253 0.0456279C0.953079 0.0787393 0.825467 0.128966 0.717106 0.193392C0.608746 0.257819 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368003 0.599161 0.364758 0.692977C0.361513 0.786793 0.387907 0.880081 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z"
-                                fill="#505050" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-<div>
+<div class="content">
+    <h1 id="titulo">{{titulo}}</h1>
+    <div class="text">
+        <p> <span style="font-weight: bold;"> O que é:</span> o Product Backlog é uma lista priorizada de
+            todos os requisitos, funcionalidades, melhorias e correções desejadas para o produto.</p>
+        <br>
+        <p> <span style="font-weight: bold;">Função:</span> Ele serve como a lista mestra do trabalho a ser
+            realizado no
+            projeto. O Product Backlog é a fonte de todas as
+            demandas do cliente e do mercado,
+            permitindo que a equipe de desenvolvimento saiba o que deve ser feito a seguir</p>
+        <br>
+        <p> <span style="font-weight: bold;">Responsável:</span>O Product Owner é responsável por criar e manter o
+            Product
+            Backlog, garantindo que ele esteja sempre atualizado à medida que novas necessidades e ideias surgem.
+        </p>
+        <br>
+        <p>
+            De forma mais precisa, o Product Backlog (A lista de itens do produto) é um dos principais artefatos do
+            Scrum e
+            desempenha
+            um papel crucial
+            no gerenciamento dos projetos ágeis, auxiliando o time numa visão completa do projeto, antes mesmo de
+            ver o trabalho
+            em andamento. Ele é uma lista priorizada e dinâmica de todos os requisitos, funcionalidades,
+            melhorias e correções desejadas para o produto em desenvolvimento. Agora vamos aprofundar a compreensão
+            do Product
+            Backlog, uma ferramenta indispensável no método estudado:
+        </p>
+        <h3>Características do Product Backlog:</h3>
 
-    <div class="content">
-        <h1 id="titulo">{{titulo}}</h1>
-        <div class="text">
-            <p> <span style="font-weight: bold;"> O que é:</span> o Product Backlog é uma lista priorizada de
-                todos os requisitos, funcionalidades, melhorias e correções desejadas para o produto.</p>
-            <br>
-            <p> <span style="font-weight: bold;">Função:</span> Ele serve como a lista mestra do trabalho a ser
-                realizado no
-                projeto. O Product Backlog é a fonte de todas as
-                demandas do cliente e do mercado,
-                permitindo que a equipe de desenvolvimento saiba o que deve ser feito a seguir</p>
-            <br>
-            <p> <span style="font-weight: bold;">Responsável:</span>O Product Owner é responsável por criar e manter o
-                Product
-                Backlog, garantindo que ele esteja sempre atualizado à medida que novas necessidades e ideias surgem.
-            </p>
-            <br>
-            <p>
-                De forma mais precisa, o Product Backlog (A lista de itens do produto) é um dos principais artefatos do
-                Scrum e
-                desempenha
-                um papel crucial
-                no gerenciamento dos projetos ágeis, auxiliando o time numa visão completa do projeto, antes mesmo de
-                ver o trabalho
-                em andamento. Ele é uma lista priorizada e dinâmica de todos os requisitos, funcionalidades,
-                melhorias e correções desejadas para o produto em desenvolvimento. Agora vamos aprofundar a compreensão
-                do Product
-                Backlog, uma ferramenta indispensável no método estudado:
-            </p>
-            <h3>Características do Product Backlog:</h3>
+        <p> <span style="font-weight: bold;">Priorização:</span> Os itens do Product Backlog são organizados de
+            acordo com sua
+            importância e valor para o cliente. Os itens mais cruciais estão no topo, e aqueles menos importantes
+            estão na parte
+            inferior.</p>
+        <br>
 
-            <p> <span style="font-weight: bold;">Priorização:</span> Os itens do Product Backlog são organizados de
-                acordo com sua
-                importância e valor para o cliente. Os itens mais cruciais estão no topo, e aqueles menos importantes
-                estão na parte
-                inferior.</p>
-            <br>
+        <p> <span style="font-weight: bold;"> Visão em Evolução:</span> O Product Backlog é uma representação
+            contínua da visão
+            do produto, e é atualizado conforme novas ideias, feedback do cliente ou mudanças no mercado surgem.</p>
+        <br>
+        <p> <span style="font-weight: bold;">Propriedade do Product Owner:</span> O Product Owner é o responsável
+            por criar,
+            manter e priorizar o Product Backlog. Eles representam as necessidades do cliente e o valor de negócio.
+        </p>
+        <br>
+        <p> <span style="font-weight: bold;">Itens Variados:</span> O Product Backlog pode conter uma ampla
+            variedade de itens,
+            desde funcionalidades de alto nível até tarefas técnicas ou correções de bugs.</p>
 
-            <p> <span style="font-weight: bold;"> Visão em Evolução:</span> O Product Backlog é uma representação
-                contínua da visão
-                do produto, e é atualizado conforme novas ideias, feedback do cliente ou mudanças no mercado surgem.</p>
-            <br>
-            <p> <span style="font-weight: bold;">Propriedade do Product Owner:</span> O Product Owner é o responsável
-                por criar,
-                manter e priorizar o Product Backlog. Eles representam as necessidades do cliente e o valor de negócio.
-            </p>
-            <br>
-            <p> <span style="font-weight: bold;">Itens Variados:</span> O Product Backlog pode conter uma ampla
-                variedade de itens,
-                desde funcionalidades de alto nível até tarefas técnicas ou correções de bugs.</p>
+        <h3>Funções do Product Backlog:</h3>
 
-            <h3>Funções do Product Backlog:</h3>
+        <p> <span style="font-weight: bold;">Comunicação:</span> O Product Backlog atua como um ponto central de
+            comunicação
+            entre o Product Owner, a equipe de desenvolvimento e outros stakeholders. Ele reflete as necessidades e
+            expectativas
+            do cliente.</p>
+        <br>
+        <p> <span style="font-weight: bold;">Definir prioridades:</span> Ele ajuda a determinar quais itens devem
+            ser abordados
+            primeiro, permitindo que a equipe se concentre nas tarefas mais importantes.</p>
+        <br>
+        <p> <span style="font-weight: bold;">Planejamento</span> O Product Backlog é a fonte de trabalho para o
+            Sprint Backlog,
+            que é criado durante o planejamento da Sprint. Ele serve como base para a seleção de itens a serem
+            trabalhados na
+            Sprint atual.</p>
+        <br>
+        <p> <span style="font-weight: bold;">Transparência</span>A transparência é um dos princípios-chave do Scrum.
+            O Product
+            Backlog fornece visibilidade sobre o que está por vir no projeto, ajudando a eliminar surpresas e
+            incertezas.</p>
 
-            <p> <span style="font-weight: bold;">Comunicação:</span> O Product Backlog atua como um ponto central de
-                comunicação
-                entre o Product Owner, a equipe de desenvolvimento e outros stakeholders. Ele reflete as necessidades e
-                expectativas
-                do cliente.</p>
-            <br>
-            <p> <span style="font-weight: bold;">Definir prioridades:</span> Ele ajuda a determinar quais itens devem
-                ser abordados
-                primeiro, permitindo que a equipe se concentre nas tarefas mais importantes.</p>
-            <br>
-            <p> <span style="font-weight: bold;">Planejamento</span> O Product Backlog é a fonte de trabalho para o
-                Sprint Backlog,
-                que é criado durante o planejamento da Sprint. Ele serve como base para a seleção de itens a serem
-                trabalhados na
-                Sprint atual.</p>
-            <br>
-            <p> <span style="font-weight: bold;">Transparência</span>A transparência é um dos princípios-chave do Scrum.
-                O Product
-                Backlog fornece visibilidade sobre o que está por vir no projeto, ajudando a eliminar surpresas e
-                incertezas.</p>
+        <h3>Exemplo Prático</h3>
 
-            <h3>Exemplo Prático</h3>
-
-            <p>
-                Imagine um projeto de desenvolvimento de um aplicativo de gerenciamento de tarefas. O Product Backlog
-                para esse
-                projeto pode incluir os seguintes itens:
-                <br><br>
-                <li>Adicionar funcionalidade de notificações push</li>
-                <li>Melhorar a interface de usuário</li>
-                <li>Implementar autenticação de usuário</li>
-                <li>Corrigir erros de sincronização</li>
-                <li>Criar uma função de busca aprimorada</li>
-                <li>Integrar com calendários externos</li>
-                <br>
-            <p>
-                O Product Owner trabalharia com a equipe de desenvolvimento para priorizar esses itens com base nas
-                necessidades do
-                cliente e no valor de negócio. Os itens mais cruciais, como a funcionalidade de notificações push,
-                seriam colocados no
-                topo do Product Backlog, enquanto os menos críticos ficariam na parte inferior.
-            </p>
+        <p>
+            Imagine um projeto de desenvolvimento de um aplicativo de gerenciamento de tarefas. O Product Backlog
+            para esse
+            projeto pode incluir os seguintes itens:
+            <br><br>
+            <li>Adicionar funcionalidade de notificações push</li>
+            <li>Melhorar a interface de usuário</li>
+            <li>Implementar autenticação de usuário</li>
+            <li>Corrigir erros de sincronização</li>
+            <li>Criar uma função de busca aprimorada</li>
+            <li>Integrar com calendários externos</li>
             <br>
-            <p>
-                À medida que o projeto avança e novos requisitos ou feedback do cliente surgem, o Product Owner atualiza
-                o Product
-                Backlog para garantir que ele continue refletindo a visão em constante evolução do produto. Durante o
-                planejamento da
-                Sprint, a equipe de desenvolvimento seleciona os itens do Product Backlog para serem trabalhados na
-                Sprint Backlog, com
-                base na priorização do Product Owner.
-            </p>
-            <br>
-            <p>
-                O Product Backlog é um componente vital no Scrum, pois ajuda a manter o foco no valor do cliente, a
-                tomar decisões
-                informadas sobre o que deve ser desenvolvido em seguida e a garantir que o projeto permaneça adaptável
-                às mudanças. Na figura a seguir notam-se algumas caracteristicas do backlog e como, na prática, ele pode
-                auxiliar o time Scrum.
-            </p>
+        <p>
+            O Product Owner trabalharia com a equipe de desenvolvimento para priorizar esses itens com base nas
+            necessidades do
+            cliente e no valor de negócio. Os itens mais cruciais, como a funcionalidade de notificações push,
+            seriam colocados no
+            topo do Product Backlog, enquanto os menos críticos ficariam na parte inferior.
+        </p>
+        <br>
+        <p>
+            À medida que o projeto avança e novos requisitos ou feedback do cliente surgem, o Product Owner atualiza
+            o Product
+            Backlog para garantir que ele continue refletindo a visão em constante evolução do produto. Durante o
+            planejamento da
+            Sprint, a equipe de desenvolvimento seleciona os itens do Product Backlog para serem trabalhados na
+            Sprint Backlog, com
+            base na priorização do Product Owner.
+        </p>
+        <br>
+        <p>
+            O Product Backlog é um componente vital no Scrum, pois ajuda a manter o foco no valor do cliente, a
+            tomar decisões
+            informadas sobre o que deve ser desenvolvido em seguida e a garantir que o projeto permaneça adaptável
+            às mudanças. Na figura a seguir notam-se algumas caracteristicas do backlog e como, na prática, ele pode
+            auxiliar o time Scrum.
+        </p>
 
-            <div class="img" style="scale: 0.6;">
-                <img src="{{ url_for('static', filename='productBacklog.png') }}"" alt=" Product Backlog">
-            </div>
-        </div>
-
-        <div class="boxPerguntas">
-            <div class="perguntasHeader">
-                <p>Multipla Escolha</p>
-            </div>
-    
-            <div class="perguntasTexto">
-                Qual é o papel do Product Owner em relação ao Product Backlog no método Scrum?
-            </div>
-    
-            <div class="perguntasAlternativas">
-                <form>
-                    <div class="alternativas errada">
-                        <input type="radio" name="resp">
-                        <label>a) O Product Backlog é uma lista estática de tarefas que a equipe de desenvolvimento precisa realizar durante uma Sprint.</label><br>
-                    </div>
-    
-                    <div class="alternativas" id="certa">
-                        <input type="radio" name="resp">
-                        <label>b) O Product Backlog é uma lista dinâmica e prioritizada de todas as funcionalidades, melhorias e correções desejadas para o produto.</label><br>
-                    </div>
-    
-                    <div class="alternativas errada">
-                        <input type="radio" name="resp">
-                        <label>c) O Product Backlog é exclusivamente mantido pelo Scrum Master para garantir a integridade técnica do produto.</label><br>
-                    </div>
-    
-                    <div class="alternativas errada">
-                        <input type="radio" name="resp">
-                        <label>d) O Product Backlog é atualizado apenas no início de cada Sprint e não deve ser alterado durante o decorrer da Sprint.</label><br>
-                    </div>
-                  </form>
-            </div>
-    
-            <button class="enviar" id="send"><p>ENVIAR</p></button>
+        <div class="img" style="scale: 0.6;">
+            <img src="{{ url_for('static', filename='productBacklog.png') }}"" alt=" Product Backlog">
         </div>
     </div>
-</div>
 
+    <div class="boxPerguntas">
+        <div class="perguntasHeader">
+            <p>Multipla Escolha</p>
+        </div>
+
+        <div class="perguntasTexto">
+            Qual é o papel do Product Owner em relação ao Product Backlog no método Scrum?
+        </div>
+
+        <div class="perguntasAlternativas">
+            <form>
+                <div class="alternativas errada">
+                    <input type="radio" name="resp">
+                    <label>a) O Product Backlog é uma lista estática de tarefas que a equipe de desenvolvimento precisa realizar durante uma Sprint.</label><br>
+                </div>
+
+                <div class="alternativas" id="certa">
+                    <input type="radio" name="resp">
+                    <label>b) O Product Backlog é uma lista dinâmica e prioritizada de todas as funcionalidades, melhorias e correções desejadas para o produto.</label><br>
+                </div>
+
+                <div class="alternativas errada">
+                    <input type="radio" name="resp">
+                    <label>c) O Product Backlog é exclusivamente mantido pelo Scrum Master para garantir a integridade técnica do produto.</label><br>
+                </div>
+
+                <div class="alternativas errada">
+                    <input type="radio" name="resp">
+                    <label>d) O Product Backlog é atualizado apenas no início de cada Sprint e não deve ser alterado durante o decorrer da Sprint.</label><br>
+                </div>
+              </form>
+        </div>
+
+        <button class="enviar" id="send"><p>ENVIAR</p></button>
+    </div>
+</div>
 {% endblock %}

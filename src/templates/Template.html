@@ -5,22 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{titulo}}</title>
-    <link rel="stylesheet" href="./static/CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./static/css/stylesheet.css">
     <link rel="stylesheet" href="./static/bootstrap/css/bootstrap-utilities.rtl.css">
     <script rel="bootstrap" href="./static/bootstrap/js/bootstrap.js"></script>
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
 </head>
 
-<body style="background: #E8F2FC; margin: 0; ">
+<body style="background: #E8F2FC; ">
     <div class="headerContent">
-        <div style="width: 90%; display: flex; justify-content: center;">
-            <div style="display: flex; justify-content: start; width: 30%;">
+
+        <div class="headerContentNav">
+
+            <div class='headerContentLogoBox'>
+
                 <a href="/">
-                    <img class="imageLogoContent" src="./static/Logo-Preta.png" alt="Logo">
+                    <img class="imageLogoContent" src="./static/imgs/logoPreta.png" alt="Logo">
                 </a>
             </div>
-            <div
-                style="display: flex; justify-content: space-between; width: 100%; margin: 0; align-items: center;">
+
+            <div class="headerContentArrowBox">
                 <div>
+
                     <a href="/{{previous}}">
                         <svg xmlns="http://www.w3.org/2000/svg" width="59" height="63" viewBox="0 0 59 63" fill="none">
                             <ellipse cx="29.0602" cy="31.1" rx="29.0602" ry="31.1"
@@ -29,7 +34,9 @@
                         </svg>
                     </a>
                 </div>
+
                 <div>
+
                     <a href="/{{next}}">
                         <svg xmlns="http://www.w3.org/2000/svg" width="59" height="64" viewBox="0 0 59 64" fill="none">
                             <ellipse cx="29.9411" cy="31.9887" rx="29.0602" ry="31.1" fill="#5940F4" />
@@ -40,39 +47,243 @@
             </div>
         </div>
     </div>
-    <span style="display: flex;">
-        {% block content %}{% endblock %}
-    </span>
+
+    <div class="contentBox">
+        <div class="indice">
+
+            <div class="topicScrum">
+                <button class="scrum">
+
+                    <a href="/scrum">
+                        Scrum
+                    </a>
+                </button>
+            </div>
+
+            <div class="allTopics">
+                <div class="btnBox scrumT" id='btnScrumT'>
+
+                    <button class="deActiveState">Scrum Team</button>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none" class="topicArrow" id="arrowST">
+                        <path d="M0.682229 12.9799C0.580733 13.0475 0.501388 13.1271 0.44872 13.214C0.396052 13.301 0.371096 13.3936 0.375274 13.4866C0.379453 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160099 2.09552 0.104295 1.96016 0.0650358C1.82479 0.0257768 1.67838 0.00384423 1.52944 0.000513055C1.38049 -0.00281907 1.23198 0.012517 1.09253 0.0456276C0.953079 0.0787392 0.825467 0.128966 0.717107 0.193393C0.608745 0.257818 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368004 0.59916 0.364758 0.692977C0.361514 0.786793 0.387907 0.88008 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z" fill="#505050"/>
+                      </svg>
+                </div>
+
+
+                <div class="dropdown dropScrumT" id="dropST">
+    
+                    <div class="subTopic">
+                        <a href="/scrumTeam">Scrum Team</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/productOwner">Product Owner</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/scrumMaster">Scrum Master</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/devTeam">Dev Team</a>
+                    </div>
+                </div>
+    
+                <div class="btnBox processos" id="btnProcessos">
+
+                    <button class="deActiveState">Processos</button>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none" class="topicArrow" id="arrowProcessos">
+                        <path d="M0.682229 12.9799C0.580733 13.0475 0.501388 13.1271 0.44872 13.214C0.396052 13.301 0.371096 13.3936 0.375274 13.4866C0.379453 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160099 2.09552 0.104295 1.96016 0.0650358C1.82479 0.0257768 1.67838 0.00384423 1.52944 0.000513055C1.38049 -0.00281907 1.23198 0.012517 1.09253 0.0456276C0.953079 0.0787392 0.825467 0.128966 0.717107 0.193393C0.608745 0.257818 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368004 0.59916 0.364758 0.692977C0.361514 0.786793 0.387907 0.88008 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z" fill="#505050"/>
+                      </svg>
+                </div>
+    
+
+    
+                <div class="dropdown dropProcessos" id="dropProcessos">
+    
+                    <div class="subTopic">
+                        <a href="/processos">Processos</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/sprintPlanning">Sprint Planning</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/scrumDaily">Scrum Daily</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/sprintReview">Sprint Review</a>
+                    </div>
+                </div>
+    
+    
+                <div class="btnBox artefatos" id="btnArtefatos">
+                    
+                    <button class="deActiveState">Artefatos</button>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none" class="topicArrow" id="arrowArtefatos">
+                        <path d="M0.682229 12.9799C0.580733 13.0475 0.501388 13.1271 0.44872 13.214C0.396052 13.301 0.371096 13.3936 0.375274 13.4866C0.379453 13.5796 0.412685 13.6712 0.473074 13.7561C0.533462 13.841 0.619824 13.9176 0.727229 13.9815C0.834634 14.0454 0.960979 14.0954 1.09905 14.1285C1.23712 14.1617 1.38421 14.1774 1.53192 14.1748C1.67964 14.1721 1.82508 14.1512 1.95996 14.1132C2.09483 14.0752 2.21648 14.0208 2.31798 13.9532L11.8805 7.57816C12.078 7.44665 12.188 7.27253 12.188 7.09154C12.188 6.91055 12.078 6.73643 11.8805 6.60491L2.31798 0.229204C2.21715 0.160099 2.09552 0.104295 1.96016 0.0650358C1.82479 0.0257768 1.67838 0.00384423 1.52944 0.000513055C1.38049 -0.00281907 1.23198 0.012517 1.09253 0.0456276C0.953079 0.0787392 0.825467 0.128966 0.717107 0.193393C0.608745 0.257818 0.521796 0.335159 0.461309 0.420922C0.400822 0.506685 0.368004 0.59916 0.364758 0.692977C0.361514 0.786793 0.387907 0.88008 0.442406 0.96742C0.496906 1.05476 0.578425 1.13441 0.682228 1.20175L9.51573 7.09154L0.682229 12.9799Z" fill="#505050"/>
+                      </svg>
+                </div>
+    
+                
+    
+                <div class="dropdown dropArtefatos" id="dropArtefatos">
+    
+                    <div class="subTopic">
+                        <a href="/artefatos">Artefatos</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/productBacklog">Product Backlog</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/sprintBacklog">Sprint Backlog</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/dor">DOR</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/incremento">Incremento</a>
+                    </div>
+
+                    <div class="subTopic">
+
+                        <a href="/burndownChart">Burndown Chart</a>
+                    </div>
+                </div>
+                
+                <div class="btnBox pacer">
+                    <button class="deActiveState">
+
+                        <a href="/pacer">
+                            Pacer
+                        </a>
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <span class="content">
+            {% block content %}{% endblock %}
+        </span>
+    </div>
 
 
     <script>
-        function ajustarAlturaIndice() {
-            const indice = document.querySelector(".indice");
-            const content = document.querySelector(".content");
+        //funções dropdown
 
-            if (indice && content) {
-                const alturaContent = content.scrollHeight;
-                indice.style.height = alturaContent + "px";
+        var scrumT = document.getElementById('btnScrumT')
+        var processos = document.getElementById('btnProcessos')
+        var artefatos = document.getElementById('btnArtefatos')
+
+        scrumT.addEventListener('click', dropScrumT)
+        processos.addEventListener('click', dropProcessos)
+        artefatos.addEventListener('click', dropArtefatos)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                function dropScrumT(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    const drop = document.getElementById('dropST');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    const arrow = document.getElementById('arrowST');
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    //mostra qual botao foi apertado
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (scrumT.classList.contains('activeState')){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        setTimeout(function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            scrumT.classList.toggle('deActiveState');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            scrumT.classList.toggle('activeState');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }, 200);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        scrumT.classList.toggle('deActiveState');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        scrumT.classList.toggle('activeState');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    drop.classList.toggle('dropActive');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    arrow.classList.toggle('arrowTransform');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+
+        function dropProcessos(){
+            const drop = document.getElementById('dropProcessos');
+            const arrow = document.getElementById('arrowProcessos');
+
+            //mostra qual botao foi apertado
+            if (processos.classList.contains('deActiveState')){
+                setTimeout(function(){
+                    processos.classList.toggle('deActiveState');
+                }, 200);
+                processos.classList.toggle('activeState');
+            } else {
+                processos.classList.toggle('deActiveState');
+                processos.classList.toggle('activeState');
             }
+
+            drop.classList.toggle('dropActive');
+            arrow.classList.toggle('arrowTransform');
         }
+
+        function dropArtefatos(){
+            const drop = document.getElementById('dropArtefatos');
+            const arrow = document.getElementById('arrowArtefatos');
+
+            //mostra qual botao foi apertado
+            if (artefatos.classList.contains('deActiveState')){
+                setTimeout(function(){
+                    artefatos.classList.toggle('deActiveState');
+                }, 200);
+                artefatos.classList.toggle('activeState');
+            } else {
+                artefatos.classList.toggle('deActiveState');
+                artefatos.classList.toggle('activeState');
+            }
+
+            drop.classList.toggle('dropActive');
+            arrow.classList.toggle('arrowTransform');
+        }
+
+        //função para ajustar a altura do índice de acordo com o content
+            function ajustarAlturaIndice() {
+                const indice = document.querySelector(".indice");
+                const content = document.querySelector(".content");
+
+                if (indice && content) {
+                    const alturaContent = content.scrollHeight;
+                    indice.style.height = alturaContent + "px";
+                }
+            }
 
         // Chame a função quando a página for carregada e sempre que houver redimensionamento da janela.
-        window.addEventListener("load", ajustarAlturaIndice);
-        window.addEventListener("resize", ajustarAlturaIndice);
+            window.addEventListener("load", ajustarAlturaIndice);
+            window.addEventListener("resize", ajustarAlturaIndice);
 
         // função botao send
-        var send = document.getElementById('send')
-        var altC = document.getElementById('certa')
-        var altE = document.querySelectorAll('.errada')
+            send.addEventListener('click', resposta)
 
-        send.addEventListener('click', resposta)
+            function resposta(){
+                const send = document.getElementById('send')
+                const altC = document.getElementById('certa')
+                const altE = document.querySelectorAll('.errada')
 
-        function resposta(){
-            altE.forEach(function(div) {
-                div.style.backgroundColor = 'red'
-            })
-            altC.style.backgroundColor = 'green'
-        }
+                altE.forEach(function(div) {
+                    div.style.backgroundColor = 'red'
+                })
+                altC.style.backgroundColor = 'green'
+            }
     </script>
 </body>
 

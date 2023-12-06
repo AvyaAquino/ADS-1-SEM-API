@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" href="./static/CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap-utilities.rtl.css">
+    <script rel="bootstrap" href="./static/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body style="background: #E8F2FC; margin: 0; ">
+    <div class="headerContent">
+        <div style="width: 90%; display: flex; justify-content: center;">
+            <div style="display: flex; justify-content: start; width: 30%;">
+                <a href="/">
+                    <img class="imageLogoContent" src="./static/Logo-Preta.png" alt="Logo">
+                </a>
+            </div>
+            <div
+                style="display: flex; justify-content: space-between; width: 100%; margin: 0; align-items: center;">
+                <div>
+                    <a href="/{{previous}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="59" height="63" viewBox="0 0 59 63" fill="none">
+                            <ellipse cx="29.0602" cy="31.1" rx="29.0602" ry="31.1"
+                                transform="matrix(-1 0 0 1 58.1206 0)" fill="#5940F4" />
+                            <path d="M36.5327 18.6599V43.5399L16.6057 31.0999L36.5327 18.6599Z" fill="#E8F2FC" />
+                        </svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="/{{next}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="59" height="64" viewBox="0 0 59 64" fill="none">
+                            <ellipse cx="29.9411" cy="31.9887" rx="29.0602" ry="31.1" fill="#5940F4" />
+                            <path d="M22.4688 19.5486V44.4286L42.3958 31.9886L22.4688 19.5486Z" fill="#E8F2FC" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span style="display: flex;">
+        {% block content %}{% endblock %}
+    </span>
+
+
+    <script>
+        function ajustarAlturaIndice() {
+            const indice = document.querySelector(".indice");
+            const content = document.querySelector(".content");
+
+            if (indice && content) {
+                const alturaContent = content.scrollHeight;
+                indice.style.height = alturaContent + "px";
+            }
+        }
+
+        // Chame a função quando a página for carregada e sempre que houver redimensionamento da janela.
+        window.addEventListener("load", ajustarAlturaIndice);
+        window.addEventListener("resize", ajustarAlturaIndice);
+
+        // função botao send
+        var send = document.getElementById('send')
+        var altC = document.getElementById('certa')
+        var altE = document.querySelectorAll('.errada')
+
+        send.addEventListener('click', resposta)
+
+        function resposta(){
+            altE.forEach(function(div) {
+                div.style.backgroundColor = 'red'
+            })
+            altC.style.backgroundColor = 'green'
+        }
+    </script>
+</body>
+
+</html>
