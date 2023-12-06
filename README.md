@@ -29,7 +29,7 @@ O objetivo principal deste produto se baseia no desenvolvimento de uma página w
 Para isso, contamos com uma estrutura que permite ao usuário uma navegação fluída pelo conteúdo do framework ágil e funcionalidades que auxiliam o usuário no aprendizado, como avaliação de conteúdo por página e autoavaliação dos estudantes no papel de membros do método (Scrum Master, Product Owner e Development Team).>
  
  
-**Status do Projeto: Em andamento✏️**
+**Status do Projeto: Concluido✅**
 
 → [Voltar ao topo](#topo)
 <br> 
@@ -73,7 +73,7 @@ Com a base de prioridade bem demarcada, dividimos as tarefas entre os integrante
 
 <br>
 
-4. Website: Aplicação completa (Em andamento) ⏳
+4. Website: [Aplicação completa](https://github.com/jvictoroliv/adsapi1/blob/main/documents/Sprints/Sprint%204/video/website.md)  ✅
 
 <br>
 
