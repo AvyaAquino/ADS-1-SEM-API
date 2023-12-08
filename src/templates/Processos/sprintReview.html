@@ -1,3 +1,115 @@
 {% extends "template.html" %}
 {% block content %}
+<div class="content">
+    <h1 id="titulo">{{titulo}}</h1>
+    <div class="text">
+        <img src="{{ url_for('static', filename='/imgs/sprintReview.png') }}"" alt=" Sprint Review"
+            style="margin: auto auto auto auto; border: 5px #96dbe6 solid; border-radius: 4px; display: flex;">
+
+        <p>A retrospectiva da sprint é uma prática essencial no framework Scrum, que é amplamente utilizado para o
+            gerenciamento de projetos ágeis. Essa reunião ocorre ao final de cada sprint, que geralmente tem uma
+            duração de 2 a 4 semanas, e tem como objetivo refletir sobre o que funcionou bem, o que precisa ser
+            melhorado e como a equipe pode fazer ajustes para alcançar um desempenho superior nas próximas iterações
+            do projeto. Aqui estão as principais características, funções e exemplos práticos de uma retrospectiva
+            da sprint:
+        </p>
+
+
+        <h4>Características da Sprint Review:</h4>
+
+        <ol>
+            <li>Realizada no final de cada sprint: A retrospectiva acontece regularmente após a conclusão de uma
+                sprint, proporcionando à equipe a oportunidade de analisar seu trabalho recente.</li>
+
+            <li>Duração fixa: Geralmente, a retrospectiva tem uma duração de 1 a 3 horas, dependendo da duração da
+                sprint e do tamanho da equipe.</li>
+
+            <li>Foco na melhoria contínua: A principal finalidade da retrospectiva é identificar maneiras de
+                melhorar o processo de trabalho da equipe e, consequentemente, a entrega de valor ao cliente.</li>
+
+            <li>Participação de toda a equipe: Todos os membros da equipe Scrum, incluindo o Scrum Master e o
+                Product Owner, são incentivados a participar e compartilhar suas perspectivas.</li>
+        </ol>
+
+        <h4>Funções da Sprint Review:</h4>
+
+        <ol>
+            <li>Identificar pontos fortes e fracos: A equipe discute o que funcionou bem durante a sprint (pontos
+                fortes) e o que não funcionou tão bem (pontos fracos).</li>
+
+            <li>Priorizar melhorias: Com base nas discussões, a equipe seleciona as áreas de melhoria mais
+                importantes para se concentrar.</li>
+
+            <li>Definir ações corretivas: A equipe cria um plano de ação para abordar as áreas de melhoria
+                identificadas. Essas ações podem ser atribuídas a membros da equipe e têm prazos específicos.</li>
+
+            <li>Celebrar conquistas: A retrospectiva também é um momento para celebrar os sucessos e conquistas da
+                equipe durante a sprint.</li>
+        </ol>
+
+        <h4>Exemplos práticos na Sprint Review:</h4>
+
+        <ol>
+            <li>Pergunta das Três Perguntas: Uma abordagem comum na retrospectiva é fazer três perguntas simples: O
+                que deu certo nesta sprint? O que não deu certo? O que podemos fazer de maneira diferente na próxima
+                sprint? Cada membro da equipe compartilha suas respostas a essas perguntas, e as discussões fluem a
+                partir disso.</li>
+
+            <li>Técnica de "Mais do Mesmo, Menos do Mesmo, Diferente": Os participantes categorizam suas observações
+                em três categorias: o que eles desejam fazer mais na próxima sprint, o que desejam fazer menos e o
+                que desejam fazer de maneira diferente.</li>
+
+            <li>"Barco a Vela" ou "Barco a Remo": Nesses exercícios, a equipe desenha um barco representando o
+                trabalho feito durante a sprint. Os membros da equipe representam o vento (fatores positivos) e as
+                âncoras (obstáculos) que afetaram o progresso. Isso ajuda a visualizar as forças e fraquezas da
+                sprint.</li>
+
+            <li>"Grau de Satisfação" ou "Termômetro de Felicidade": A equipe atribui uma nota para a sprint e
+                compartilha o motivo da avaliação. Isso ajuda a medir o nível de satisfação da equipe e a
+                identificar áreas que precisam de atenção.</li>
+        </ol>
+
+        <p>Em resumo, a retrospectiva da sprint é uma parte crucial do processo Scrum que promove a aprendizagem
+            contínua e a melhoria do trabalho em equipe. Ela permite que a equipe se adapte e ajuste seu processo
+            para entregar melhor valor ao cliente em cada iteração do projeto.</p>
+    </div>
+
+    <div class="boxPergunta">
+        <div class="perguntasHeader">
+            <p>Multipla Escolha</p>
+        </div>
+
+        <div class="perguntasTexto">
+            Durante a reunião de Sprint Review no Scrum, qual atividade é primariamente realizada?
+        </div>
+
+        <div class="boxAlternativas">
+            <form>
+                <div class="alternativas">
+                    <input type="radio" name="resp">
+                    <label>a) Demonstração do trabalho concluído durante o sprint.</label><br>
+                </div>
+
+                <div class="alternativas" id="certa">
+                    <input type="radio" name="resp">
+                    <label>b) Revisão do andamento do projeto.</label><br>
+                </div>
+
+                <div class="alternativas">
+                    <input type="radio" name="resp">
+                    <label>c) Discussão de obstáculos enfrentados pela equipe.</label><br>
+                </div>
+
+                <div class="alternativas">
+                    <input type="radio" name="resp">
+                    <label>d) Definição dos objetivos do próximo sprint.</label><br>
+                </div>
+              </form>
+        </div>
+
+        <button class="enviar" id="send"><p>ENVIAR</p></button>
+    </div>
+</div>
+
+<div class="marginFooter"></div>
 {% endblock %}

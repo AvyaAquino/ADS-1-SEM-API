@@ -1,3 +1,86 @@
 {% extends "template.html" %}
 {% block content %}
+<div class="content">
+    <h1 id="titulo">{{titulo}}</h1>
+    <div class="text">
+        <img src="{{ url_for('static', filename='/imgs/scrumDaily.png') }}" alt=" Scrum Daily" style="width: 500px; height: 300px; border: 5px #96dbe6 solid; border-radius: 4px; margin: auto auto 25px auto; display: flex;">
+
+        <p style="text-align: justify;">O Scrum é altamente valorizado por sua flexibilidade, permitindo que as equipes se adaptem às mudanças nas necessidades do cliente e no ambiente de negócios. Além disso, ele fornece um alto nível de transparência, tornando o progresso do projeto visível para todos os envolvidos. Esse foco na colaboração, na iteração e na melhoria contínua torna o Scrum uma abordagem poderosa para o gerenciamento de projetos ágeis, onde a entrega de valor é uma prioridade constante.</p>
+    
+    <h4>Scrum Daily: O Pilar da Sincronização Diária:</h4>
+    
+    <p>O Scrum Daily, também conhecido como Daily Scrum ou Stand-up, é uma prática central no framework Scrum. Esta reunião diária tem como objetivo promover a sincronização e colaboração diária da equipe de desenvolvimento. Neste texto, exploraremos as características, funções e exemplos práticos dessa importante prática no contexto do Scrum.
+    </p>
+    
+    <h4>Características do Scrum Daily:</h4>
+    
+    <ol>
+        <li>Frequência Diária: Como o nome sugere, o Scrum Daily ocorre todos os dias durante a sprint, geralmente no mesmo local e horário, para manter a consistência;</li>
+    
+        <li>Tempo Limitado: A reunião é rigorosamente limitada a um curto período de tempo, geralmente 15 minutos. Isso incentiva a concisão e mantém a equipe focada;</li>
+    
+        <li>Formato em Pé: Muitas equipes optam por realizar o Scrum Daily em pé (stand-up), o que ajuda a manter a reunião rápida e eficaz. Isso também incentiva a atenção e o envolvimento de todos os participantes;</li>
+    
+        <li>Perguntas Tradicionais: As três perguntas tradicionais feitas durante o Scrum Daily são: "O que você fez ontem?", "O que você fará hoje?" e "Houve algum impedimento?" As respostas a essas perguntas fornecem uma visão geral do progresso da equipe e identificam obstáculos;</li>
+    </ol>
+    
+    <h4>Funções no Scrum Daily:</h4>
+    
+    <ol>
+        <li>Team Members (Membros da Equipe): Cada membro da equipe compartilha brevemente o que fez no dia anterior, suas metas para o dia atual e se encontrou algum obstáculo. Isso mantém todos informados sobre o progresso individual e cria uma oportunidade de identificar problemas;</li>
+    
+        <li>Scrum Master: O Scrum Master facilita a reunião, garantindo que ela siga o formato e o tempo previstos. Eles também ajudam a remover obstáculos e podem fazer perguntas para estimular a discussão;</li>
+    </ol>
+    
+    <h4>Exemplos Práticos do Scrum Daily:</h4>
+    
+    <ol>
+        <li>Desenvolvimento de Software: Em uma equipe de desenvolvimento de software, durante o Scrum Daily, os desenvolvedores podem compartilhar o código que escreveram no dia anterior, discutir a resolução de problemas técnicos e mencionar qualquer bloqueio ou dependência que esteja impedindo o progresso;</li>
+    
+        <li>Marketing Digital: Em uma equipe de marketing digital, os profissionais podem usar o Scrum Daily para compartilhar as tarefas de marketing concluídas, discutir as atividades de promoção planejadas para o dia e mencionar qualquer problema, como atrasos na produção de conteúdo;</li>
+        
+        <li>Projeto de Design Gráfico: Em uma equipe de design gráfico, os membros podem discutir os projetos de design que trabalharam no dia anterior, destacar as tarefas de design em andamento para o dia e mencionar qualquer problema relacionado à aquisição de recursos ou aprovação de clientes;</li>
+    </ol>
+    
+    <p>O Scrum Daily é uma ferramenta vital para manter a equipe de desenvolvimento alinhada com os objetivos da sprint, identificar obstáculos e promover uma cultura de colaboração e transparência. Isso permite ajustes rápidos e contínuos, garantindo que o progresso seja sustentado em direção à entrega bem-sucedida do produto ou projeto no final da sprint.</p>
+    </div>
+
+    <div class="boxPergunta">
+        <div class="perguntasHeader">
+            <p>Multipla Escolha</p>
+        </div>
+
+        <div class="perguntasTexto">
+            Qual é o propósito principal da reunião diária no framework Scrum?
+        </div>
+
+        <div class="boxAlternativas">
+            <form>
+                <div class="alternativas">
+                    <input type="radio" name="resp">
+                    <label>a) Revisar e ajustar o plano do projeto</label><br>
+                </div>
+
+                <div class="alternativas">
+                    <input type="radio" name="resp">
+                    <label>b) Tomar decisões estratégicas para a próxima sprint</label><br>
+                </div>
+
+                <div class="alternativas" id="certa">
+                    <input type="radio" name="resp">
+                    <label>c) Compartilhar o progresso diário, identificar obstáculos e planejar as próximas 24 horas.</label><br>
+                </div>
+
+                <div class="alternativas">
+                    <input type="radio" name="resp">
+                    <label>Realizar uma retrospectiva da sprint anterior</label><br>
+                </div>
+              </form>
+        </div>
+
+        <button class="enviar" id="send"><p>ENVIAR</p></button>
+    </div>
+</div>
+
+<div class="marginFooter"></div>
 {% endblock %}

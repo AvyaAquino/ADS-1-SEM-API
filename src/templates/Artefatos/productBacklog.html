@@ -116,11 +116,11 @@
         </p>
 
         <div class="img" style="scale: 0.6;">
-            <img src="{{ url_for('static', filename='productBacklog.png') }}"" alt=" Product Backlog">
+            <img src="{{ url_for('static', filename='/imgs/productBacklog.png') }}" alt=" Product Backlog">
         </div>
     </div>
 
-    <div class="boxPerguntas">
+    <div class="boxPergunta">
         <div class="perguntasHeader">
             <p>Multipla Escolha</p>
         </div>
@@ -129,9 +129,9 @@
             Qual é o papel do Product Owner em relação ao Product Backlog no método Scrum?
         </div>
 
-        <div class="perguntasAlternativas">
+        <div class="boxAlternativas">
             <form>
-                <div class="alternativas errada">
+                <div class="alternativas">
                     <input type="radio" name="resp">
                     <label>a) O Product Backlog é uma lista estática de tarefas que a equipe de desenvolvimento precisa realizar durante uma Sprint.</label><br>
                 </div>
@@ -141,12 +141,12 @@
                     <label>b) O Product Backlog é uma lista dinâmica e prioritizada de todas as funcionalidades, melhorias e correções desejadas para o produto.</label><br>
                 </div>
 
-                <div class="alternativas errada">
+                <div class="alternativas">
                     <input type="radio" name="resp">
                     <label>c) O Product Backlog é exclusivamente mantido pelo Scrum Master para garantir a integridade técnica do produto.</label><br>
                 </div>
 
-                <div class="alternativas errada">
+                <div class="alternativas">
                     <input type="radio" name="resp">
                     <label>d) O Product Backlog é atualizado apenas no início de cada Sprint e não deve ser alterado durante o decorrer da Sprint.</label><br>
                 </div>
@@ -156,4 +156,6 @@
         <button class="enviar" id="send"><p>ENVIAR</p></button>
     </div>
 </div>
+
+<div class="marginFooter"></div>
 {% endblock %}

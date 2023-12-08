@@ -454,92 +454,100 @@ a{
     /* caixa de perguntas */
 
 
-    .boxPerguntas{
-         margin: auto;
-         width: 965px;
-         height: 550px;
-        background: #fff;
-        border-radius: 26px;
-    }
-
-    .perguntasHeader{
-        display: flex;
-        border-radius: 5px;
-        width: 100%;
-        border-top-right-radius: 26px;
-        border-top-left-radius: 26px;
-        background: #5228F5;
-    }
-
-    .perguntasHeader > p{
-        margin: 40px 0 10px 45px;
-        color: #fff;
-        font-family: Arial;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: capitalize;
+        .boxPergunta{
+            margin: auto;
+            width: 965px;
+            height: fit-content;
+            background: #fff;
+            border-radius: 26px;
+            padding-bottom: 20px;
         }
 
-    .perguntasTexto{
-        margin: 15px 52px 0 52px;
-        color: #000;
-        font-family: Arial;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        width: 861px;
-        height: 154px;
-    }
+        .perguntasHeader{
+            display: flex;
+            border-radius: 5px;
+            width: 100%;
+            border-top-right-radius: 26px;
+            border-top-left-radius: 26px;
+            background: #5228F5;
+        }
 
-    .alternativas{
-        border: 1px black solid;
-        border-radius: 26px;
-        margin: 15px 52px 10px 52px;
-        padding: 0 0 0 10px;
-    }
-        
-    .alternativas > input{
-        margin: auto 0 auto 5px;
-    }
-        
-    .alternativas > label{
-        margin: auto 0 auto 5px;
-        color: #000;
-        font-family: Arial;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-        
-    .enviar{
-        display: flex;
-        margin: 20px 0 0 734px;
-        width: 160px;
-        height: 45px;
-        border-radius: 4px;
-        background: #55AFB6;
-        border: 1px black solid
-    }
-        
-    .enviar > p{
-        margin: auto;
-        color: #000;
-        font-family: Arial;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: uppercase;
-    }
+        .perguntasHeader > p{
+            margin: 40px 0 10px 45px;
+            color: #fff;
+            font-family: Arial;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+            }
+
+        .perguntasTexto{
+            margin: 20px 52px 0 52px;
+            color: #000;
+            font-family: Arial;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 861px;
+            height: 154px;
+        }
+
+        .alternativas{
+            border: 1px black solid;
+            border-radius: 6px;
+            margin: 15px 52px 10px 52px;
+            padding: 0 0 0 10px;
+            min-height: 45px;
+            height: fit-content;
+            display: flex;
+        }
+            
+        .alternativas > input{
+            margin: auto 5px auto 5px;
+            align-items: center;
+        }
+            
+        .alternativas > label{
+            margin: auto 0 auto 5px;
+            color: #000;
+            font-family: Arial;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            align-items: center;
+        }
+            
+        .enviar{
+            display: flex;
+            margin: 40px 0 0 734px;
+            width: 160px;
+            height: 45px;
+            border-radius: 4px;
+            background: #5128f5d5;
+            border: 1px black solid
+        }
+            
+        .enviar > p{
+            margin: auto;
+            color: #fff;
+            font-family: Arial;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
      
     
     /* caixa de perguntas */
 
-
+    .marginFooter{
+        margin: 15px 0 0 0;
+    }
 
 /* Fonts */
 
