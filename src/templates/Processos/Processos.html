@@ -1,3 +1,44 @@
 {% extends "template.html" %}
 {% block content %}
+
+<div class="content">
+
+    <h1 id="titulo">{{titulo}}</h1>
+
+    <div class="text">
+
+        <p>O Scrum Master é um importante membro dentro da metodologia ágil Scrum, desempenhando uma função
+            essencial na eficiência e agilidade em projetos de desenvolvimento. Sua principal responsabilidade é
+            atuar como um facilitador e orientador da equipe, garantindo que os princípios do Scrum sejam seguidos.
+        </p>
+
+        <p>O Scrum Master desempenha um papel crucial na remoção dos obstáculos que atrapalham o progresso da
+            equipe. Isso inclui problemas relacionados a recursos, comunicação, ou qualquer outra coisa que possa
+            impedir a equipe de atingir seus objetivos. Ao eliminar essas barreiras, o Scrum Master permite que a
+            equipe se concentre na entrega de valor ao cliente.</p>
+
+        <p>Além disso, o Scrum Master é um defensor da adoção de práticas ágeis e do respeito às regras do Scrum.
+            Ele auxilia a equipe na compreensão dos princípios do Scrum e na implementação das melhores práticas,
+            garantindo que o processo seja seguido de maneira eficaz e consistente.</p>
+
+        <p> O Scrum Master também desempenha um papel fundamental na melhoria contínua. Ele facilita a Sprint
+            Review, uma cerimônia na qual a equipe reflete sobre seu desempenho, identifica oportunidades de
+            melhoria e define ações para a próxima Sprint. Isso promove a adaptação e a evolução constante do
+            processo.</p>
+
+        <div class="img">
+            <img src="{{ url_for('static', filename='/imgs/scrumMaster.png') }}" alt=" Scrum Master">
+        </div>
+
+        <p>o Scrum Master atua como um mentor e coach para a equipe de desenvolvimento. Ele fornece orientação e
+            apoio individual aos membros da equipe, ajudando-os a crescer profissionalmente e aprimorar suas
+            habilidades. O Scrum Master incentiva a equipe a se autoavaliar e buscar maneiras de se tornar mais
+            eficiente e eficaz na entrega de valor ao cliente.</p>
+
+        <p>Em resumo, o Scrum Master é o orientador das práticas ágeis e um guia de eficiência no Scrum para o
+            grupo. Sua capacidade de remover obstáculos e facilitar a melhoria contínua o torna um elemento valioso
+            para equipes Scrum, garantindo que elas possam atingir seus objetivos com sucesso e entregar valor ao
+            cliente de forma consistente.</p>
+    </div>
+</div>
 {% endblock %}

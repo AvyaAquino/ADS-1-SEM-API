@@ -541,6 +541,95 @@ a {
 }
 
 
+    .boxPergunta{
+        margin: auto;
+        width: 965px;
+        height: fit-content;
+        background: #fff;
+        border-radius: 26px;
+        padding-bottom: 20px;
+    }
+
+    .perguntasHeader{
+        display: flex;
+        border-radius: 5px;
+        width: 100%;
+        border-top-right-radius: 26px;
+        border-top-left-radius: 26px;
+        background: #5228F5;
+    }
+
+    .perguntasHeader > p{
+        margin: 40px 0 10px 45px;
+        color: #fff;
+        font-family: Arial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        }
+
+    .perguntasTexto{
+        margin: 20px 52px 0 52px;
+        color: #000;
+        font-family: Arial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 861px;
+        height: 154px;
+    }
+
+    .alternativas{
+        border: 1px black solid;
+        border-radius: 6px;
+        margin: 15px 52px 10px 52px;
+        padding: 0 0 0 10px;
+        min-height: 45px;
+        height: fit-content;
+        display: flex;
+    }
+        
+    .alternativas > input{
+        margin: auto 5px auto 5px;
+        align-items: center;
+    }
+        
+    .alternativas > label{
+        margin: auto 0 auto 5px;
+        color: #000;
+        font-family: Arial;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+    }
+        
+    .enviar{
+        display: flex;
+        margin: 40px 0 0 734px;
+        width: 160px;
+        height: 45px;
+        border-radius: 4px;
+        background: #5128f5d5;
+        border: 1px black solid
+    }
+        
+    .enviar > p{
+        margin: auto;
+        color: #fff;
+        font-family: Arial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+
 /* caixa de perguntas */
 
 /* pacer */
@@ -557,11 +646,6 @@ a {
          margin-right: -20px;
          margin-top: -20px;
     }
-
-
-
-
-
 
     .pacerContent{
         display: flex;
@@ -622,6 +706,7 @@ a {
         margin-bottom: 3vh;
     }
 
+
     .pacerRadios{
         width: 50%;
     }
@@ -659,7 +744,12 @@ a {
         visibility: visible;
         border: 2px solid white;
     }
-/* pacer */
+    /* pacer */
+
+    .marginFooter{
+        margin: 15px 0 0 0;
+    }
+>>>>>>> ba395f29f67e72aec515efa291ab4a762e023bc4
 
 /* Fonts */
 
