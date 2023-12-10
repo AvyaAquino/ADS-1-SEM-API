@@ -5,230 +5,231 @@ body {
     position: relative;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 
 /* home */
 
-    .cover {
+.cover {
     width: 100%;
     height: 80vh;
     min-height: 700px;
     flex-shrink: 0;
     background: #5228F5;
-    }
+}
 
-    .topNavBarBox{
-        display: flex;
-        justify-content: center;
-        padding-top: 21px;
-    }
+.topNavBarBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+}
 
-    .topNavBar {
-        background-color: azure;
-        width: 90%;
-        height: 82.035px;
-        flex-shrink: 0;
-        border-radius: 59px;
-        background: #FFF;
-        display: flex;
-        align-items: center;
-    }
+.topNavBar {
+    background-color: azure;
+    width: 90%;
+    height: 82.035px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
 
-    .imageLogo {
-        width: 247.691px;
-        height: 83px;
-        flex-shrink: 0;
-    }
+.imageLogo {
+    width: 247.691px;
+    height: 83px;
+    flex-shrink: 0;
+}
 
-    .startButtonBox{
-        display: flex;
-        width: 100%;
-        justify-content: end;
-        margin-right: 61px;
-    }
+.startButtonBox {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-right: 61px;
+}
 
-    .startButton {
-        width: 140px;
-        height: 50px;
-        flex-shrink: 0;
-        border-radius: 25px;
-        background: #291477;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-family: Inter;
-        font-weight: 700;
-        transition: background-color 1s;
-        border: none;
-        text-decoration: none;
-        font-size: 16px;
-    }
+.startButton {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #291477;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    transition: background-color 1s;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+}
 
-    .startButton :hover {
-        background: #3E2B84;
-        cursor: pointer;
-    }
+.startButton :hover {
+    background: #3E2B84;
+    cursor: pointer;
+}
 
-    .txtHomeBox{
-        display: flex;
-        justify-content: center;
-        padding: 100px;
-    }
+.txtHomeBox {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
 
-    .mainTxt {
-        color: #FFF;
-        font-family: Inter;
-        font-size: 4.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
+.mainTxt {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-    .subTxtBox{
-        display: flex;
-        justify-content: center;
-        margin-top: -30px;
-        margin-bottom: 30px;
-    }
+.subTxtBox {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
 
-    .subTxt {
-        color: #FFF;
-        font-family: Inter;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
+.subTxt {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-    .startButton2Box{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
+.startButton2Box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
-    .startButton2 {
-        width: 220px;
-        height: 70px;
-        flex-shrink: 0;
-        border-radius: 37px;
-        background: #291477;
-        color: white;
-        font-family: Inter;
-        font-weight: 700;
-        border: none;
-        font-size: 20px;
-        transition: background-color 1s;
-    }
+.startButton2 {
+    width: 220px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 37px;
+    background: #291477;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    border: none;
+    font-size: 20px;
+    transition: background-color 1s;
+}
 
-    .startButton2 :hover {
-        background: #3E2B84;
-        cursor: pointer;
-    }
+.startButton2 :hover {
+    background: #3E2B84;
+    cursor: pointer;
+}
 
-    .txtCorpo{
-        display: flex;
-        padding-top: 16px;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+.txtCorpo {
+    display: flex;
+    padding-top: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
-    .txtCorpoBox{
-        padding-right: 10%; padding-top: 100px;
-    }
+.txtCorpoBox {
+    padding-right: 10%;
+    padding-top: 100px;
+}
 
-    .colorTxt {
-        color: #5228F5;
-        font-family: Inter;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
+.colorTxt {
+    color: #5228F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-    .topicTxt {
-        color: #000;
-        font-family: Inter;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
+.topicTxt {
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-    .describeTxt {
-        color: #000;
-        font-family: 'Inter', Times, serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
+.describeTxt {
+    color: #000;
+    font-family: 'Inter', Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
-    .circleImg {
-        margin-top: 100px;
-        width: 373px;
-        height: 375px;
-        flex-shrink: 0;
-        border-radius: 375px;
-        background: url(static\imgs\imagemCircular.jpg), lightgray 50% / cover no-repeat;
-    }
+.circleImg {
+    margin-top: 100px;
+    width: 373px;
+    height: 375px;
+    flex-shrink: 0;
+    border-radius: 375px;
+    background: url(static\imgs\imagemCircular.jpg), lightgray 50% / cover no-repeat;
+}
 
-    .corpoFaq{
-        padding-bottom: 8%;
-    }
+.corpoFaq {
+    padding-bottom: 8%;
+}
 
-    .corpoFaqBox{
-        display: flex;
-        padding-top: 150px;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+.corpoFaqBox {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
-    .corpoFaqQuestions{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+.corpoFaqQuestions {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
-    .question {
-        color: #000;
-        font-family: Inter;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
+.question {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-    .rodape{
-        background-color: #000;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+.rodape {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-    .rodapeLogoBox{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 30px;
-    }
+.rodapeLogoBox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
 
-    .rodapeGreyLine{
-        background-color: #595959;
-        height: 1px;
-    }
+.rodapeGreyLine {
+    background-color: #595959;
+    height: 1px;
+}
 
-    .rodapeCopBox{
-        display: flex;
-        justify-content: start;
-        padding-top: 10px;
-        padding-bottom: 4%;
-    }
+.rodapeCopBox {
+    display: flex;
+    justify-content: start;
+    padding-top: 10px;
+    padding-bottom: 4%;
+}
 
-    .rodapeCopBox > p{
-        color: white;
-    }
+.rodapeCopBox>p {
+    color: white;
+}
 
 /* home */
 
@@ -236,189 +237,192 @@ a{
 /* template */
 
 
-    .headerContent {
-        width: 100vw;
-        height: 85px;
-        flex-shrink: 0;
-        background: white;
-        margin: 0;
-        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    }
+.content {
+    width: 100%;
+}
 
-    .headerContentNav{
-        width: 90%;
-        display: flex;
-        justify-content: center;
-    }
+.headerContent {
+    width: 100vw;
+    height: 85px;
+    flex-shrink: 0;
+    background: white;
+    margin: 0;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 
-    .headerContentLogoBox{
-        display: flex;
-        justify-content: start;
-        width: 30%;
-    }
+.headerContentNav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
 
-    .imageLogoContent {
-        width: 275px;
-        height: 86px;
-        flex-shrink: 0;
-    }
+.headerContentLogoBox {
+    display: flex;
+    justify-content: start;
+    width: 30%;
+}
 
-    .headerContentArrowBox{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin: 0;
-        align-items: center;
-    }
+.imageLogoContent {
+    width: 275px;
+    height: 86px;
+    flex-shrink: 0;
+}
 
-    .contentBox{
-        display: flex;
-    }
+.headerContentArrowBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
 
-    .indice {
-        min-width: 276px;
-        width: 20%;
-        min-height: 100vh;
-        height: 100%;
-        flex-shrink: 0;
-        top: 0;
-        box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5), 0 10px 10px 2px rgba(0, 0, 0, 0.5);
-        background-color: white;
-    }
+.contentBox {
+    display: flex;
+}
+
+.indice {
+    min-width: 276px;
+    width: 20%;
+    min-height: 100vh;
+    height: 100%;
+    flex-shrink: 0;
+    top: 0;
+    box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5), 0 10px 10px 2px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
 
 
-    .scrum{
-        padding: 0 10px 0 10px;
-        margin: 27px auto 40px auto;
-        display: flex;
-        border: none;
-        background-color: transparent;
-    }
+.scrum {
+    padding: 0 10px 0 10px;
+    margin: 27px auto 40px auto;
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
 
-    .scrum > a{
-        margin: 0 auto 0 auto;
-        color: #505050;
-        text-align: center;
-        font-family: Inter;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+.scrum>a {
+    margin: 0 auto 0 auto;
+    color: #505050;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
-    .allTopics {
-        margin: 0 0 0 50px;
-    }
+.allTopics {
+    margin: 0 0 0 50px;
+}
 
-    .btnBox{
-        padding: 0 10px 0 0;
-        width: 190.4px;
-        border-top-right-radius: 6px;
-        border-top-left-radius: 6px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.btnBox {
+    padding: 0 10px 0 0;
+    width: 190.4px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .btnBox > button {
-        border: none;
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
+.btnBox>button {
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 
-    }
+}
 
-    .deActiveState{
-        background-color: transparent;
-        font-family: Inter;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+.deActiveState {
+    background-color: transparent;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-wrap: nowrap;
+}
 
-    .activeState{
-        background-color: #686565b2;
-        font-family: Inter;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+.activeState {
+    background-color: #686565b2;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
-    .scrumT{
-        
-    }
+.scrumT {}
 
-    .processos{
-        margin-top: 35px
-    }
+.processos {
+    margin-top: 35px
+}
 
-    .artefatos{
-        margin-top: 35px
-    }
+.artefatos {
+    margin-top: 35px
+}
 
-    .pacer{
-        margin-top: 35px;
-    }
+.pacer {
+    margin-top: 35px;
+}
 
-    .pacer > button > a{
-        font-family: Inter;
-        color: #505050;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+.pacer>button>a {
+    font-family: Inter;
+    color: #505050;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
-    .dropdown{
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-in-out, background-color 0.2s;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        width: 200.4px;
-    }
-    
-    .dropdown > div:hover{
-        background-color: #4071F4;
-    }
+.dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out, background-color 0.2s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200.4px;
+}
 
-    .dropdown > div:hover > a{
-        color: white;
-    }
+.dropdown>div:hover {
+    background-color: #4071F4;
+}
 
-    .dropActive{
-        max-height: 500px;
-        background-color: #68656565;
-        transition: max-height 0.5s ease-in-out, background-color 0.5s ease-in-out;
-    }
+.dropdown>div:hover>a {
+    color: white;
+}
 
-    .topicArrow{
-        margin: 2px 0 0 10px;
-        transition: transform 0.5s;
-    }
+.dropActive {
+    max-height: 500px;
+    background-color: #68656565;
+    transition: max-height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
 
-    .arrowTransform{
-        transform: rotate(90deg);
-        transition: transform 0.3s;
-    }
+.topicArrow {
+    margin: 2px 0 0 10px;
+    transition: transform 0.5s;
+}
 
-    .subTopic{
-        margin: 10px 0 10px 0;
-        padding: 4px 10px 4px 10px;
-        border-radius: 5px;
-        width: 100%;
-    }
-    
-    .subTopic > a{
-        margin: 0 0 0 18px;
-        color: #505050;
-        font-family: Inter;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
+.arrowTransform {
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+}
+
+.subTopic {
+    margin: 10px 0 10px 0;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.subTopic>a {
+    margin: 0 0 0 18px;
+    color: #505050;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 
@@ -428,134 +432,250 @@ a{
 /* págs conteúdo */
 
 
-    .img{
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    margin-left: 80px;
+    margin-right: 120px;
+    padding-bottom: 10%;
+    font-size: 20px;
+}
+
+#titulo {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+/* caixa de perguntas */
+
+
+.boxPerguntas {
+    margin: auto;
+    width: 965px;
+    height: 550px;
+    background: #fff;
+    border-radius: 26px;
+}
+
+.perguntasHeader {
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    border-top-right-radius: 26px;
+    border-top-left-radius: 26px;
+    background: #5228F5;
+}
+
+.perguntasHeader>p {
+    margin: 40px 0 10px 45px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.perguntasTexto {
+    margin: 15px 52px 0 52px;
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 861px;
+    height: 154px;
+}
+
+.alternativas {
+    border: 1px black solid;
+    border-radius: 26px;
+    margin: 15px 52px 10px 52px;
+    padding: 0 0 0 10px;
+}
+
+.alternativas>input {
+    margin: auto 0 auto 5px;
+}
+
+.alternativas>label {
+    margin: auto 0 auto 5px;
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.enviar {
+    display: flex;
+    margin: 20px 0 0 734px;
+    width: 160px;
+    height: 45px;
+    border-radius: 4px;
+    background: #55AFB6;
+    border: 1px black solid
+}
+
+.enviar>p {
+    margin: auto;
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+/* caixa de perguntas */
+
+/* pacer */
+
+    #pacerinterncontent {
+        width: 50vw;
+    }
+
+    #pacerRoleHeader{
+         background-color: #5940f4;
+         color: white;
+         height: 4.50rem;
+         margin-left: -20px;
+         margin-right: -20px;
+         margin-top: -20px;
+    }
+
+
+
+
+
+
+    .pacerContent{
         display: flex;
         justify-content: center;
     }
 
-    .text{
-        margin-left: 80px;
-        margin-right: 120px;
-        padding-bottom: 10%;
-        font-size: 20px;
+    .pacerRoleMain{
+        display: flex;
+        flex-direction: column;
     }
 
-    #titulo {
-        color: #000;
-        text-align: center;
-        font-size: 36px;
+    .pacerRole{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        color: white;
+        background-color: #5a40eb;
+        height: 8vh;
+        margin-top: -20px;
+        display: flex;
+    }
+
+    .pacerRoleMargin{
+        padding-left: 3vw;
+    }
+
+    .pacerLabel{
+        width: 45vw;
+        background-color: #ededed;
+        border-radius: 30px;
+    }
+    .pacerPoints{
+        display: flex;
+        padding-left: 3vw;
+        padding-right: 5vw;
+        padding-top: 2vh;
+    }
+
+    .pacerNumbers{
+         text-align: center;
+         font-family: Inter;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+    }
+
+    .pacerParameters{
+        padding-top: 3vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        font-family: Inter;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-transform: capitalize;
+        font-size: 1.2rem;
+        justify-content: space-between;
+        margin-bottom: 3vh;
     }
 
-
-    /* caixa de perguntas */
-
-
-    .boxPerguntas{
-         margin: auto;
-         width: 965px;
-         height: 550px;
-        background: #fff;
-        border-radius: 26px;
+    .pacerRadios{
+        width: 50%;
     }
 
-    .perguntasHeader{
+    .pacerRadioLine{
         display: flex;
+        justify-content: space-between;
+        margin-bottom: 6vh;
+    }
+
+    input[type='radio']:after {
+        width: 20px;
+        height: 20px;
         border-radius: 5px;
-        width: 100%;
-        border-top-right-radius: 26px;
-        border-top-left-radius: 26px;
-        background: #5228F5;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
     }
 
-    .perguntasHeader > p{
-        margin: 40px 0 10px 45px;
-        color: #fff;
-        font-family: Arial;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: capitalize;
-        }
-
-    .perguntasTexto{
-        margin: 15px 52px 0 52px;
-        color: #000;
-        font-family: Arial;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        width: 861px;
-        height: 154px;
+    input[type='radio']:checked:after {
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
     }
-
-    .alternativas{
-        border: 1px black solid;
-        border-radius: 26px;
-        margin: 15px 52px 10px 52px;
-        padding: 0 0 0 10px;
-    }
-        
-    .alternativas > input{
-        margin: auto 0 auto 5px;
-    }
-        
-    .alternativas > label{
-        margin: auto 0 auto 5px;
-        color: #000;
-        font-family: Arial;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-        
-    .enviar{
-        display: flex;
-        margin: 20px 0 0 734px;
-        width: 160px;
-        height: 45px;
-        border-radius: 4px;
-        background: #55AFB6;
-        border: 1px black solid
-    }
-        
-    .enviar > p{
-        margin: auto;
-        color: #000;
-        font-family: Arial;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-     
-    
-    /* caixa de perguntas */
-
-
+/* pacer */
 
 /* Fonts */
 
-    @font-face {
-        font-family: 'Inter';
-        src: url('Fonts/Inter-Regular.ttf') format('truetype');
-        font-weight: 400;
-        font-style: normal;
-    }
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
-    @font-face {
-        font-family: 'Inter';
-        src: url('Fonts/Inter-Bold.ttf') format('truetype');
-        font-weight: 700;
-        font-style: normal;
-    }
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 /* Fonts */
