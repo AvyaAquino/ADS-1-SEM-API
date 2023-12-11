@@ -9,6 +9,29 @@ a {
     text-decoration: none;
 }
 
+h1{
+    font-family: Inter;
+}
+
+p{
+    font-family: Inter;
+}
+
+h4{
+    font-family: Inter;
+}
+
+h3{
+    font-family: Inter;
+}
+
+li{
+    font-family: Inter;
+}
+
+ol{
+    font-family: Inter;
+}
 
 /* home */
 
@@ -323,6 +346,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor:pointer;
 }
 
 .btnBox>button {
@@ -499,7 +523,6 @@ a {
 }
 
 .alternativas {
-    border: 1px black solid;
     border-radius: 26px;
     margin: 15px 52px 10px 52px;
     padding: 0 0 0 10px;
@@ -548,6 +571,8 @@ a {
         background: #fff;
         border-radius: 26px;
         padding-bottom: 20px;
+        margin-bottom: 60px;
+
     }
 
     .perguntasHeader{
@@ -583,7 +608,6 @@ a {
     }
 
     .alternativas{
-        border: 1px black solid;
         border-radius: 6px;
         margin: 15px 52px 10px 52px;
         padding: 0 0 0 10px;
@@ -721,8 +745,8 @@ a {
         width: 20px;
         height: 20px;
         border-radius: 5px;
-        top: -2px;
-        left: -1px;
+        top: -6px;
+        left: -6px;
         position: relative;
         background-color: #d1d3d1;
         content: '';
@@ -735,21 +759,21 @@ a {
         width: 20px;
         height: 20px;
         border-radius: 15px;
-        top: -2px;
-        left: -1px;
+        top: -6px;
+        left: -6px;
         position: relative;
-        background-color: #ffa500;
+        background-color: #7c38f3;
         content: '';
         display: inline-block;
         visibility: visible;
-        border: 2px solid white;
+        border-style: double;
+        border: 2px solid #ffffff;
     }
     /* pacer */
 
     .marginFooter{
         margin: 15px 0 0 0;
     }
->>>>>>> ba395f29f67e72aec515efa291ab4a762e023bc4
 
 /* Fonts */
 
